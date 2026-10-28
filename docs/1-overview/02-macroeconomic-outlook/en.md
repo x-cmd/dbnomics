@@ -1,6 +1,6 @@
-# Macroeconomic outlook dashboard
+# The 2025 macro dashboard
 
-Everything on one page — the 2025 macro world at a glance. Reading order: scale first (who matters), then prices (inflation & rates), then the real economy (growth & jobs), then constraints (debt & external balance). Full judgments live in each page.
+One page, the whole macro world in 2025. Read it in this order: who is big enough to matter, then what prices are doing, then how the real economy (growth, jobs) is doing, and finally what constrains it (debt, the balance with the rest of the world). Every link below takes you to the page with the full story.
 
 | Question | Page |
 |---|---|
@@ -11,4 +11,3 @@ Everything on one page — the 2025 macro world at a glance. Reading order: scal
 | The long run? | [Demography & savings](../../2-indicators/08-demography-savings/en.md) · [Wagner's law](../../3-macro-economics/03-wagners-law/en.md) · [EU convergence](../../4-europe-casestudy/01-europe-convergence/en.md) |
 
 **2025 in one line**: the US landed softly but its debt clock runs; China rebalances; Europe converges and fractures under arithmetic; the world waits for a normal-rate world.
-
