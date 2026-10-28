@@ -1,6 +1,6 @@
 # Growth and the external balance
 
-The folk rule says a surplus means you are winning and a deficit means you are losing. It is intuitive and wrong. Here x = real growth, y = current account; each line is one country's path from 2000 to 2025.
+A surplus means you are winning, a deficit means you are losing — that is what everyone says at the dinner table. It is intuitive and wrong. Here x = real growth, y = current account; each line is one country's path from 2000 to 2025.
 
 **Judgment**: three cases break the intuition. The US: high growth *and* a deficit — the strongest demand in the world, importing other people's savings thanks to the dollar. The euro area: low growth, 2–3% surplus — weak domestic demand, growth by exports with Germany as the engine. China: high growth and a narrowing surplus — rebalancing toward domestic demand. The external balance mirrors the saving–investment gap (see demography and savings); it is not a competitiveness scoreboard.
 

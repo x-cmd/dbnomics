@@ -1,6 +1,6 @@
 # European convergence: is the catch-up real?
 
-The convergence hypothesis: the poorer you start, the faster you grow, so incomes eventually catch up with the rich. Here x = GDP per capita in 2000, y = average growth 2000–24; one point per EU member (18 of the EU's 27 countries shown).
+Two hundred years ago a worker in Lisbon earned a fraction of what a worker in Munich earned. Today the gap is much smaller, and the standard hope is that poorer countries simply grow faster until they meet the rich ones. Here x = GDP per capita in 2000, y = average growth 2000–24; one point per EU member (18 of the EU's 27 countries shown).
 
 **Judgment**: convergence holds overall — Eastern Europe (Poland, Romania, Slovakia) started low and grew 4–5% a year, steadily catching up. But the rich club on the left splits: Greece and Italy sit on the same low-growth band, and convergence cannot explain the southern stagnation. That one is a story about structure and debt, not catch-up.
 

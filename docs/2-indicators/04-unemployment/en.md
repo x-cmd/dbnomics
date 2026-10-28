@@ -1,6 +1,6 @@
 # Unemployment
 
-The unemployment rate is people without a job who are actively looking for one, as a share of everyone in the labour force (those working or looking). It is the number people feel first, because a job is where most income starts.
+You check this number because the rent is due. The unemployment rate counts people without a job who are actively looking for one, as a share of everyone in the labour force (those working or looking). It is the number people feel first, because a job is where most income starts.
 
 The gap between countries is far bigger than the swing of the cycle: Spain around 11% against Japan around 2.5%. That is about institutions — how expensive it is to fire someone, how young people get a first job, how the safety net works — not about the business cycle. The 2020 spike (lockdowns) came back down fast, and by the end of this cycle labour markets were unusually tight. Okun's law prices it: every point of unemployment above the natural rate costs roughly 2 points of GDP.
 

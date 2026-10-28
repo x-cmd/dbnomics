@@ -1,6 +1,6 @@
 # Inflation
 
-Inflation means the average basket of goods gets more expensive over time — measured here as the yearly % change in the consumer price index (CPI). It is the most felt number in economics: it decides what a wage buys.
+The number your paycheck cannot escape: inflation is what happens when the average basket of goods gets more expensive over time — measured here as the yearly % change in the consumer price index (CPI, the price tag on the same shopping basket every year). It is the most felt number in economics: it decides what a wage buys.
 
 The 2021–23 surge came from three things at once: broken supply chains, expensive energy, and policy that was too easy during the pandemic. The US and the euro area peaked at 8–10%; Türkiye was the extreme case (60%+, dragged up by a collapsing currency). Japan sat below target for years — the deflation trap, where everyone waits for cheaper prices and so prices don't rise. China near zero is weak demand, not strength. One distinction worth keeping: *disinflation* (prices stop rising faster) is not *deflation* (prices actually fall).
 

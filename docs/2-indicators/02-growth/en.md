@@ -1,6 +1,6 @@
 # Economic growth
 
-Growth is the engine: an economy that grows 3% a year makes room for more jobs, higher wages and fatter profits. We measure it in **real** terms — after stripping out inflation — so the chart compares how much *stuff* got made, not how expensive it got.
+An economy that grows 3% a year is an economy where more people find work, wages creep up and companies earn more. We measure growth in **real** terms — after stripping out inflation — so the chart compares how much *stuff* got made, not how expensive it got.
 
 Two things to read off. Poorer countries grow faster, because they have more catching up to do. And the dips in 2009 and 2020 are shocks rather than slowdowns; the rebound after each is partly a base effect (a good year looks great next to a collapsed one). The G7/EU/world lines show rich economies stuck on a 1–2% plateau while the world average gets pulled up by the emerging group; China's slide from double digits to ~5% is a normal stage change, not a crisis.
 
