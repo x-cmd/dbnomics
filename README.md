@@ -99,13 +99,13 @@
 
 ## All pages
 
-Six sections, one reading path: **what to look at** (indicators) → **what rule binds it** (macro economics) → **what one economy looks like up close** (case studies).
+Six sections, one reading path: **what to look at** (indicators) → **what rule binds it** (macro economics) → **what one economy looks like up close** (case studies). Every page carries its own `faq.yml` — the questions that page raises, answered in all five languages.
 
 ### 1 · Overview
 
-- [DBnomics and this site](docs/1-overview/01-about/en.md)
+- [Economics you can see](docs/1-overview/01-about/en.md)
 - [Macroeconomic outlook dashboard](docs/1-overview/02-macroeconomic-outlook/en.md)
-- [FAQ: the 17 questions a beginner asks first](docs/1-overview/faq.yml)
+- [The US, Europe and China: three economies, three arguments](docs/1-overview/03-three-economies/en.md)
 
 ### 2 · Indicators — the numbers to watch
 
@@ -148,9 +148,9 @@ Six sections, one reading path: **what to look at** (indicators) → **what rule
 
 ### 1 · 总览
 
-- [DBnomics 与本站](docs/1-overview/01-about/cn.md)
+- [看得见的经济学](docs/1-overview/01-about/cn.md)
 - [宏观展望仪表盘](docs/1-overview/02-macroeconomic-outlook/cn.md)
-- [FAQ:新手最先问的 17 个问题](docs/1-overview/faq.yml)
+- [美国、欧洲、中国:三份经济,三个争议](docs/1-overview/03-three-economies/cn.md)
 
 ### 2 · 指标 — 该盯的数
 

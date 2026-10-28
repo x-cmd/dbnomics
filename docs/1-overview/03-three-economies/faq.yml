@@ -1,0 +1,147 @@
+id: x-dbnomics-1-overview-03-three-economies
+
+data:
+  - name:
+      en: the US, Europe and China
+      cn: 美国、欧洲与中国
+      es: EE. UU., Europa y China
+      ja: 米国・欧州・中国
+      de: USA, Europa und China
+    qa:
+      - id: why-these-three
+        question:
+          en: Why compare these three economies?
+          cn: 为什么要把这三家放在一起比?
+          es: ¿Por qué comparar estas tres economías?
+          ja: なぜこの 3 つを比較するのか?
+          de: Warum gerade diese drei Volkswirtschaften?
+        answer:
+          en: >
+            They are the three economies that set the tone for the rest of the world — together about half of global output — and each stands for a different model: a market economy that runs permanent deficits, a monetary union with one shared central bank, and a state-directed economy still growing fast. Put on the same dials, they separate the claims that usually get mixed up.
+          cn: >
+            这三家决定着世界的基调——加起来占全球产出的一半左右——而且各自代表一种模式:靠赤字运行的美国经济、一个央行管到底的货币联盟、还在快速成长的政府主导型经济。放在同一组刻度上,那些平时混在一起的说法就分开了。
+          es: >
+            Son las tres economías que marcan el tono del resto del mundo —juntas, cerca de la mitad de la producción mundial— y cada una representa un modelo distinto: una economía de mercado con déficits permanentes, una unión monetaria con un solo banco central y una economía dirigida por el Estado que aún crece rápido. Puestas en la misma escala, separan las afirmaciones que suelen mezclarse.
+          ja: >
+            世界全体の調律を決める 3 つの経済体で、合わせて世界の生産の半分程度を占めます。それぞれ別のモデルを表します —— 恒常的な赤字で動く市場経済、1 つの中央銀行を持つ貨幣同盟、そしてまだ速く成長する国家主導型経済。同じ目盛りに並べると、つい混同される主張が切り離されます。
+          de: >
+            Sie drei Volkswirtschaften bestimmen den Ton für den Rest der Welt — zusammen rund die Hälfte der Weltproduktion — und stehen für je ein Modell: eine Marktwirtschaft mit dauerhaften Defiziten, eine Währungsunion mit nur einer Notenbank und eine staatlich gelenkte Wirtschaft, die noch schnell wächst. Auf derselben Skala trennen sich die Behauptungen, die sonst vermischt werden.
+        confidence: 9
+        reference:
+          - docs/1-overview/03-three-economies/en.md
+          - docs/1-overview/03-three-economies/cn.md
+
+      - id: is-chinas-unemployment-comparable
+        question:
+          en: Is China's unemployment rate comparable to the US and Europe?
+          cn: 中国的失业率能和美国、欧洲直接比吗?
+          es: ¿El desempleo chino es comparable con el de EE. UU. y Europa?
+          ja: 中国の失業率は米国や欧州と直接比べられるか?
+          de: Ist Chinas Arbeitslosenquote mit den USA und Europa vergleichbar?
+        answer:
+          en: >
+            Not really. The IMF number for China comes from a survey of urban workers, the series only starts in 2017, and it says nothing about migrant workers or graduates who cannot find a job. The US and euro-area numbers compare with each other much better: the euro area entered this century with 9.1% against America's 4.0%, and by 2013 it had reached 12.1%.
+          cn: >
+            差得远。中国这个数字来自城镇劳动力调查,序列 2017 年才开始,也不涵盖农民工和找不到工作的毕业生。美国和欧元区的数字彼此可比得多:本世纪初欧元区 9.1%、美国 4.0%,到 2013 年欧元区升到 12.1%。
+          es: >
+            No del todo. La cifra china del FMI viene de una encuesta a trabajadores urbanos, la serie solo empieza en 2017 y no incluye a los trabajadores migrantes ni a los egresados sin empleo. Las cifras de EE. UU. y de la zona euro son mucho más comparables entre sí: la zona euro entró en el siglo con 9,1% frente al 4,0% estadounidense, y en 2013 había llegado al 12,1%.
+          ja: >
+            いいえ —— そもそも同じ物差しで測れません。IMF の中国値は都市労働者の調査にもとづき、系列は 2017 年からしかなく、农民工や就職できない卒業生は含みません。米国とユーロ圏の数字どうしはかなり比較可能です。本世紀の入口でユーロ圏 9.1%、米国 4.0%、2013 年にはユーロ圏が 12.1% まで上がりました。
+          de: >
+            Eigentlich nicht. Die chinesische Zahl des IWF stammt aus einer Erhebung bei städtischen Arbeitnehmern, die Reihe beginnt erst 2017, und sie sagt nichts über Wanderarbeiter oder Absolventen ohne Job. Die Zahlen für USA und Eurozone sind untereinander weit besser vergleichbar: Die Eurozone startete ins Jahrhundert mit 9,1% gegenüber 4,0% in den USA, 2013 stand sie bei 12,1%.
+        confidence: 9
+        reference:
+          - docs/1-overview/03-three-economies/en.md
+          - docs/2-indicators/04-unemployment/en.md
+
+      - id: whose-inflation-was-worst
+        question:
+          en: Whose inflation was the worst in 2021-23?
+          cn: 2021–23 年谁的通胀最严重?
+          es: ¿Qué país tuvo peor inflación entre 2021 y 2023?
+          ja: 2021–23 年は誰のインフレが厳しかったか?
+          de: Wessen Inflation war 2021-23 am schlimmsten?
+        answer:
+          en: >
+            Europe and the US, but for different reasons. America peaked at 8.0% in 2022 on strong demand and a tight labour market; the euro area at 8.4% on the energy shock. China barely moved (2.0% in 2022), and by 2023 its problem was the opposite one: consumer prices up just 0.2%. By 2025 all three were back near target — 1.9% in America, 2.0% in the euro area, 1.7% in China.
+          cn: >
+            欧洲和美国,但原因不同。美国 2022 年冲到 8.0%,靠的是旺盛需求和紧绷的劳动力市场;欧元区冲到 8.4%,靠的是能源冲击。中国几乎没动(2022 年 2.0%)——到 2023 年它的问题反而相反,消费价格只涨了 0.2%。2025 年三家都回到目标附近:美国 1.9%、欧元区 2.0%、中国 1.7%。
+          es: >
+            Europa y EE. UU., pero por motivos distintos. Estados Unidos llegó al 8,0% en 2022 por la demanda fuerte y un mercado laboral tenso; la zona euro, al 8,4%, por el shock energético. China apenas se movió (2,0% en 2022) y en 2023 tenía el problema contrario: los precios al consumo subían apenas 0,2%. En 2025 los tres estaban de vuelta en el objetivo: 1,9% en EE. UU., 2,0% en la zona euro y 1,7% en China.
+          ja: >
+            欧州と米国。ただし理由は異なります。米国が 2022 年に 8.0% まで上がったのは、力強い需要と張り詰めた労働市場。ユーロ圏が 8.4% へ跳ねたのはエネルギー・ショックです。中国はほぼ動かず (2022 年 2.0%)、2023 年には問題が逆でした。消費価格は 0.2% しか上がらなかったのです。2025 年には三家とも目標圏に戻っています。米国 1.9%、ユーロ圏 2.0%、中国 1.7%。
+          de: >
+            Europa und die USA, allerdings aus unterschiedlichen Gründen. Amerika erreichte 2022 die 8,0% — starke Nachfrage und ein angespannter Arbeitsmarkt; die Eurozone die 8,4% — der Energieschock. China blieb fast unberührt (2,0% 2022) und hatte 2023 das gegenteilige Problem: Die Verbraucherpreise stiegen nur um 0,2%. 2025 lagen alle drei wieder am Ziel: 1,9% in den USA, 2,0% in der Eurozone, 1,7% in China.
+        confidence: 9
+        reference:
+          - docs/1-overview/03-three-economies/en.md
+          - docs/2-indicators/03-inflation/en.md
+
+      - id: who-is-growing
+        question:
+          en: Who is actually growing?
+          cn: 到底谁还在增长?
+          es: ¿Quién está creciendo de verdad?
+          ja: 実際に伸びているのは誰か?
+          de: Wächst überhaupt noch jemand?
+        answer:
+          en: >
+            China — but less than it used to. In 2025 it grew 4.5% against America's 2.2% and the euro area's 1.2%, yet that is roughly half the 8.5% it managed in 2000. The euro area has been the laggard for fifteen years, bar the reopening bounce of 2021 (+6.2%).
+          cn: >
+            中国——但比过去慢了。2025 年中国 4.5%,美国 2.2%,欧元区 1.2%;而 2000 年中国还能做到 8.5%,差不多是现在的两倍。欧元区落后了十五年,只有 2021 年重启后的反弹(+6.2%)算例外。
+          es: >
+            China, pero menos que antes. En 2025 creció 4,5% frente al 2,2% estadounidense y el 1,2% de la zona euro, y aun así es más o menos la mitad del 8,5% de 2000. La zona euro va rezagada desde hace quince años, salvo el rebote de la reapertura en 2021 (+6,2%).
+          ja: >
+            中国 —— ただし往年ほどではありません。2025 年は中国 4.5%、米国 2.2%、ユーロ圏 1.2% で、2000 年の 8.5% のほぼ半分です。ユーロ圏は 15 年続けて後れを取り続けていて、2021 年の再開相場 (+6.2%) だけが例外でした。
+          de: >
+            China — aber langsamer als früher. 2025 wuchs China um 4,5% gegenüber 2,2% in den USA und 1,2% in der Eurozone; das ist aber etwa die Hälfte der 8,5% aus dem Jahr 2000. Die Eurozone hinkt seit fünfzehn Jahren hinterher, einzige Ausnahme ist der Wiedereröffnungs-Schub 2021 (+6,2%).
+        confidence: 9
+        reference:
+          - docs/1-overview/03-three-economies/en.md
+          - docs/2-indicators/02-growth/en.md
+
+      - id: how-much-is-chinas-debt
+        question:
+          en: How much government debt does China really have?
+          cn: 中国政府到底欠了多少?
+          es: ¿Cuánta deuda pública tiene realmente China?
+          ja: 中国の政府債務は実際にどのくらいか?
+          de: Wie viel Staatsschuld hat China wirklich?
+        answer:
+          en: >
+            The official number is 94% of GDP in 2025, up from 23% in 2000 — now above the euro area's 88%, though still far below America's 124%. The debate is about what counts: the official figure includes the financing vehicles local governments lean on, which many analysts treat as off-budget debt, and a wider count pushes the number considerably higher.
+          cn: >
+            官方数字是 2025 年的 GDP 的 94%,2000 年才 23%——如今高于欧元区的 88%,但仍远低于美国的 124%。争议在于口径:官方数字已经包含地方政府融资平台,而不少分析师认为那属于表外债务;算法更宽,这个数就高得多。
+          es: >
+            La cifra oficial es 94% del PIB en 2025, frente al 23% de 2000: ya por encima del 88% de la zona euro, aunque muy por debajo del 124% estadounidense. El debate es qué se cuenta: la cifra oficial incluye los vehículos de financiación de los gobiernos locales, que muchos analistas consideran deuda fuera del presupuesto, y un conteo más amplio da una cifra bastante más alta.
+          ja: >
+            公式数字は 2025 年の GDP 比 94%、2000 年は 23% で、ユーロ圏の 88% を上回りつつも米国の 124% には遠く及びません。議論の焦点は何を数えるかです。公式数字には地方政府の融資平台が含まれており、多くのアナリストは予算外債務とみなします。より広く数えれば数は considerably っと高くなります。
+          de: >
+            Die offizielle Zahl sind 94% des BIP 2025, nach 23% im Jahr 2000 — damit über den 88% der Eurozone, aber weit unter den 124% der USA. Streitig ist, was mitgezählt wird: Die offizielle Rechnung enthält die Finanzierungsgesellschaften der Kommunen, die viele Ökonomen als Budgetverschuldung außerhalb des Haushalts behandeln; zählt man sie breiter, liegt die Zahl deutlich höher.
+        confidence: 8
+        reference:
+          - docs/1-overview/03-three-economies/en.md
+          - docs/2-indicators/05-government-debt/en.md
+
+      - id: so-who-is-winning
+        question:
+          en: So who is winning?
+          cn: 那到底谁赢了?
+          es: Entonces, ¿quién está ganando?
+          ja: では誰の勝ちなのか?
+          de: Wer gewinnt also?
+        answer:
+          en: >
+            By jobs, America. By prices, nobody — all three are at target. By growth, China. By debt, the euro area. Each side keeps picking the dial that flatters it, which is why the argument never ends. Putting the three on one page lets you see which dial you had been choosing all along.
+          cn: >
+            看就业,美国;看物价,谁也没赢——三家都在目标附近;看增长,中国;看债务,欧元区。各方都挑那个对自己有利的刻度,所以争论永远出不了结果。放在同一页上,你至少能看清自己一直挑的是哪一个。
+          es: >
+            En empleo, Estados Unidos. En precios, nadie: los tres están en objetivo. En crecimiento, China. En deuda, la zona euro. Cada bando elige la escala que le favorece, y por eso la discusión no acaba. Poner a los tres en una página deja ver qué escala estabas eligiendo sin darte cuenta.
+          ja: >
+            雇用なら米国。物価なら勝者なし、三家とも目標圏です。成長なら中国。債務ならユーロ圏。各国は自分に都合のよい目盛りを選び続けるので、議論は終わりません。三つを 1 ページに並べれば、自分がずっと選んでいた目盛りが目に入るはずです。
+          de: >
+            Bei Jobs die USA. Bei Preisen niemand — alle drei am Ziel. Beim Wachstum China. Bei der Schuldenlast die Eurozone. Jede Seite greift zu der Skala, die ihr schmeichelt, deshalb endet die Debatte nie. Alle drei auf einer Seite zu haben zeigt, welche Skala man die ganze Zeit gewählt hat.
+        confidence: 9
+        reference:
+          - docs/1-overview/03-three-economies/en.md
+          - docs/1-overview/02-macroeconomic-outlook/en.md
