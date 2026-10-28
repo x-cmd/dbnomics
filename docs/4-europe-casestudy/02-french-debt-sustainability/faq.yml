@@ -1,0 +1,124 @@
+id: x-dbnomics-4-europe-casestudy-02-french-debt-sustainability
+
+data:
+  - name:
+      en: French debt
+      cn: 法国债务
+      es: deuda francesa
+      ja: フランスの債務
+      de: französische Staatsverschuldung
+    qa:
+      - id: what-is-r-minus-g
+        question:
+          en: What does r − g mean, and why does it decide everything?
+          cn: r − g 到底是什么意思，为什么它这么关键？
+          es: ¿Qué significa r − g y por qué lo decide todo?
+          ja: r − g とは何で、なぜすべてを左右するのか？
+          de: Was bedeutet r − g und warum entscheidet es alles?
+        answer:
+          en: >
+            It is the gap between the interest rate you pay on debt (r) and the growth rate of the economy (g). If r sits below g, the economy grows faster than your interest bill compounds, so the debt-to-GDP ratio drifts down even while you keep spending. If r is above g, interest compounds faster than the economy grows and the ratio climbs without anyone voting for it. It is the reason a country can run a permanent deficit and still be fine, or blow up doing nothing dramatic.
+          cn: >
+            就是你付的债务利率（r）和经济增长率（g）之间的差。如果 r 低于 g，经济涨得比利息滚得快，即使你继续花钱，债务率也会自己往下走；如果 r 高于 g，利息累积的速度快过经济，债务率就会自己往上爬，谁都没投票就已经这样了。同一个赤字，在两种算术下可以天差地别。
+          es: >
+            Es la distancia entre el tipo de interés que se paga por la deuda (r) y la tasa de crecimiento de la economía (g). Si r está por debajo de g, la economía crece más rápido de lo que se compensa la factura de intereses, así que la ratio deuda/PIB baja sola aunque el país siga gastando. Si r está por encima de g, los intereses se capitalizan más rápido de lo que crece la economía y la ratio sube sin que nadie haya votado por ello. Es la razón por la que un país puede arrastrar un déficit permanente y estar bien, o estallar sin hacer nada dramático.
+          ja: >
+            債務の和金利（r）と経済の成長率（g）の差のことである。r が g を下回っていれば、経済が利子不多的速さで伸びるため、支出を続けたままでも債務対 GDP 比は自分で下がる。逆に r が g を上回ると、利子の積み上がりが経済成長より速く、誰も投票していないのに比率が上昇する。同じ赤字でも、この算術が違えば明と暗が分かれる。
+          de: >
+            Es die Differenz zwischen dem Zinssatz, den man auf Schulden zahlt (r), und der Wachstumsrate der Wirtschaft (g). Liegt r unter g, wächst die Wirtschaft schneller als die Zinsrechnung aufläuft, und die Schuldenquote sinkt von selbst, auch wenn man weiter ausgibt. Liegt r über g, wächst die Zinslast schneller als die Wirtschaft, und die Quote steigt, ohne dass jemand dafür gestimmt hat. Deshalb kann ein Land dauerhaft Defizite machen und gut dastehen — oder eskalieren, ohne etwas Dramatisches getan zu haben.
+        confidence: 10
+        reference:
+          - docs/4-europe-casestudy/02-french-debt-sustainability/en.md
+          - docs/4-europe-casestudy/02-french-debt-sustainability/cn.md
+
+      - id: what-flipped-in-2010
+        question:
+          en: What exactly flipped after 2010?
+          cn: 2010 年之后到底翻转了什么？
+          es: ¿Qué cambió exactamente después de 2010?
+          ja: 2010 年以降、何が変わったのか？
+          de: Was hat sich nach 2010 genau umgedreht?
+        answer:
+          en: >
+            The two ends of the equation moved apart. In the 2000s France grew 2–4% a year while borrowing costs were low, so r was clearly below g and the debt ratio never went above about 70% of GDP. After 2010 growth settled near 1% while the debt ratio climbed past 120%. Two jumps stand out: the ratio leapt from 68.9% of GDP in 2008 to 83.1% in 2009 as the financial-crisis recession cut tax revenue, and it jumped again from 97.6% in 2019 to 114.6% in 2020, when pandemic support sent the deficit to 5.9% of GDP. Deficits of 5.9% and 5.1% in 2020 and 2021 are why the ratio never fell back.
+          cn: >
+            是等式两端分开了。2000 年代法国每年增长 2–4%，而借款成本很低，r 明显低于 g，债务率从未超过 GDP 的约 70%。2010 年之后增长稳定在约 1%，债务率却爬过 120%。图上有两次跳升很扎眼：一次是金融危机期间，2008 年 68.9%、2009 年直接跳到 83.1%（衰退砍掉了税收）；另一次是疫情，2019 年 97.6%、2020 年跳到 114.6%，因为救助支出让赤字达到 GDP 的 5.9%。2020 和 2021 两年赤字分别是 5.9% 和 5.1%，所以债务率始终没降回原来的位置。
+          es: >
+            Los dos extremos de la ecuación se separaron. En los años 2000 Francia crecía entre un 2% y un 4% anual con costes de financiación bajos, así que r estaba claramente por debajo de g y la ratio de deuda nunca pasó del 70% del PIB. Después de 2010 el crecimiento se estabilizó cerca del 1% mientras la ratio de deuda trepó por encima del 120%. Destacan dos saltos: la ratio pasó del 68,9% del PIB en 2008 al 83,1% en 2009, cuando la recession de la crisis financiera recortó los ingresos fiscales, y volvió a saltar del 97,6% en 2019 al 114,6% en 2020, cuando la ayuda pandémica llevó el déficit al 5,9% del PIB. Los déficits del 5,9% y 5,1% en 2020 y 2021 explican que la ratio no volviera a bajar.
+          ja: >
+            式の両端が引き離れた。2000 年代はフランスが毎年 2〜4% 伸びる一方で借入コストは低く、r は明確に g を下回っていたため、債務率は GDP の 70% 前後で頭打ちだった。2010 年以降は成長が約 1% に落ち着く一方、債務率は 120% を超えた。跳びが二つ目立つ。一つは金融危機期で、2008 年の 68.9% から 2009 年の 83.1% へ——不況で税収が落ちたためだ。もう一つはコロナで、2019 年の 97.6% から 2020 年の 114.6% へ——救助支出で赤字が GDP 比 5.9% に達した。2020 年 5.9%、2021 年 5.1% の赤字があるため、債務率は元の水準に戻らなかった。
+          de: >
+            Die beiden Enden der Gleichung gingen auseinander. In den 2000ern wuchs Frankreich mit 2–4% pro Jahr bei niedrigen Finanzierungskosten, r lag also klar unter g, und die Schuldenquote überschritt nie etwa 70% des BIP. Nach 2010 pendelte sich das Wachstum bei etwa 1% ein, während die Schuldenquote über 120% kletterte. Zwei Sprünge fallen auf: Die Quote sprang 2008 von 68,9% des BIP auf 83,1% im Jahr 2009, als die Rezession der Finanzkrise die Steuereinnahmen schrumpfen ließ, und erneut von 97,6% (2019) auf 114,6% (2020), als die Pandemiehilfen das Defizit auf 5,9% des BIP trieben. Die Defizite von 5,9% und 5,1% in 2020 und 2021 sind der Grund, warum die Quote nie wieder fiel.
+        confidence: 9
+        reference:
+          - docs/4-europe-casestudy/02-french-debt-sustainability/en.md
+          - docs/4-europe-casestudy/02-french-debt-sustainability/cn.md
+
+      - id: is-debt-per-se-dangerous
+        question:
+          en: Is 115% of GDP automatically a crisis?
+          cn: 115% 的债务率是不是就等于危机了？
+          es: ¿Un 115% del PIB es automáticamente una crisis?
+          ja: GDP 比 115% ならそれ自体が危機なのか？
+          de: Sind 115% des BIP automatisch eine Krise?
+        answer:
+          en: >
+            No. The ratio alone is not the verdict — what matters is who holds the debt, at what rate and for how long. Japan sits near 250% of GDP and is stable because the debt is held by domestic savers at low rates. France's problem is not that its debt is large in isolation but the combination: 115–124% debt, 5–6% deficits and roughly 1% growth, with rates now normalising rather than staying at the 2010s floor. That combination, not the headline number, is what the downgrades are pricing.
+          cn: >
+            不是。债务率本身不是判决书——真正要紧的是债主是谁、利率多高、能借多久。日本接近 GDP 的 250% 却依然稳定，因为债主要是国内储蓄者、利率又低。法国的问题不是单独看债务大，而是这个组合：债务 115–124%、赤字 5–6%、增长约 1%，同时利率正在正常化而不是停在 2010 年代的低位。评级下调定价的正是这个组合，而不是那个头条数字。
+          es: >
+            No. La ratio por sí sola no es el veredicto — importan quién tiene la deuda, a qué tipo y a qué plazo. Japón está cerca del 250% del PIB y se mantiene estable porque la deuda está en manos de ahorradores domésticos a tipos bajos. El problema francés no es que su deuda sea grande por sí sola, sino la combinación: deuda del 115–124%, déficits del 5–6% y un crecimiento de aproximadamente el 1%, con tipos que se normalizan en lugar de quedarse en el suelo de la década de 2010. Esa combinación, no el titular, es lo que cotizan las rebajas de rating.
+          ja: >
+            そうではない。比率だけで判決は出ない——重要なのは債務を誰が保有しているか、どの金利で、どれだけの期間借りられるかである。日本は GDP 比 250% 近くでも安定している——債務は国内の貯蓄者が低金利で保有しているからである。フランスの問題は債務が大きいこと自体ではなく、その組み合わせにある——債務 115〜124%、赤字 5〜6%、成長約 1%、しかも金利は 2010 年代の底値にとどまらず正常化しつつある。格付けの格下げが織り込んでいるのはこの組み合わせであって、見出しの数字ではない。
+          de: >
+            Nein. Die Quote allein ist kein Urteil — entscheidend ist, wer die Schulden hält, zu welchem Zins und über welche Laufzeit. Japan liegt bei rund 250% des BIP und bleibt stabil, weil die Schulden von heimischen Sparern zu niedrigen Zinsen gehalten werden. Das französische Problem ist nicht die Größe der Schulden für sich genommen, sondern die Kombination: 115–124% Schulden, 5–6% Defizite und rund 1% Wachstum — bei Zinsen, die normalisieren statt auf dem Boden der 2010er zu bleiben. Genau diese Kombination, nicht die Schlagzahl, bewerten die Ratingagenturen ab.
+        confidence: 8
+        reference:
+          - docs/4-europe-casestudy/02-french-debt-sustainability/en.md
+          - docs/4-europe-casestudy/02-french-debt-sustainability/cn.md
+
+      - id: who-pays-the-interest
+        question:
+          en: If the arithmetic is that bad, who ends up paying the interest?
+          cn: 既然算术这么糟，最后付利息的是谁？
+          es: Si la aritmética es tan mala, ¿quién acaba pagando los intereses?
+          ja: bole 算術没那么好，谁最后付利息？
+          de: Wenn die Arithmetik so schlecht ist, wer zahlt am Ende die Zinsen?
+        answer:
+          en: >
+            Two ways, and which one applies is a political question rather than an economic one. The government can raise taxes or cut spending to shrink the deficit — the arithmetic then improves, but households feel it. Or it can borrow more and let the debt ratio keep drifting up, which is what France did through the 2010s: growth of roughly 1–2%, deficits still in the 1.4–6.1% range, and the ratio sliding from 85.2% of GDP in 2010 to 97.6% in 2019. The chart shows the second path, with deficits of 5.5% of GDP in both 2024 and 2025.
+          cn: >
+            有两条路，走哪条是政治问题而不是经济问题。政府可以加税或减支把赤字压下来——算术会好转，但老百姓要买单；也可以继续借债、让债务率慢慢往上飘，法国在 2010 年代走的就是第二条：增长大约 1–2%，赤字仍在 1.4–6.1% 之间，债务率从 2010 年的 85.2% 一路滑到 2019 年的 97.6%。图上画的就是这条路径：2024 和 2025 年的赤字都是 GDP 的 5.5%。
+          es: >
+            Hay dos caminos, y cuál se tome es una cuestión política más que económica. El gobierno puede subir impuestos o recortar gasto para reducir el déficit: la aritmética mejora, pero las familias lo notan. O puede pedir más deuda y dejar que la ratio siga subiendo, que es lo que hizo Francia en la década de 2010: crecimiento de en torno al 1–2%, déficits todavía en el rango del 1,4–6,1% y la ratio deslizándose del 85,2% del PIB en 2010 al 97,6% en 2019. El gráfico muestra ese segundo camino, con déficits del 5,5% del PIB en 2024 y en 2025.
+          ja: >
+            道は二つあるが、どちらを取るかは経済ではなく政治の問題である。政府が税率を上げるか支出を削って赤字を圧縮すれば算術は改善する 대신、家計がその代价を払う。あるいはもっと借りに回り、債務比率が上昇し続けることを許す——フランスは 2010 年代にこの道を取った。成長は 1〜2% 程度、赤字は 1.4〜6.1% の範囲にとどまり、債務比率は 2010 年の 85.2% から 2019 年の 97.6% へ滑り落ちた。図が示しているのはこの側であり、2024 年と 2025 年の赤字はともに GDP 比 5.5% である。
+          de: >
+            Zwei Wege stehen offen, und welcher gewählt wird, ist eher eine politische als eine ökonomische Frage. Die Regierung kann Steuern erhöhen oder Ausgaben kürzen, um das Defizit zu verkleinern — die Arithmetik bessert sich, aber die Haushalte spüren es. Oder sie leiht weiter und lässt die Schuldenquote weiter steigen, wie Frankreich es in den 2010ern tat: Wachstum von etwa 1–2%, Defizite weiterhin in der Spanne von 1,4–6,1% und eine Quote, die von 85,2% des BIP (2010) auf 97,6% (2019) wegglitt. Das Diagramm zeigt diesen zweiten Weg, mit Defiziten von 5,5% des BIP in 2024 und 2025.
+        confidence: 8
+        reference:
+          - docs/4-europe-casestudy/02-french-debt-sustainability/en.md
+          - docs/4-europe-casestudy/02-french-debt-sustainability/cn.md
+
+      - id: does-france-crash
+        question:
+          en: Does France default? What would the "first stress test" actually mean?
+          cn: 法国会违约吗？"第一场压力测试"到底意味着什么？
+          es: ¿Entra Francia en default? ¿Qué significa realmente «la primera prueba de resistencia»?
+          ja: フランスはデフォルトするのか。所谓「最初のストレステスト」とは何か？
+          de: Ist Frankreich ausfallgefährdet? Was bedeutet „der erste Stresstest" genau?
+        answer:
+          en: >
+            France has its own currency and is a member of the world's largest central banking club, so this is not a euro-area "too big to fail" story. Calling it a stress test means the arithmetic is under strain, not that default is imminent: the ratio no longer falls on its own, each downgrade raises the cost of new borrowing, and a bad growth surprise turns a manageable deficit into an unserviceable one. The chart's job is to show why the margin for error is thin — the debt ratio was still drifting down from 114.6% (2020) to 109.9% (2023) before climbing back to 115.3% in 2025.
+          cn: >
+            法国有自己的货币，又是全球最大的央行俱乐部成员，所以这不是欧元区"大而不能倒"式的故事。把它叫"压力测试"，说的是算术吃紧、而不是马上要违约：债务率不再自己往下走，每一次评级下调都会抬高新借款的成本，一次糟糕的增长就足以把原本还扛得住的赤字变成还不起的赤字。这张图的作用是说明容错空间有多薄——债务率曾从 2020 年的 114.6% 一路降到 2023 年的 109.9%，然后在 2025 年又爬回 115.3%。
+          es: >
+            Francia tiene su propia moneda y forma parte del mayor club de bancos centrales del mundo, así que no es una historia de «demasiado grande para caer» del euro. Llamarlo prueba de resistencia significa que la aritmética está bajo presión, no que el default sea inminente: la ratio deja de bajar sola, cada rebaja de rating encarece el borrowing nuevo y una mala sorpresa de crecimiento convierte un déficit manejable en uno impagable. La función del gráfico es mostrar que el margen de error es estrecho: la ratio bajó aún desde el 114,6% (2020) al 109,9% (2023) antes de volver a subir al 115,3% en 2025.
+          ja: >
+            フランスは独自の通貨を持ち、世界最大の中央銀行クラブの一員でもあるから、これはユーロ圏の「大きすぎて倒れない」型の話ではない。ストレステストと呼ぶのは算術が緊張しているという意味であって、デフォルトが近いという意味ではない——債務比率は自分で下がらなくなり、格下げのたびに新たな借入コストが上がり、成長が一度でも下振れすれば、手のひらの赤字ですらない赤字が返せない赤字に化ける。図の役割は余裕のなさを示すことにある——債務比率は 2020 年の 114.6% から 2023 年の 109.9% まで下がり、2025 年にまた 115.3% まで戻った。
+          de: >
+            Frankreich hat eine eigene Währung und gehört zum größten Notenbankclub der Welt — das ist also keine „too big to fail"-Geschichte des Euroraums. Der Ausdruck Stresstest bedeutet, dass die Arithmetik unter Druck steht, nicht dass die Zahlungsunfähigkeit unmittelbar bevorsteht: Die Quote sinkt nicht mehr von selbst, jede Ratingabsenkung verteuert neue Kredite, und eine Wachstumsenttäuschung macht aus einem handhabbaren Defizit ein nicht bedienbares. Die Aufgabe des Diagramms ist zu zeigen, wie dünn der Puffer ist — die Quote fiel noch von 114,6% (2020) auf 109,9% (2023), bevor sie 2025 wieder auf 115,3% stieg.
+        confidence: 8
+        reference:
+          - docs/4-europe-casestudy/02-french-debt-sustainability/en.md
+          - docs/4-europe-casestudy/02-french-debt-sustainability/cn.md

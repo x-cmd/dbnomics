@@ -1,0 +1,125 @@
+id: x-dbnomics-2-indicators-05-government-debt
+
+data:
+  - name:
+      en: government debt
+      cn: 政府债务
+      es: deuda pública
+      ja: 政府債務
+      de: Staatsschulden
+    qa:
+      - id: what-is-government-debt
+        question:
+          en: What is government debt?
+          cn: 政府债务是什么？
+          es: ¿Qué es la deuda pública?
+          ja: 政府債務とは？
+          de: Was ist Staatsschuld?
+        answer:
+          en: >
+            The money a government has borrowed and not yet repaid, counted as a share of the country's yearly output (GDP). In 2025 Japan is highest at nearly 250% of GDP, followed by Greece at 153% and Italy at 139%; the US is at 124% and still climbing.
+          cn: >
+            政府借了还没还的钱，用占该国一年产出（GDP）的比重来衡量。2025 年日本最高，接近 GDP 的 250%，其次是希腊 153%、意大利 139%；美国是 124%，而且还在往上爬。
+          es: >
+            El dinero que un gobierno ha pedido prestado y aún no ha devuelto, medido como parte de la producción anual del país (PIB). En 2025 Japón va primero, casi el 250% del PIB, seguido de Grecia con el 153% e Italia con el 139%; EE. UU. está en el 124% y sigue subiendo.
+          ja: >
+            政府が借り、まだ返していない金のこと。国の年間産出（GDP）に対する比率で測る。2025 年では日本が GDP のほぼ 250% で突出し、ギリシャ 153%、イタリア 139% が続く。アメリカは 124% で、まだ上昇中。
+          de: >
+            Das Geld, das ein Staat aufgenommen und noch nicht zurückgezahlt hat, gemessen als Anteil der jährlichen Produktion (BIP). 2025 liegt Japan mit fast 250% des BIP vorn, gefolgt von Griechenland mit 153% und Italien mit 139%; die USA stehen bei 124% und steigen weiter.
+        confidence: 10
+        reference:
+          - docs/2-indicators/05-government-debt/en.md
+          - docs/2-indicators/05-government-debt/cn.md
+
+      - id: what-is-maastricht-60
+        question:
+          en: What is the Maastricht 60% rule?
+          cn: 马斯特里赫特 60% 规则是什么？
+          es: ¿Qué es la regla del 60% de Maastricht?
+          ja: マastricht 60% ルールとは？
+          de: Was ist die Maastricht-60%-Regel?
+        answer:
+          en: >
+            A guideline the EU set for euro-area members: keep government debt under 60% of GDP. It is a warning light, not a hard wall — the red dashed line on the chart. On the chart only Germany, Korea, India and Saudi Arabia sit below it.
+          cn: >
+            欧盟给欧元区成员定的一条指引：政府债务控制在 GDP 的 60% 以内。它是警示灯，不是硬墙——就是图上那条红色虚线。图上只有德国、韩国、印度和沙特在它下面。
+          es: >
+            Una directriz que fijó la UE para los miembros de la zona del euro: mantener la deuda pública por debajo del 60% del PIB. Es una luz de advertencia, no un muro infranqueable — la línea roja de puntos del gráfico. En el gráfico, solo Alemania, Corea, India y Arabia Saudí quedan por debajo.
+          ja: >
+            EU がユーロ圏諸国に設定したガイドライン——政府債務を GDP の 60% 未満に抑えること。硬い壁ではなく警告灯で、図の赤い破線がこれ。図ではドイツ・韓国・インド・サウジアラビアだけが下にある。
+          de: >
+            Eine Richtlinie der EU für die Euro-Länder: die Staatsverschuldung unter 60% des BIP zu halten. Eine Warnleuchte, keine harte Wand — die rote gestrichelte Linie im Diagramm. Im Diagramm liegen nur Deutschland, Korea, Indien und Saudi-Arabien darunter.
+        confidence: 10
+        reference:
+          - docs/2-indicators/05-government-debt/en.md
+          - docs/2-indicators/05-government-debt/cn.md
+
+      - id: what-is-r-minus-g
+        question:
+          en: What does 'r minus g' mean, and why does it decide everything?
+          cn: r − g 是什么意思，为什么它决定一切？
+          es: ¿Qué significa 'r menos g' y por qué lo decide todo?
+          ja: 「r − g」とは何か、なぜそれが全てを決めるのか？
+          de: Was bedeutet 'r minus g' — und warum entscheidet es alles?
+        answer:
+          en: >
+            r is the interest rate you pay on the debt, g is the growth rate of the economy. If r is below g, the economy outgrows its debt and the ratio drifts down even while you keep spending. If r is above g, the interest compounds faster than the economy grows and the debt rolls uphill.
+          cn: >
+            r 是你付的利率，g 是经济的增长率。如果 r 低于 g，经济跑得比债务快，即使继续花钱，债务率也会慢慢往下走；如果 r 高于 g，利息累积就快过经济增长，债务一路往上滚。
+          es: >
+            r es el tipo de interés que pagas por la deuda, g es el crecimiento de la economía. Si r está por debajo de g, la economía crece más rápido que su deuda y la ratio baja aunque sigas gastando. Si r está por encima de g, los intereses se componen más rápido de lo que crece la economía y la deuda sube sin freno.
+          ja: >
+            r は債務の支払金利、g は経済の成長率。r が g を下回っていれば、経済が債務より速く成長するので、支出を続けても比率はじりじり下がる。r が g を上回ると、利払いが経済成長より速く複利で膨らみ、債務は登り続ける。
+          de: >
+            r ist der Zins, den man auf die Schuld zahlt, g ist die Wachstumsrate der Wirtschaft. Liegt r unter g, wächst die Wirtschaft schneller als ihre Schuld und die Quote driftet nach unten, auch wenn man weiter ausgibt. Liegt r über g, wächst die Zinslast schneller als die Wirtschaft, und die Schuld rollt bergauf.
+        confidence: 10
+        reference:
+          - docs/2-indicators/05-government-debt/en.md
+          - docs/2-indicators/05-government-debt/cn.md
+
+      - id: why-japan-is-not-in-crisis
+        question:
+          en: Why is Japan at 250% of GDP not in a crisis?
+          cn: 日本债务率 250%，为什么没出危机？
+          es: ¿Por qué Japón, con el 250% del PIB, no está en crisis?
+          ja: 250% の日本が危機になっていないのはなぜ？
+          de: Warum ist Japan mit 250% des BIP nicht in einer Krise?
+        answer:
+          en: >
+            Because who holds the debt matters. Japan's debt is held by domestic savers — households, banks, pensions — at low interest rates, so the r − g arithmetic works for the government rather than against it. A country that must roll its debt with foreign investors at market rates is in a very different position.
+          cn: >
+            因为谁持有债务很关键。日本的债务握在国内储蓄者——家庭、银行、养老金——手里，利率很低，所以 r − g 这个算术对政府有利而不是不利。一个必须以市场利率向外国投资者滚动债务的国家，处境就完全不同了。
+          es: >
+            Importa quién tiene la deuda. La deuda japonesa está en manos de ahorradores domésticos —hogares, bancos, pensiones— a tipos bajos, así que la aritmética r − g juega a favor del gobierno y no en su contra. Un país que debe refinanciar su deuda con inversores extranjeros a tipos de mercado está en una posición muy distinta.
+          ja: >
+            債務を誰が持っているかが重要だから。日本の債務は国内の貯蓄者——世帯、銀行、年金—— が低金利で保有しており、r − g の計算は政府に有利に働く。市場金利で外国の投資家に借り換えを迫られる国はまったく違う立場にいる。
+          de: >
+            Entscheidend ist, wer die Schulden hält. Japans Schulden liegen bei inländischen Sparern — Haushalten, Banken, Rentenversicherungen — zu niedrigen Zinsen, so dass die r−g-Rechnung für die Regierung spricht. Ein Land, das seine Schulden zu Marktzinsen bei ausländischen Investoren rollieren muss, ist in einer ganz anderen Lage.
+        confidence: 9
+        reference:
+          - docs/2-indicators/05-government-debt/en.md
+          - docs/2-indicators/05-government-debt/cn.md
+
+      - id: why-us-debt-keeps-climbing
+        question:
+          en: Why does the US debt keep climbing even in peacetime?
+          cn: 为什么美国在和平时期债务还在涨？
+          es: ¿Por qué sigue creciendo la deuda de EE. UU. incluso en tiempos de paz?
+          ja: なぜアメリカの債務は平時でも増え続けるのか？
+          de: Warum steigt die US-Schuldenlast selbst in Friedenszeiten weiter?
+        answer:
+          en: >
+            Because peacetime deficits keep adding debt faster than the economy grows. The US sits above 120% of GDP and still climbing, with revenue staying flat around 17–19% of GDP while spending trends up — a structural deficit, not an emergency one.
+          cn: >
+            因为和平时期的赤字让债务累积得比经济增长还快。美国在 120% 以上而且还在爬升，同时财政收入一直在 GDP 的 17–19% 附近走平，支出却一路向上——这是结构性赤字，不是应急性赤字。
+          es: >
+            Porque los déficits en tiempos de paz suman deuda más rápido de lo que crece la economía. EE. UU. está por encima del 120% del PIB y sigue subiendo, con los ingresos estables en torno al 17–19% del PIB mientras el gasto tiende al alza — un déficit estructural, no de emergencia.
+          ja: >
+            平時の赤字が、経済成長より速く債務を積み上げているから。アメリカは GDP の 120% を超えて上昇中だが、歳入は 17–19% で横ばい、歳出は上へ —— 姿勢的な赤字であって、危機時の赤字ではない。
+          de: >
+            Weil Defizite in Friedenszeiten die Schulden schneller vermehren als die Wirtschaft wächst. Die USA liegen über 120% des BIP und steigen weiter: Die Einnahmen bleiben bei etwa 17–19% des BIP flach, während die Ausgaben tendenziell zunehmen — ein strukturelles, kein akutes Defizit.
+        confidence: 8
+        reference:
+          - docs/2-indicators/05-government-debt/en.md
+          - docs/2-indicators/05-government-debt/cn.md
+          - docs/5-us-casestudy/01-united-states/en.md

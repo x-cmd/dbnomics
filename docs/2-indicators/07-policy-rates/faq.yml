@@ -1,0 +1,124 @@
+id: x-dbnomics-2-indicators-07-policy-rates
+
+data:
+  - name:
+      en: policy rates
+      cn: 政策利率
+      es: los tipos oficiales
+      ja: 政策金利
+      de: die Leitzinsen
+    qa:
+      - id: what-is-policy-rate
+        question:
+          en: What is a policy rate?
+          cn: 政策利率是什么？
+          es: ¿Qué es un tipo oficial?
+          ja: 政策金利とは？
+          de: Was ist ein Leitzins?
+        answer:
+          en: >
+            The price central banks charge for overnight money — the interest rate banks pay to borrow from the central bank. It is the anchor every other price leans on: your mortgage, your savings account, the exchange rate, and what stocks and houses are worth.
+          cn: >
+            央行对一隔夜资金收取的价格——也就是银行向央行借钱要付的利率。它是别的所有价格都靠着的锚：你的房贷、你的存款、汇率，以及股票和房子值多少钱。
+          es: >
+            El precio que cobran los bancos centrales por el dinero a un día — el tipo que los bancos pagan al banco central por pedir prestado. Es el ancla sobre la que se apoyan todos los demás precios: tu hipoteca, tu cuenta de ahorro, el tipo de cambio y lo que valen las acciones y las viviendas.
+          ja: >
+            中央銀行が一晩のお金に対して設定する価格——銀行が中央銀行から借りる際に支払う金利のこと。住宅ローン、預金金利、為替レート、株式や住宅の価値がすべてここに依拠する。
+          de: >
+            Der Preis, den Zentralbanken für Geld über Nacht berechnen — der Zins, den Banken an die Zentralbank zahlen. Er ist der Anker, an dem sich jeder andere Preis ausrichtet: Ihre Hypothek, Ihr Sparkonto, der Wechselkurs und der Wert von Aktien und Immobilien.
+        confidence: 10
+        reference:
+          - docs/2-indicators/07-policy-rates/en.md
+          - docs/2-indicators/07-policy-rates/cn.md
+
+      - id: what-are-the-three-acts
+        question:
+          en: What are the three acts of the last decade in policy rates?
+          cn: 过去十年政策利率的「三幕」是什么？
+          es: ¿Cuáles son los tres actos de la última década de tipos oficiales?
+          ja: 過去 10 年の政策金利の「3 幕」とは？
+          de: Welches sind die drei Akte des vergangenen Jahrzehnts bei den Leitzinsen?
+        answer:
+          en: >
+            A slow return to normal after the financial crisis (2015–19), the epic 2022–23 hikes against inflation (the Fed from 0 to 5.5%), and the last exit — the Bank of Japan leaving ultra-easy policy in 2024, ending a 30-year experiment. The ECB followed the Fed, but in smaller steps.
+          cn: >
+            金融危机后慢慢回归正常（2015–19）、2022–23 年对抗通胀的大幅加息（美联储从 0 加到 5.5%），以及最后的退场——日本银行在 2024 年退出超宽松政策，终结了 30 年的实验。欧洲央行跟着美联储走，但步子更小。
+          es: >
+            Un lento regreso a la normalidad tras la crisis financiera (2015–19), las épicas subidas de 2022–23 contra la inflación (la Fed del 0 al 5,5%) y la última salida — el Banco de Japón abandonando la política ultralaxa en 2024, poniendo fin a un experimento de 30 años. El BCE siguió a la Fed, pero a pasos más pequeños.
+          ja: >
+            金融危機後のゆっくりした正常化への復帰(2015–19)、2022–23 年のインフレ対策の大幅引き上げ(Fed は 0 から 5.5% へ)、そして最後の幕——日本銀行が 2024 年に超宽松政策を撤回し、30 年の実験を終わらせた。ECB は Fed にならい、より小さなステップで追従した。
+          de: >
+            Die langsame Rückkehr zur Normalität nach der Finanzkrise (2015–19), die gewaltigen Erhöhungen 2022–23 gegen die Inflation (die Fed von 0 auf 5,5%) und der letzte Ausstieg — die Bank von Japan beendete 2024 die ultra-lockere Geldpolitik und damit ein 30-jähriges Experiment. Die EZB folgte der Fed, aber in kleineren Schritten.
+        confidence: 10
+        reference:
+          - docs/2-indicators/07-policy-rates/en.md
+          - docs/2-indicators/07-policy-rates/cn.md
+
+      - id: why-did-fed-go-to-zero
+        question:
+          en: Why did the Fed cut its rate to zero after 2008?
+          cn: 2008 年之后美联储为什么把利率降到零？
+          es: ¿Por qué la Fed bajó su tipo a cero después de 2008?
+          ja: 2008 年後に Fed がゼロまで利下げしたのはなぜ？
+          de: Warum senkte die Fed ihren Zins nach 2008 auf null?
+        answer:
+          en: >
+            Because the financial crisis had wrecked demand, and with inflation low the Fed pushed its rate down to pull the economy back up. The chart shows the other side of that story: the Fed then walked it back up slowly, from 0.38% in 2015 to 2.38% by 2018, before the crisis of 2020 pushed it back down to 0.12%.
+          cn: >
+            因为金融危机把需求砸坏了，而当时通胀又低，美联储就把利率压下去想把经济拉起来。图表讲的是这段故事的另一面：随后美联储慢慢把利率走回来，从 2015 年的 0.38% 升到 2018 年的 2.38%，接着 2020 年的危机又把它压回 0.12%。
+          es: >
+            Porque la crisis financiera destrozó la demanda y, con la inflación baja, la Fed bajó su tipo para tirar de la economía hacia arriba. El gráfico cuenta el otro lado de esa historia: luego la Fed lo subió muy despacio, del 0,38% en 2015 al 2,38% en 2018, antes de que la crisis de 2020 lo volviera a bajar al 0,12%.
+          ja: >
+            金融危機で需要が壊れ、インフレも低かったため、Fed は景気を引き戻すために利下げした。図は その物語の反対側を示している。その後はゆっくり引き上げて、2015 年の 0.38% から 2018 年には 2.38% まで上がり、2020 年の危機で再び 0.12% へ引き下げられた。
+          de: >
+            Weil die Finanzkrise die Nachfrage zerstört hatte und die Inflation niedrig war, drückte die Fed ihren Zins, um die Wirtschaft wieder anzuziehen. Das Diagramm zeigt die andere Seite: Danach erhöhte die Fed den Zins langsam wieder — von 0,38% im Jahr 2015 auf 2,38% bis 2018 —, bevor die Krise 2020 ihn auf 0,12% zurückdrückte.
+        confidence: 9
+        reference:
+          - docs/2-indicators/07-policy-rates/en.md
+          - docs/2-indicators/07-policy-rates/cn.md
+
+      - id: why-is-boj-lagging
+        question:
+          en: Why did the Bank of Japan exit last?
+          cn: 日本银行为什么最后才退出超宽松？
+          es: ¿Por qué el Banco de Japón salió el último?
+          ja: 日本銀行が最後に見送ったのはなぜ？
+          de: Warum zog sich die Bank von Japan zuletzt zurück?
+        answer:
+          en: >
+            Because Japan had been fighting deflation, not inflation, so it had no reason to raise rates while prices were flat or falling. It held its rate at ‑0.1% from 2016 all the way to 2023, then moved to 0.25% in 2024 and 0.5% in 2025 — ending a 30-year experiment in ultra-easy money.
+          cn: >
+            因为日本打的是通缩而不是通胀，物价不涨甚至下跌的时候没有加息的理由。它的利率从 2016 年到 2023 年一直钉在 ‑0.1%，2024 年升到 0.25%，2025 年升到 0.5%——终结了一场 30 年的超宽松实验。
+          es: >
+            Porque Japón luchaba contra la deflación, no contra la inflación, así que no tenía motivos para subir los tipos mientras los precios se quedaban planos o caían. Mantuvo su tipo en ‑0,1% desde 2016 hasta 2023, y luego pasó a 0,25% en 2024 y 0,5% en 2025 — terminando un experimento de 30 años en política ultralaxa.
+          ja: >
+            日本が戦っていたのはインフレではなくデフレーションで、物価が横ばいか下落している間は引き上げる理由がなかったから。2016 年から 2023 年まで ‑0.1% に据え置き、2024 年に 0.25%、2025 年に 0.5% として、30 年の超宽松の実験に幕を下ろした。
+          de: >
+            Weil Japan gegen Deflation kämpfte, nicht gegen Inflation — bei flachen oder fallenden Preisen gab es keinen Grund für höhere Zinsen. Von 2016 bis 2023 hielt sie ihren Zins bei ‑0,1%, ging 2024 auf 0,25% und 2025 auf 0,5% und beendete damit ein 30-jähriges Experiment mit ultra-lockerer Geldpolitik.
+        confidence: 9
+        reference:
+          - docs/2-indicators/07-policy-rates/en.md
+          - docs/2-indicators/07-policy-rates/cn.md
+
+      - id: what-is-year-end
+        question:
+          en: Why does the chart show year-end rates?
+          cn: 为什么图上画的是年末利率？
+          es: ¿Por qué el gráfico muestra los tipos a fin de año?
+          ja: なぜ図は年末の金利を示しているのか？
+          de: Warum zeigt das Diagramm Jahresendstände?
+        answer:
+          en: >
+            To keep one point per year and avoid a tangle of lines. The data are monthly BIS policy-rate series, and the chart takes the December value of each year. That is why the Fed line shows 5.38% for 2023 and 4.38% for both 2024 and 2025.
+          cn: >
+            为了每年只留一个点，免得线缠成一团。底层数据是 BIS 的月度政策利率序列，图表取每年的 12 月值。所以美联储 2023 年显示 5.38%，2024 和 2025 年都是 4.38%。
+          es: >
+            Para dejar un solo punto por año y evitar un enredo de líneas. Los datos son series mensuales de tipos oficiales del BIS y el gráfico toma el valor de diciembre de cada año. Por eso la línea de la Fed muestra 5,38% para 2023 y 4,38% tanto para 2024 como para 2025.
+          ja: >
+            1 年に 1 点だけ残し、線が絡まないようにするため。元のデータは BIS の月次政策金利で、図は各年の 12 月の値を採用している。だから Fed の線は 2023 年が 5.38%、2024 年と 2025 年はともに 4.38% となる。
+          de: >
+            Um einen Punkt pro Jahr zu behalten und ein Gewirr von Linien zu vermeiden. Die Daten sind monatliche Leitzinsserien des BIS; das Diagramm nimmt den Dezemberwert jedes Jahres. Deshalb zeigt die Fed-Linie für 2023 5,38% und für 2024 wie 2025 je 4,38%.
+        confidence: 9
+        reference:
+          - docs/2-indicators/07-policy-rates/en.md
+          - docs/2-indicators/07-policy-rates/cn.md

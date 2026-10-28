@@ -1,0 +1,124 @@
+id: x-dbnomics-6-china-casestudy-01-china-provinces
+
+data:
+  - name:
+      en: China provinces
+      cn: 中国各省
+      es: provincias chinas
+      ja: 中国の省
+      de: chinesische Provinzen
+    qa:
+      - id: hukou-or-resident
+        question:
+          en: Is this population the registered (hukou) count or people actually living there?
+          cn: 这里的人口是户籍人口还是常住人口？
+          es: ¿Es esta la población registrada (hukou) o la que realmente vive allí?
+          ja: ここで示す人口は戸籍人口か、実際に住んでいる人口か？
+          de: Ist das die registrierte Bevölkerung (Hukou) oder die tatsächlich ansässige?
+        answer:
+          en: >
+            The OECD regional database carries the resident population — the people actually living in the province, counted where they sleep rather than where they hold registration papers. That matters enormously in China: millions of migrant workers live in Guangdong, Shanghai or Beijing while their hukou stays in a rural hometown inland, so a hukou-based count would show almost no net migration at all, while the resident count shows Guangdong gaining 55 million people since 2000 and Heilongjiang losing 7.6 million. Either way the ranking of provinces barely changes; the direction of the flows is what the chart captures.
+          cn: >
+            OECD 地区数据库用的是常住人口——实际住在该省的人，按他们睡觉的地方统计，而不是按户口本所在地。在中国这一点极其关键：数以百万计的农民工住在广东、上海、北京，户口却还在内陆老家，所以按户籍算几乎看不到人口净流动；按常住人口算，才能看到广东比 2000 年多了 5500 万人、黑龙江少了 760 万。两种口径下省份的排名几乎不变，图表捕捉的是流动的方向。
+          es: >
+            La base regional de la OCDE recoge la población residente — las personas que viven de verdad en la provincia, contadas donde duermen y no donde tienen el registro civil. En China esto importa muchísimo: millones de trabajadores migrantes viven en Guangdong, Shanghái o Pekín mientras su hukou sigue en un pueblo natal del interior; con un conteo por hukou casi no se vería migración neta alguna, mientras que con el conteo de residentes se ve a Guangdong ganar 55 millones de personas desde 2000 y a Heilongjiang perder 7,6 millones. En cualquier caso, el orden de las provincias apenas cambia; lo que el gráfico captura es la dirección de los flujos.
+          ja: >
+            OECD 地域データベースが用的是常住人口——実際にその省に住んでいる人で、戸籍のある場所ではなく寝起きする場所で数えている。中国ではこれが決定的に重要だ。数百万の農民工が広東・上海・北京に住みながら戸籍は内陸の故郷に残っている。戸籍で数えれば人口移動はほぼ見えないが、常住人口で数えれば広東が 2000 年から 5,500 万人増え、黒竜江が 760 万人減る。いずれの口径でも省順位はほぼ変わらず、グラフが捉えているのは移動の方向である。
+          de: >
+            Die OECD-Regionendatenbank führt die Wohnbevölkerung — die Menschen, die tatsächlich in der Provinz leben, gezählt dort, wo sie schlafen, nicht wo ihr Ausweis liegt. In China ist das entscheidend: Millionen Wanderarbeiter leben in Guangdong, Shanghai oder Peking, während ihr Hukou in einem Heimatdorf im Inland bleibt; nach Melderegister gezählt wäre praktisch keine Netzmigration zu sehen, nach Einwohnern gezählt dagegen Guangdong mit plus 55 Millionen Menschen seit 2000 und Heilongjiang mit minus 7,6 Millionen. Die Reihenfolge der Provinzen ändert sich so oder so kaum; erfasst wird die Richtung der Ströme.
+        confidence: 8
+        reference:
+          - docs/6-china-casestudy/01-china-provinces/en.md
+          - docs/6-china-casestudy/01-china-provinces/cn.md
+
+      - id: why-dollars-not-yuan
+        question:
+          en: Why are the figures in US dollars? What does that do to the comparison?
+          cn: 为什么用美元计价？这对比较有什么影响？
+          es: ¿Por qué están las cifras en dólares? ¿Qué efecto tiene eso en la comparación?
+          ja: なぜドル建てなのか。比較にどう影響するのか？
+          de: Warum sind die Zahlen in Dollar? Was bewirkt das für den Vergleich?
+        answer:
+          en: >
+            Because every province sits inside one currency area: a single yuan, a single exchange rate against the dollar. Using current US dollars puts all 31 provinces on the same ruler, so the comparison is apples to apples across provinces rather than across countries. The catch is that the conversion is at market exchange rates, which move over time — so a province's dollar figure can rise or fall without anything changing inside the province. That is why the growth chart uses real growth, which strips out price changes, and not the dollar level.
+          cn: >
+            因为所有省份都在同一个货币区里：同一个人民币、同样一个对美元汇率。用当前美元计价，就把 31 个省放在同一把尺子上，比的是省与省，而不是国与国。代价是按市场汇率折算，汇率本身会随时间变动——某个省的美元数字可能上涨或下跌，而省内什么都没变。这就是为什么增长图用的是实际增长（剔除了价格变动），而不是美元水平。
+          es: >
+            Porque todas las provincias están dentro de una única zona monetaria: un solo yuan, un solo tipo de cambio frente al dólar. Expresar las cifras en dólares actuales pone a las 31 provincias ante la misma vara, así que la comparación es entre provincias y no entre países. La contrapartida es que la conversión usa tipos de mercado, que se mueven con el tiempo: la cifra en dólares de una provincia puede subir o bajar sin que cambie nada dentro de ella. Por eso el gráfico de crecimiento usa el crecimiento real, que elimina los cambios de precios, y no el nivel en dólares.
+          ja: >
+            すべての省が同一の通貨圏内にあるからだ——同じ元、ドルに対する同じ為替レート。現在のドルで示せば 31 省が同じ物差しに載り、国と国ではなく省と省を比べることになる。代償は市場レート換算であること——為替は動くので、ある省のドル建ての数字は省内が何も変わらなくても上下する。だから成長のグラフは水準ではなく価格変動を除いた実質成長を使うのである。
+          de: >
+            Weil alle Provinzen in einer einzigen Währungszone liegen: ein Yuan, ein Wechselkurs zum Dollar. In aktuellen US-Dollar gesetzt stellt alle 31 Provinzen dasselbe Lineal — der Vergleich läuft also zwischen Provinzen, nicht zwischen Ländern. Der Haken: Die Umrechnung erfolgt zu Marktwechselkursen, die sich über die Zeit bewegen — die Dollarzahl einer Provinz kann steigen oder fallen, ohne dass sich in der Provinz etwas ändert. Deshalb nutzt das Wachstumschart reales Wachstum, das Preisbewegungen herausrechnet, und nicht das Dollarniveau.
+        confidence: 9
+        reference:
+          - docs/6-china-casestudy/01-china-provinces/en.md
+          - docs/6-china-casestudy/01-china-provinces/cn.md
+
+      - id: what-does-negative-correlation-mean
+        question:
+          en: What does the correlation of −0.65 actually mean?
+          cn: 相关系数 −0.65 到底说明什么？
+          es: ¿Qué significa realmente la correlación de −0,65?
+          ja: 相関係数 −0.65 とは具体的にどういうことか？
+          de: Was bedeutet die Korrelation von −0,65 genau?
+        answer:
+          en: >
+            It means the lower a province started, the faster it grew. A correlation of −0.65 is strong but not perfect: it says the relationship is clearly there across the 31 provinces, while leaving room for exceptions. The extremes are visible in the chart — Guizhou started at $335 per person and grew 10.2% a year, while Guangdong started at $1,785 and grew 5.9%. Convergence in growth is therefore a real pattern here, not a slogan.
+          cn: >
+            意思是：一个省的起点越低，它增长得越快。−0.65 是一个强但并不完美的相关——说明这 31 个省的关系确实存在，同时留有例外的空间。极端值在图上看得一清二楚：贵州 2000 年人均 335 美元，年均增长 10.2%；广东起点 1,785 美元，年均增长 5.9%。所以这里的"增长收敛"是真实存在的模式，不是一句口号。
+          es: >
+            Significa que cuanto más bajo empezó una provincia, más rápido creció. Una correlación de −0,65 es fuerte pero no perfecta: la relación está claramente ahí entre las 31 provincias, dejando sitio para excepciones. Los extremos se ven en el gráfico: Guizhou partía de 335 dólares por persona y crecía un 10,2% anual, mientras Guangdong partía de 1.785 y crecía un 5,9%. La convergencia en el crecimiento es, por tanto, un patrón real, no un eslogan.
+          ja: >
+            一つの省の出発点が低いほど、成長が速かったという意味である。相関係数 −0.65 は強いが完全な関係ではない——31 省全体にその関係がはっきり存在し、此同时で例外の余地も残ることを示す。両端はグラフに明確に出ている——貴州は 2000 年に一人あたり 335 ドルから始まり毎年 10.2% 成長し、広東は 1,785 ドルから始めて毎年 5.9% だった。したがってここでの「成長の収束」は実際のパターンであって、口號ではない。
+          de: >
+            Es bedeutet: Je niedriger eine Provinz startete, desto schneller wuchs sie. Eine Korrelation von −0,65 ist stark, aber nicht perfekt — die Beziehung besteht über alle 31 Provinzen hinweg klar und lässt zugleich Raum für Ausnahmen. Die Extreme sind im Diagramm sichtbar: Guizhou startete bei 335 Dollar pro Kopf und wuchs mit 10,2% pro Jahr, Guangdong startete bei 1.785 Dollar und wuchs mit 5,9%. Die Konvergenz im Wachstum ist hier also ein reales Muster, kein Schlagwort.
+        confidence: 9
+        reference:
+          - docs/6-china-casestudy/01-china-provinces/en.md
+          - docs/6-china-casestudy/01-china-provinces/cn.md
+
+      - id: why-gap-narrowed-but-not-closed
+        question:
+          en: If the poor provinces are catching up, why hasn't the gap closed?
+          cn: 既然穷省在追赶，为什么差距还没合上？
+          es: Si las provincias pobres están recuperando terreno, ¿por qué no se ha cerrado la brecha?
+          ja: 貧しい省が追いかけているのに、なぜ差は埋まらないのか？
+          de: Wenn die armen Provinzen aufholen, warum schließt sich die Lücke nicht?
+        answer:
+          en: >
+            Because the coastal provinces were growing too, and they started from a much bigger base. The gap did narrow: 11.7 times between Shanghai ($3,910) and Guizhou ($335) in 2000, down to 4.3 times between Beijing ($31,723) and Gansu ($7,350) in 2024. But a rate advantage only closes a gap if the leader stands still. Beijing's per-capita GDP grew more than tenfold in dollar terms over the same period, and Guizhou's grew more than twentyfold — the poor provinces run faster without the rich ones falling behind.
+          cn: >
+            因为沿海省份也在长，而且它们的基数大得多。差距确实缩小了：2000 年上海（3,910 美元）对贵州（335 美元）相差 11.7 倍，2024 年北京（31,723 美元）对甘肃（7,350 美元）缩到 4.3 倍。但速度快要能追上，前提是领先者原地不动。同期北京的人均 GDP 按美元算涨了十倍以上，贵州涨了二十倍以上——穷省跑得更快，而富省并没有退步。
+          es: >
+            Porque las provincias costeras también crecían, y partían de una base mucho mayor. La brecha sí se estrechó: 11,7 veces entre Shanghái (3.910 dólares) y Guizhou (335) en 2000, hasta 4,3 veces entre Pekín (31.723) y Gansu (7.350) en 2024. Pero una ventaja de ritmo solo cierra una brecha si el líder se queda quieto. El PIB per cápita de Pekín se multiplicó por más de diez en dólares en el mismo periodo, y el de Guizhou por más de veinte: las provincias pobres corren más rápido sin que las ricas se queden atrás.
+          ja: >
+            沿海の省も成長していたし、その基数もずっと大きかったからだ。差は縮んだ——2000 年の上海（3,910 ドル）と貴州（335 ドル）の 11.7 倍から、2024 年の北京（31,723 ドル）と甘粛（7,350 ドル）の 4.3 倍へ。ただし资源优势が差を埋めるには、リーダーが立ち止まることが必要だ。同じ期間に北京の一人あたり GDP はドル建てで 10 倍以上、貴州は 20 倍以上増えている。つまり貧しい県は速く走っているが、豊かな県も後退していない。
+          de: >
+            Weil auch die Küstenprovinzen wuchsen — und zwar von einer viel größeren Basis aus. Die Lücke hat sich tatsächlich verengt: das 11,7-Fache zwischen Shanghai (3.910 Dollar) und Guizhou (335) im Jahr 2000, nur noch das 4,3-Fache zwischen Peking (31.723) und Gansu (7.350) im Jahr 2024. Ein Geschwindigkeitsvorteil schließt eine Lücke aber nur, wenn der Vordere stehen bleibt. Pekings BIP pro Kopf hat sich im selben Zeitraum in Dollar mehr als verfünffacht, das von Guizhou mehr als verdzwanzigfacht — die armen Provinzen laufen also schneller, ohne dass die reichen zurückfallen.
+        confidence: 9
+        reference:
+          - docs/6-china-casestudy/01-china-provinces/en.md
+          - docs/6-china-casestudy/01-china-provinces/cn.md
+
+      - id: two-divergences
+        question:
+          en: The article says economic convergence runs one way and population divergence another. What does that mean in practice?
+          cn: 文章说经济收敛往西北、人口分化往东南，实际是什么意思？
+          es: El artículo dice que la convergencia económica va en un dirección y la divergencia demográfica en otra. ¿Qué significa eso en la práctica?
+          ja: 経済的な収束は一方向、人口の分化は別方向へ向かう。実践でどういうことか？
+          de: Der Artikel sagt, wirtschaftliche Konvergenz verläuft in die eine Richtung, demografische Divergenz in die andere. Was heißt das praktisch?
+        answer:
+          en: >
+            The growth story and the migration story point in opposite directions across the country. Guizhou and Shaanxi grew 10.2% and 9.7% a year in the interior west, while Guangdong and Shanghai grew 5.9% and 5.3% on the coast. Yet the coastal provinces are where people go: Guangdong is up 55 million people since 2000, Zhejiang up 21.9 million, while Heilongjiang is down 7.6 million and Jilin down 3.4 million. The interior is converging in output per head while losing its people to the coast, which is what pulls the map apart in two directions at once.
+          cn: >
+            增长的故事和人口流动的故事在国土上指向相反的方向。西部内陆的贵州和陕西分别年均增长 10.2% 和 9.7%，而沿海的广东和上海只增长 5.9% 和 5.3%。可人口偏偏往沿海走：广东比 2000 年多了 5500 万人，浙江多了 2190 万，黑龙江少了 760 万，吉林少了 340 万。内陆在人均产出上收敛，同时把人口输送给沿海——这就是这张地图被朝两个方向拉扯的原因。
+          es: >
+            La historia del crecimiento y la de la migración apuntan en direcciones opuestas dentro del país. Guizhou y Shaanxi crecieron un 10,2% y un 9,7% anual en el interior oeste, mientras Guangdong y Shanghái crecían un 5,9% y un 5,3% en la costa. Y sin embargo la costa es adonde va la gente: Guangdong ganó 55 millones de personas desde 2000 y Zhejiang 21,9 millones, mientras Heilongjiang perdió 7,6 millones y Jilin 3,4 millones. El interior converge en producción por cabeza mientras pierde población hacia la costa, y eso es lo que tensa el mapa en dos direcciones a la vez.
+          ja: >
+            成長の話と移動の話は、国の中での方向が反対になっている。西部内陸の貴州と陝西は毎年 10.2% と 9.7% 伸びたのに対し、沿海の広東と上海は 5.9% と 5.3% にとどまった。それでいて人が集まるのは沿岸側だ——広東は 2000 年から 5,500 万人増、浙江省は 2,190 万人増で、黒竜江は 760 万人減、吉林は 340 万人減った。内陸は一人あたり产出で収束しながら、人口を沿岸へ送り出している。だから地図は同時に二つの向きに引き裂かれている。
+          de: >
+            Die Wachstumsgeschichte und die Migrationsgeschichte zeigen in entgegengesetzte Richtungen. Guizhou und Shaanxi wuchsen im Westen des Landes mit 10,2% bzw. 9,7% pro Jahr, Guangdong und Shanghai an der Küste dagegen nur mit 5,9% und 5,3%. Und doch ist die Küste der Ort, an den die Menschen gehen: Guangdong hat seit 2000 55 Millionen Menschen mehr, Zhejiang 21,9 Millionen mehr, während Heilongjiang 7,6 Millionen und Jilin 3,4 Millionen verloren. Das Innere holt beim Output pro Kopf auf und verliert zugleich seine Bevölkerung an die Küste — daher wird die Karte in zwei Richtungen auseinandergezogen.
+        confidence: 9
+        reference:
+          - docs/6-china-casestudy/01-china-provinces/en.md
+          - docs/6-china-casestudy/01-china-provinces/cn.md

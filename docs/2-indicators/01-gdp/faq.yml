@@ -1,0 +1,124 @@
+id: x-dbnomics-2-indicators-01-gdp
+
+data:
+  - name:
+      en: GDP
+      cn: GDP
+      es: PIB
+      ja: GDP
+      de: BIP
+    qa:
+      - id: what-is-gdp
+        question:
+          en: What is GDP?
+          cn: GDP 是什么？
+          es: ¿Qué es el PIB?
+          ja: GDP とは？
+          de: Was ist BIP?
+        answer:
+          en: >
+            The value of everything a country makes in a year — cars, software, wheat, haircuts. It measures the size of the economy, not how well the country is doing.
+          cn: >
+            一个国家一年里生产的全部东西的价值——汽车、软件、小麦、理发。它衡量的是经济这块蛋糕有多大，而不是这个国家过得好不好。
+          es: >
+            El valor de todo lo que un país produce en un año —coches, software, trigo, cortes de pelo—. Mide el tamaño de la economía, no lo bien que le va al país.
+          ja: >
+            その国が一年に作り出すすべてのものの価値——車、ソフト、小麦、理髪など。経済の大きさを測るもので、その国の暮らし向きのよし悪しではない。
+          de: >
+            Der Wert alles, was ein Land in einem Jahr herstellt — Autos, Software, Weizen, Haarschnitte. Es misst die Größe der Wirtschaft, nicht die Wohlfahrt des Landes.
+        confidence: 10
+        reference:
+          - docs/2-indicators/01-gdp/en.md
+          - docs/2-indicators/01-gdp/cn.md
+
+      - id: nominal-vs-ppp
+        question:
+          en: What is the difference between nominal GDP and PPP GDP?
+          cn: 名义 GDP 和 PPP GDP 有什么区别？
+          es: ¿Cuál es la diferencia entre el PIB nominal y el PIB en PPA?
+          ja: 名目 GDP と PPP による GDP の違いは？
+          de: Was ist der Unterschied zwischen nominalem BIP und BIP in Kaufkraftparität?
+        answer:
+          en: >
+            Nominal converts every country at the market exchange rate, so a weak currency shrinks the number. PPP (purchasing power parity) asks what the same basket of goods costs in each country instead, and expresses the result in "international dollars". The yardstick changes the conclusion: the US leads on nominal GDP ($30.3tn against China's $19.5tn), but China comes out ahead on PPP ($39.4tn), and India climbs from #5 to #3.
+          cn: >
+            名义值按市场汇率把各国折算成美元，所以货币一贬值，数字就缩水。PPP（购买力平价）改问"同一篮子商品在各国值多少钱"，用"国际元"计价。换一把尺子，结论就变了：名义 GDP 是美国领先（30.3 万亿对中国的 19.5 万亿），按 PPP 反而是中国领先（39.4 万亿），印度从第 5 名升到第 3 名。
+          es: >
+            El nominal convierte todos los países al tipo de cambio de mercado, así que una moneda débil encoge la cifra. La PPA (paridad de poder adquisitivo) pregunta en cambio cuánto cuesta la misma cesta de bienes en cada país y lo expresa en "dólares internacionales". Cambia la vara y cambia la conclusión: en nominal manda EE. UU. (30,3 billones frente a 19,5 de China), pero con PPA China se adelanta (39,4 billones) e India sube del #5 al #3.
+          ja: >
+            名目は市場為替で各国をドル換算するため、通貨が安ければ数字も縮む。PPP（購買力平価）は逆に「同じ財の束が各国でいくらになるか」を問う手法で、結果は「国際ドル」で表す。尺子を変えると結論も変わる——名目では米国（30.3 兆ドル対中国の 19.5 兆）が先行するが、PPP では中国（39.4 兆）が上回り、インドは 5 位から 3 位へ上がる。
+          de: >
+            Nominal rechnet alle Länder zum Marktwechselkurs um, sodass eine schwache Währung die Zahl schrumpfen lässt. Die Kaufkraftparität fragt stattdessen, was derselbe Warenkorb in jedem Land kostet, und misst in "internationalen Dollar". Der Maßstab ändert das Ergebnis: nominal führt die USA (30,3 Bio. $ gegen Chinas 19,5), bei Kaufkraftparität liegt China vorn (39,4 Bio. $), und Indien steigt vom fünften auf den dritten Platz.
+        confidence: 10
+        reference:
+          - docs/2-indicators/01-gdp/en.md
+          - docs/2-indicators/01-gdp/cn.md
+
+      - id: how-big-is-the-gap
+        question:
+          en: How big is the gap between the top economies and the rest?
+          cn: 头部经济体和其他国家之间的差距有多大？
+          es: ¿Qué tan grande es la brecha entre las mayores economías y el resto?
+          ja: 上位経済とその他の国の間には多大的な差がある？
+          de: Wie groß ist der Abstand zwischen den Spitzeneconomien und dem Rest?
+        answer:
+          en: >
+            There is a cliff after the top two. The US ($30,337bn) and China ($19,535bn) together account for 55% of the G20; then comes Germany at $4,922bn, a fifth of China's size. The drop from China to Germany is $14,613bn, while Germany and Japan are only $532bn apart. South Africa sits last among the 19 economies with $418bn.
+          cn: >
+            前两名之后是一道悬崖。美国（30,337 十亿美元）和中国（19,535 十亿美元）合计占 G20 的 55%；第三名德国是 4,922 十亿美元，只有中国的五分之一。中国到德国之间落差 14,613 十亿美元，而德国到日本只差 532 十亿美元。19 个经济体里垫底的是南非，418 十亿美元。
+          es: >
+            Hay un abismo después de las dos primeras. EE. UU. (30.337) y China (19.535) suman el 55% del G20; luego viene Alemania con 4.922, una quinta parte de China. El salto de China a Alemania es de 14.613, mientras que Alemania y Japón están separados por solo 532. Sudáfrica ocupa el último lugar entre las 19 economías, con 418.
+          ja: >
+            首位 2 か国の後には崖がある。米国（30,337）と中国（19,535）を合わせて G20 の 55%。3 位のドイツは 4,922 で、中国の 5 分の 1 しかない。中国からドイツへ 14,613 の落差があるのに対し、ドイツと日本の差はわずか 532。19 経済体で最下位なのは南アフリカで 418。
+          de: >
+            Nach den ersten beiden klafft eine Kluft. USA (30.337) und China (19.535) zusammen machen 55% des G20 aus; es folgt Deutschland mit 4.922, ein Fünftel Chinas. Der Sprung von China zu Deutschland beträgt 14.613, Deutschland und Japan trennt nur 532. Südafrika steht mit 418 unter den 19 Volkswirtschaften hinten.
+        confidence: 9
+        reference:
+          - docs/2-indicators/01-gdp/en.md
+          - docs/2-indicators/01-gdp/cn.md
+
+      - id: which-measure-to-trust
+        question:
+          en: So which measure should I use, nominal or PPP?
+          cn: 那我到底该看哪个数，名义还是 PPP？
+          es: ¿Entonces cuál medida debo usar, nominal o PPA?
+          ja: 結局どちらの数字を見るべき？名目と PPP のどちら？
+          de: Welche Zahl soll ich also verwenden, nominal oder Kaufkraftparität?
+        answer:
+          en: >
+            Depends on the question. Nominal GDP tells you how much a country's output is worth in dollars, which is what lenders, importers and global capital flows care about. PPP GDP tells you how much ordinary people can buy with their income at home, which is the better measure of living standards in poorer countries. The page shows both on purpose, because the ranking flips between them.
+          cn: >
+            看你要问什么。名义 GDP 告诉你一个国家的产出换成美元值多少，这是债权人、进口商和全球资本流动关心的。PPP GDP 告诉你当地普通人用收入能买到多少东西，在穷国更能反映生活水平。所以这一页刻意把两把尺子都摆出来——因为排名在两把尺子下是反的。
+          es: >
+            Depende de la pregunta. El PIB nominal dice cuánto vale en dólares la producción de un país, que es lo que les importa a prestamistas, importadores y flujos de capital. El PIB en PPA dice cuánto pueden comprar los ciudadanos corrientes con su renta en su propio país, y mide mejor el nivel de vida en los países pobres. La página muestra ambos a propósito, porque el ranking se invierte entre ellos.
+          ja: >
+            何を問うかによる。名目 GDP はその国の産出がドルでいくらになるかを示すもので、債権者・輸入業者・国際資本フローが気にするのはこちら。PPP GDP は現地の所得で国内で何を買えるかを示すもので、貧しい国の生活水準を測るにはこちらが適している。順位が入れ替わるので、このページは両方を意図的に並べる。
+          de: >
+            Kommt auf die Frage an. Das nominale BIP sagt, was die Produktion eines Landes in Dollar wert ist — das interessiert Gläubiger, Importeure und globale Kapitalflüsse. Das BIP in Kaufkraftparität sagt, was die Menschen vor Ort mit ihrem Einkommen kaufen können, und misst den Lebensstandard in armen Ländern besser. Die Seite zeigt beides bewusst, weil die Rangfolge dazwischen kippt.
+        confidence: 9
+        reference:
+          - docs/2-indicators/01-gdp/en.md
+          - docs/2-indicators/01-gdp/cn.md
+
+      - id: brics-vs-g7
+        question:
+          en: On PPP the BRICS beat the G7 — does that mean the BRICS have taken over?
+          cn: 按 PPP 算 BRICS 超过 G7，这是不是意味着 BRICS 已经取代 G7 了？
+          es: 'En PPA los BRICS superan al G7: ¿significa eso que los BRICS han tomado el relevo?'
+          ja: PPP では BRICS が G7 を上回る——BRICS が引き継いだということか？
+          de: Bei Kaufkraftparität schlagen die BRICS die G7 — haben die BRICS die G7 abgelöst?
+        answer:
+          en: >
+            No — it depends on the measure. On PPP the BRICS (about $70tn) come out ahead of the G7 (about $59tn), but at market exchange rates the G7 still leads ($51.5tn against $28.7tn). The BRICS are a club of five with no common agenda; the G7 is seven countries whose currency and debt markets set the price of everything. The two groups also overlap, and China alone accounts for almost half of the BRICS total.
+          cn: >
+            不能这么说——看用哪把尺子。按 PPP，BRICS（约 70 万亿美元）确实压过 G7（约 59 万亿美元）；但按市场汇率，G7 仍然领先（51.5 万亿对 28.7 万亿）。BRICS 是五个没有共同议程的国家拼成的松散俱乐部；G7 则是七个国家，它们的货币和债券市场给全球一切资产定价。而且两组成员还有重叠，BRICS 的总量里光中国就占了将近一半。
+          es: >
+            No: depende de la medida. En PPA los BRICS (unos 70 billones) salen por delante del G7 (unos 59), pero a tipos de mercado el G7 sigue llevando la mano (51,5 frente a 28,7). Los BRICS son un club de cinco sin agenda común; el G7 son siete países cuyos mercados de moneda y deuda fijan el precio de todo. Ambos grupos se solapan además, y China sola aporta casi la mitad del total de los BRICS.
+          ja: >
+            そうではない——尺子による。PPP では BRICS（約 70 兆ドル）が G7（約 59 兆ドル）を上回るが、市場レートでは G7 がまだ主導（51.5 兆対 28.7 兆）。BRICS は共通の課題もない 5 か国の緩い集まりで、G7 は通貨・債券市場が世界の値札を決める 7 か国。両者はメンバーも重複しており、BRICS の総額には中国だけで半分近くを占める。
+          de: >
+            Nein — es messabhängig. Bei Kaufkraftparität liegen die BRICS (rund 70 Bio. $) vorn, bei Marktwechselkurs führt das G7 weiterhin (51,5 gegenüber 28,7 Bio. $). Die BRICS sind ein Club aus fünf Ländern ohne gemeinsame Agenda; das G7 sind sieben Staaten, deren Währungs- und Anleihemärkte alles bepreisen. Beide Gruppen überschneiden sich zudem, und China allein macht fast die Hälfte der BRICS aus.
+        confidence: 9
+        reference:
+          - docs/2-indicators/01-gdp/en.md
+          - docs/2-indicators/01-gdp/cn.md

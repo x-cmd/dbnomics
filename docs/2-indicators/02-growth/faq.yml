@@ -1,0 +1,120 @@
+id: x-dbnomics-2-indicators-02-growth
+
+data:
+  - name:
+      en: economic growth
+      cn: 经济增长
+      es: crecimiento económico
+      ja: 経済成長
+      de: Wirtschaftswachstum
+    qa:
+      - id: what-is-real-growth
+        question:
+          en: What does "real" growth mean, and why does it matter?
+          cn: “实际”增长是什么意思？为什么重要？
+          es: ¿Qué significa crecimiento "real" y por qué importa?
+          ja: 「実質」成長とはなぜ重要なのか？
+          de: Was bedeutet "reales" Wachstum und warum ist es wichtig?
+        answer:
+          en: >
+            Real growth is growth with inflation stripped out — it compares how much stuff got made, not how expensive it got. A country can show a fat nominal number simply because prices rose: 5% nominal growth with 4% inflation is only about 1% more output. Real growth is the part that pays for more jobs and higher wages.
+          cn: >
+            实际增长是把通胀扣掉之后的增长——比的是“多生产了多少东西”，而不是“东西变贵了多少”。一个国家名义数字好看，可能只是因为涨价：名义增长 5%、通胀 4%，实际多生产出来的只有约 1%。能换来更多工作、更高工资的，是实际增长这一块。
+          es: >
+            El crecimiento real es el crecimiento sin inflación: compara cuánto se produjo más, no cuánto subió el precio. Un país puede mostrar una cifra nominal grande solo porque los precios subieron: 5% nominal con 4% de inflación son solo un 1% más de producción. El crecimiento real es la parte que paga más empleos y salarios más altos.
+          ja: >
+            実質成長は物価上昇を差し引いた成長——「有多少产出增加」と比較し、「有多少涨价」ではない。国が好看な名目数字を示しても、涨价だけで説明できることがある。名目 5%・通胀 4% なら、実際の産出増加は 1% 程度に限られる。雇用と賃金を支えるのは実質成長のほう。
+          de: >
+            Reales Wachstum ist Wachstum ohne Inflation — es vergleicht, wie viel mehr hergestellt wurde, nicht, wie viel teurer es wurde. Ein Land kann eine stattliche nominale Zahl zeigen, weil die Preise stiegen: 5% nominal bei 4% Inflation sind nur rund 1% mehr Output. Das reale Wachstum ist der Teil, der mehr Jobs und höhere Löhne bezahlt.
+        confidence: 10
+        reference:
+          - docs/2-indicators/02-growth/en.md
+          - docs/2-indicators/02-growth/cn.md
+      - id: why-poor-countries-grow-faster
+        question:
+          en: Why do poorer countries tend to grow faster?
+          cn: 为什么穷国增长通常更快？
+          es: ¿Por qué los países pobres tienden a crecer más rápido?
+          ja: なぜ貧しい国ほど成長が速いのか？
+          de: Warum wachsen ärmere Länder tendenziell schneller?
+        answer:
+          en: >
+            Because they have more catching up to do. A country with low productivity can copy techniques that already exist elsewhere and close the gap without inventing anything new. That is why India runs near 6.5% while the G7 sits on a 1–2% plateau — the rich economies are not failing, they are already near the frontier that technology allows.
+          cn: >
+            因为它们要追赶的东西更多。生产率低的国家可以直接借用别处已有的技术，把差距追平，而不必自己从零发明。所以印度能跑 6.5% 左右，而 G7 卡在 1–2% 的平台上——富国并不是不行，而是已经接近技术允许的前沿了。
+          es: >
+            Porque tienen más camino por recorrer. Un país con baja productividad puede copiar técnicas que ya existen en otros sitios y cerrar la brecha sin inventar nada nuevo. Por eso India corre cerca del 6,5% mientras el G7 se queda en la meseta del 1–2%: las economías ricas no fracasan, ya están cerca de la frontera que permite la tecnología.
+          ja: >
+            追いつくべき余地が大きいから。生産性の低い国は、他所にすでにある技術をそのまま使えば、新しい技術を発明しなくても差距を縮められる。だからインドは 6.5% 前後で走れる一方、G7 は 1–2% の台地に留まる。
+          de: >
+            Weil sie mehr aufzuholen haben. Ein Land mit niedriger Produktivität kann Techniken übernehmen, die es anderswo schon gibt, und die Lücke schließen, ohne etwas Neues zu erfinden. Deshalb läuft Indien mit rund 6,5%, während die G7 auf dem 1–2%-Plateau stehen: Die reichen Volkswirtschaften scheitern nicht, sie liegen bereits nahe an der technisch möglichen Grenze.
+        confidence: 9
+        reference:
+          - docs/2-indicators/02-growth/en.md
+          - docs/2-indicators/02-growth/cn.md
+      - id: what-is-a-base-effect
+        question:
+          en: Why does the rebound after 2009 and 2020 look so big?
+          cn: 为什么 2009 年和 2020 年之后的反弹看起来特别猛？
+          es: ¿Por qué el rebote posterior a 2009 y 2020 parece tan fuerte?
+          ja: 2009 年と 2020 年の後の反発がなぜ強く見えるのか？
+          de: Warum sieht der Rebound nach 2009 und 2020 so groß aus?
+        answer:
+          en: >
+            Partly a base effect: the year before the bounce was a collapsed one, so a decent year looks spectacular next to it. The euro area grew 6.21% in 2021 after −6.09% in 2020, and the world economy 6.57% after −2.69% — a lot of that is arithmetic, not a permanent acceleration. The 2009 dip was the financial crisis, the 2020 dip the lockdowns; both are shocks rather than slowdowns.
+          cn: >
+            一部分是基数效应：反弹前一年塌得很深，所以一个还不错的年份跟它一比就显得格外耀眼。欧元区 2021 年增长 6.21%，而 2020 年是 −6.09%；世界经济 2021 年 6.57%，前一年 −2.69%——这里面很大一部分是算术，不是经济真的加速了。2009 年的坑是金融危机，2020 年的坑是封控，两者都是冲击而不是放缓。
+          es: >
+            En parte es efecto base: el año anterior al rebote fue un año hundido, así que un año normal parece espectacular a su lado. La zona del euro creció un 6,21% en 2021 tras el −6,09% de 2020, y el mundo un 6,57% tras el −2,69%: buena parte de eso es aritmética, no una aceleración permanente. La caída de 2009 fue la crisis financiera y la de 2020, los confinamientos; ambas son golpes, no frenazos.
+          ja: >
+            一部は基数効果。反発の前の年彻底に落ち込んでいたため、その次の年は際立つ。ユーロ圏は 2020 年に −6.09%、2021 年に +6.21%、世界は −2.69% から +6.57% へ——その多くは算術であって、本格的な加速ではない。2009 年の底は金融危機、2020 年の底はロックダウン、いずれもショックであり減速ではない。
+          de: >
+            Teilweise ein Basiseffekt: Das Jahr vor dem Rebound war ein eingebrochenes, ein ordentliches Jahr sieht daneben spektakulär aus. Die Eurozone wuchs 2021 um 6,21% nach −6,09% im Jahr 2020, die Welt um 6,57% nach −2,69% — viel davon ist Arithmetik, keine dauerhafte Beschleunigung. Der Einbruch 2009 war die Finanzkrise, der 2020 die Lockdowns; beides sind Schocks, keine Verlangsamung.
+        confidence: 9
+        reference:
+          - docs/2-indicators/02-growth/en.md
+          - docs/2-indicators/02-growth/cn.md
+      - id: is-chinas-slowdown-a-crisis
+        question:
+          en: China has slowed from double digits to about 5% — is that a crisis?
+          cn: 中国从两位数增速掉到 5% 左右，这是危机吗？
+          es: "China ha pasado de dos dígitos a alrededor del 5%: ¿es una crisis?"
+          ja: 中国は 2 桁成長から 5% 前後へ——危機なのか？
+          de: China ist von zweistelligen Raten auf rund 5% gefallen — ist das eine Krise?
+        answer:
+          en: >
+            No, it is a normal stage change. China's growth ran above 10% for much of 2003–2010 and has stepped down roughly 0.3 points a year since, landing at 4.48% in 2025. When a country is already a third of the world economy, the same absolute amount of new output is a much smaller percentage. Rich countries growing 1–2% are not doing better — they are simply further along.
+          cn: >
+            不是，这是一个正常的阶段变化。2003–2010 年中国大部分时间增速在 10% 以上，此后每年大约下降 0.3 个百分点，2025 年落到 4.48%。当一个国家已经是世界经济的三分之一时，同样绝对量的新增产出，换算成百分比就小得多。富国只增长 1–2% 并不是做得更好，只是走得更远了。
+          es: >
+            No, es un cambio de etapa normal. El crecimiento chino superó el 10% buena parte de 2003–2010 y desde entonces ha bajado alrededor de 0,3 puntos por año, hasta el 4,48% de 2025. Cuando un país ya es un tercio de la economía mundial, la misma cantidad absoluta de producción nueva es un porcentaje mucho menor. Que las economías ricas crezcan al 1–2% no significa que lo hagan mejor: simplemente van por delante en el camino.
+          ja: >
+            いや、正常な段階的変化である。中国の成長率は 2003–2010 年の大部分で 10% を超え、その後は年 0.3 ポイント前後ずつ落ち、2025 年には 4.48% となった。国がすでに世界経済の 3 分の 1 になると、同じ絶対量の産出増加でも割合ははるかに小さくなる。1–2% 成長の先進国が做得更好 ではなく，只是先に進んでいるだけ。
+          de: >
+            Nein, das ist ein normaler Stufenwechsel. Chinas Wachstum lag 2003–2010 überwiegend über 10% und ist seither um etwa 0,3 Punkte pro Jahr gesunken, auf 4,48% im Jahr 2025. Wenn ein Land bereits ein Drittel der Weltwirtschaft ist, ist dieselbe absolute Menge neuer Produktion ein viel kleinerer Prozentsatz. Dass reiche Länder mit 1–2% wachsen, ist nicht besser — sie sind einfach weiter gekommen.
+        confidence: 9
+        reference:
+          - docs/2-indicators/02-growth/en.md
+          - docs/2-indicators/02-growth/cn.md
+      - id: g7-eu-vs-world
+        question:
+          en: Why does the world average grow faster than the G7 or the EU?
+          cn: 为什么世界平均增速比 G7 或欧盟还快？
+          es: ¿Por qué el mundo crece más rápido que el G7 o la UE?
+          ja: なぜ世界平均は G7 や EU より速く成長するのか？
+          de: Warum wächst die Welt schneller als die G7 oder die EU?
+        answer:
+          en: >
+            Because the world average is pulled up by the emerging economies growing at 5–8%, while the rich countries are stuck on a 1–2% plateau. In 2025 the world grew 3.25% against 1.68% for the G7 and 1.59% for the EU. The rich-country lines are not falling apart — they are already big, and the same percentage growth on a large base adds fewer workers than it used to.
+          cn: >
+            因为世界平均是被新兴经济体拉上去的：它们增速 5–8%，而富国卡在 1–2% 的平台上。2025 年世界增长 3.25%，G7 是 1.68%，欧盟是 1.59%。富国这条线不是崩了，而是基数已经很大，同样的百分比增速带来的新增就业比过去少。
+          es: >
+            Porque el promedio mundial está tirado hacia arriba por las economías emergentes, que crecen al 5–8%, mientras las ricas siguen en la meseta del 1–2%. En 2025 el mundo creció un 3,25% frente al 1,68% del G7 y el 1,59% de la UE. Las líneas de las economías ricas no se están desmoronando: ya son grandes, y el mismo porcentaje sobre una base grande suma menos trabajadores que antes.
+          ja: >
+            世界平均は新興国に引き上げられているため。新興国は 5–8% で成長する一方、先進国は 1–2% の台地に留まる。2025 年は世界が 3.25%、G7 が 1.68%、EU が 1.59%。先進国の線が崩れているのではなく、規模が大きくなり、同じ成長率でも増える雇用が減る。
+          de: >
+            Weil der weltweite Durchschnitt von den Schwellenländern nach oben gezogen wird: Sie wachsen mit 5–8%, während die reichen Länder auf dem 1–2%-Plateau stehen. 2025 wuchs die Welt um 3,25%, die G7 um 1,68%, die EU um 1,59%. Die Linien der reichen Länder zerfallen nicht — sie sind bereits groß, und derselbe Prozentsatz auf großer Basis bringt weniger Arbeitsplätze als früher.
+        confidence: 9
+        reference:
+          - docs/2-indicators/02-growth/en.md
+          - docs/2-indicators/02-growth/cn.md

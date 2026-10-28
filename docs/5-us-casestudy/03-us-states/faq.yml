@@ -1,0 +1,124 @@
+id: x-dbnomics-5-us-casestudy-03-us-states
+
+data:
+  - name:
+      en: US states
+      cn: 美国各州
+      es: los estados de EE. UU.
+      ja: アメリカの州
+      de: die US-Bundesstaaten
+    qa:
+      - id: is-gdp-per-capita-a-good-proxy-for-living-standards
+        question:
+          en: Is GDP per capita a fair measure of how well people live?
+          cn: 人均 GDP 能公平地衡量生活水平吗？
+          es: ¿El PIB per cápita mide bien cómo viven las personas?
+          ja: 一人当たり GDP は生活水準を正しく示すか？
+          de: Ist das BIP pro Kopf ein gutes Maß dafür, wie gut die Menschen leben?
+        answer:
+          en: >
+            It is a proxy, not a verdict, and it has a well-known flaw: it measures output, not what reaches people. New York at $116.9k and Mississippi at $53.8k is a factor of 2.2 — but the gap in what a worker actually earns is much wider, because GDP counts what companies produce, not what households keep. Delaware at $105.5k is fourth in the chart largely because of corporate registrations and pharmaceutical shells rather than local output. Treat the ranking as "how much happens to be produced here per head", not "how rich the residents are".
+          cn: >
+            它是个参考指标，不是判决书，而且有个众所周知的毛病：它衡量的是产出，不是落到人们手里的东西。纽约 11.69 万美元对密西西比 5.38 万美元，差 2.2 倍——但工人实际拿到手的收入差距要大得多，因为 GDP 算的是企业生产了什么，不是家庭留下了什么。特拉华排到第四（10.55 万美元），很大程度上靠的是公司注册和制药空壳公司，而不是本地产出。所以这张排名表请读作「这里每人头上产生多少产出」，而不是「这里居民有多富」。
+          es: >
+            Es un indicador indirecto, no un veredicto, y tiene un defecto conocido: mide la producción, no lo que llega a la gente. Nueva York con 116,9 mil $ y Misisipi con 53,8 mil $ es un factor 2,2 — pero la brecha en lo que un trabajador gana de verdad es mucho mayor, porque el PIB cuenta lo que producen las empresas, no lo que se quedan los hogares. Delaware, con 105,5 mil $ y cuarto puesto, se debe sobre todo a los registros de sociedades y a sociedades pantalla farmacéuticas, no a producción local. Lee el ranking como "cuánto se produce aquí por cabeza", no como "cuán ricos son los residentes".
+          ja: >
+            代理指標であって判決ではなく、よく知られた穴がある——測るのは産出ではなく人々に届く分だ。ニューヨーク 11.69 万ドルとミシシッピ 5.38 万ドルで 2.2 倍だが、勤め手の実際の収入差はもっと広い。GDP は企業が何を作ったかを数えるのであって、家計がいくら取り残したかではない。デラウェアが 4 位の 10.55 万ドルなのは、主に会社の登録と製薬の外殻会社によるもので、地元の産出ではない。順位は「ここ 1 人あたりの産出」と読むべきで、「住民の豊かさ」と読むべきではない。
+          de: >
+            Es ein Näherungswert, kein Urteil, und er hat einen bekannten Schönheitsfehler: Er misst die Produktion, nicht das, was bei den Menschen ankommt. New York mit 116,9 Tsd. USD und Mississippi mit 53,8 Tsd. USD ist Faktor 2,2 — die Lücke beim tatsächlich verdienten Lohn ist aber weit größer, weil das BIP zählt, was Unternehmen produzieren, nicht was Haushalte behalten. Delaware mit 105,5 Tsd. USD auf Rang vier verdankt das vor allem Unternehmensregister und Pharma-Hüllgesellschaften, nicht lokaler Produktion. Lesen Sie die Rangliste als „wie viel pro Kopf hier produziert wird", nicht als „wie reich sind die Einwohner".
+        confidence: 9
+        reference:
+          - docs/5-us-casestudy/03-us-states/en.md
+          - docs/5-us-casestudy/03-us-states/cn.md
+
+      - id: why-is-dc-excluded
+        question:
+          en: Why is Washington DC missing from the first chart?
+          cn: 为什么第一张图里没有华盛顿特区？
+          es: ¿Por qué falta Washington DC en el primer gráfico?
+          ja: 1 つ目のグラフにワシントン DC がないのはなぜ？
+          de: Warum fehlt Washington DC in der ersten Grafik?
+        answer:
+          en: >
+            Because its per-capita GDP would not mean what it means for a state. DC's number is federal payroll landing in a tiny territory — the paychecks of people who work for the US government and live in a very small area. That would push it to the top of the chart for a reason that says nothing about local production. The other two charts use the OECD's real GDP per capita and population series, where DC is not a problem, so the omission is confined to the first chart.
+          cn: >
+            因为它的人均 GDP 含义和州不一样。DC 的数字是联邦工资单落在一小块地盘上——为美国政府工作、但住在一片很小区域里的人拿到的薪水。这会让它因为一个跟本地产出毫无关系的理由冲到榜首。后两张图用的是 OECD 的实际人均 GDP 和人口序列，DC 在那里不成问题，所以剔除只限于第一张图。
+          es: >
+            Porque su PIB per cápita no significaría lo mismo que el de un estado. La cifra de DC es una nómina federal que aterriza en un territorio diminuto —las nóminas de quien trabaja para el gobierno de EE. UU. y vive en una superficie muy pequeña—. Eso la colocaría en lo más alto del gráfico por un motivo que no dice nada de la producción local. Los otros dos gráficos usan las series de PIB real per cápita y población de la OCDE, donde DC no estorba, así que la omisión se limita al primer gráfico.
+          ja: >
+            一人当たり GDP の意味が州の場合と違うからである。DC の数字は、連邦の給与がごく小さな領土に落ちたもの——米国政府に働き、小さな地域に住む人たちの給料だ。そのためDCは地元の産出とは無関係な理由でグラフの頂点飞来する。残る 2 つのグラフは OECD の実質一人当たり GDP と人口の系列を使っており、DC はそこで問題にならないので、除外は 1 つ目のグラフに限られる。
+          de: >
+            Weil sein BIP pro Kopf nicht dasselbe bedeuten würde wie bei einem Staat. Washingtons Zahl ist Bundesgehalt, der auf einem winzigen Gebiet landet — die Gehälter derer, die für die US-Regierung arbeiten und in einem sehr kleinen Gebiet wohnen. Das würde DC aus einem Grund ganz nach oben auf die Grafik setzen, der über die lokale Produktion nichts sagt. Die beiden anderen Grafiken verwenden die Reihen zu realem BIP pro Kopf und Bevölkerung der OECD, in denen DC kein Problem ist — die Auslassung gilt also nur für die erste Grafik.
+        confidence: 9
+        reference:
+          - docs/5-us-casestudy/03-us-states/en.md
+          - docs/5-us-casestudy/03-us-states/cn.md
+
+      - id: why-did-convergence-fail
+        question:
+          en: Richer states should grow slower and catch up — why did nothing change in 24 years?
+          cn: 穷州应该追上来，24 年为什么什么都没变？
+          es: 'Los estados pobres deberían alcanzar a los ricos: ¿por qué no cambió nada en 24 años?'
+          ja: 貧しい州は追いつくはずなのに、24 年間何も変わらなかったのはなぜ？
+          de: Ärmere Staaten sollten aufholen — warum hat sich in 24 Jahren nichts geändert?
+        answer:
+          en: >
+            Because in the US the fast growers were not the poor ones. In real terms Mississippi grew 1.2% a year over 2000–24 against New York's 1.8%, so the gap widened rather than narrowed. The leaders were North Dakota (3.1% a year, shale oil), Nebraska, Montana and Utah; the losers were Michigan (0.5%, cars), Delaware (0.4%, pharma) and Connecticut and New Jersey — mid-rich states that lost their industry. So the gap is not a floor effect that fades with time; it is a race that keeps being re-run, with the leaders changing.
+          cn: >
+            因为美国增长快的不是穷州。按实际口径，2000–24 年密西西比每年增长 1.2%，纽约是 1.8%，差距反而拉大。领先的是北达科他州（实际每年 3.1%，页岩油）、内布拉斯加、蒙大拿和犹他；掉队的是密歇根（0.5%，汽车）、特拉华（0.4%，制药）以及康涅狄格和新泽西——那些失去支柱产业的中等富裕州。所以这个差距不是一个会随时间淡去的「地板效应」，而是一场不断重跑的赛跑，而且领跑者还会换人。
+          es: >
+            Porque en EE. UU. los que crecían rápido no eran los pobres. En términos reales Misisipi creció un 1,2% al año entre 2000 y 2024 frente al 1,8% de Nueva York, así que la distancia se amplió en vez de reducirse. Los líderes fueron Dakota del Norte (3,1% al año, petróleo de esquisto), Nebraska, Montana y Utah; los perdedores, Míchigan (0,5%, coches), Delaware (0,4%, farmacéutica) y Connecticut y Nueva Jersey — estados de riqueza media que perdieron su industria. Así que la brecha no es un efecto suelo que se desvanece con el tiempo: es una carrera que se vuelve a correr, y en la que cambia el líder.
+          ja: >
+            米国では成長が速かったのが貧しい州ではなかったからである。実質で 2000–24 年、ミシシッピは年 1.2%、ニューヨークは年 1.8% で、差は狭まらず広がった。先行したのは北ダコタ（実質年 3.1%、シェール原油）、ネブラスカ、モントナ、ユタで、負け組はミシガン（0.5%、自動車）、デラウェア（0.4%、製薬）、コネティカットとニュージャージー——産業を失った中堅の州である。つまりこの格差は時間とともに薄まる「下限効果」ではなく、勝ち手が入れ替わりながら毎回やり直されるレースである。
+          de: >
+            Weil in den USA die schnellen Wachsler nicht die Armen waren. Real wuchs Mississippi zwischen 2000 und 2024 um 1,2% pro Jahr gegenüber 1,8% für New York — die Lücke hat sich also verbreitert statt zu schrumpfen. Vorn lagen North Dakota (3,1% pro Jahr, Schieferöl), Nebraska, Montana und Utah; die Verlierer waren Michigan (0,5%, Autos), Delaware (0,4%, Pharma) sowie Connecticut und New Jersey — mittelreiche Staaten, die ihre Industrie verloren haben. Die Lücke ist also kein Bodeneffekt, der mit der Zeit verschwindet, sondern ein Rennen, das immer wieder neu ausgetragen wird und dessen Führende wechseln.
+        confidence: 9
+        reference:
+          - docs/5-us-casestudy/03-us-states/en.md
+          - docs/5-us-casestudy/03-us-states/cn.md
+
+      - id: which-states-are-winning
+        question:
+          en: Which states are winning, and where did the people go?
+          cn: 哪些州在赢？人都去哪了？
+          es: ¿Qué estados están ganando y adónde fue la gente?
+          ja: 勝っている州はどれか、人はどこへ移ったか？
+          de: Welche Staaten gewinnen, und wohin sind die Menschen gegangen?
+        answer:
+          en: >
+            The third chart is the migration ledger, and it points at the same states. Since 2000 Nevada gained 62% of its 2000 population, Utah 56%, Idaho 54%, Texas 49% (+10.3m people) and Florida 46% (+7.3m). Only West Virginia actually shrank, by 2%. Note the mismatch worth knowing about: the population winners and the growth winners overlap only partly — Nevada gained people fast (62%) but its real GDP per capita grew only 0.93% a year, while Texas grew 1.56% and Utah 1.95%. Fast population growth is not the same thing as fast prosperity.
+          cn: >
+            第三张图是人口流动账，指向的正是这些州。2000 年以来，内华达增加了相当于 2000 年人口 62% 的人，犹他 56%、爱达荷 54%、得州 49%（+1030 万人）、佛罗里达 46%（+730 万人）。只有西弗吉尼亚真的缩了，缩了 2%。有个值得注意的错位：人口赢家与增长赢家只部分重合——内华达人口涨得飞快（62%），但实际人均 GDP 每年只增长 0.93%；而得州是 1.56%、犹他是 1.95%。人口涨得快不等于日子过得好得快。
+          es: >
+            El tercer gráfico es el registro de las migraciones, y señala a esos mismos estados. Desde 2000 Nevada ganó un 62% de su población de 2000, Utah un 56%, Idaho un 54%, Texas un 49% (+10,3 millones de personas) y Florida un 46% (+7,3 millones). Solo Virgina Occidental decreció realmente, un 2%. Conviene notar un desajuste: los ganadores en población y los ganadores en crecimiento se solapan solo en parte — Nevada ganó gente muy rápido (62%) pero su PIB real per cápita solo creció un 0,93% al año, mientras Texas creció un 1,56% y Utah un 1,95%. Crecer en población no es lo mismo que crecer en prosperidad.
+          ja: >
+            3 つ目のグラフは人口移動の帳簿であり、同じ州を指している。2000 年以来、ネバダは 2000 年人口の 62% 増、ユタ 56%、アイダホ 54%、テキサス 49%（+1,030 万人）、フロリダ 46%（+730 万人）。実際に減ったのはウェストヴァージニアだけで、−2% だった。留意すべきズレがある——人口の勝者と成長の勝者は一部しか重ならない。ネバダは人口が 62% と速やかに増えたが、実質一人当たり GDP の成長は年 0.93% にすぎず、テキサス 1.56%、ユタ 1.95% だった。人口が速く増えることと、豊かさが速く増えることは同じではない。
+          de: >
+            Die dritte Grafik ist das Wanderungsbilanz, und sie zeigt auf dieselben Staaten. Seit 2000 gewann Nevada 62% seiner Bevölkerung von 2000, Utah 56%, Idaho 54%, Texas 49% (+10,3 Mio. Menschen) und Florida 46% (+7,3 Mio.). Nur West Virginia schrumpfte tatsächlich, um 2%. Beachten Sie eine Fehlanpassung: Die Gewinner bei der Bevölkerung und die Gewinner beim Wachstum überschneiden sich nur teilweise — Nevada gewann sehr schnell Leute (62%), sein reales BIP pro Kopf wuchs aber nur um 0,93% pro Jahr, während Texas 1,56% und Utah 1,95% erreichten. Schnelles Bevölkerungswachstum ist nicht dasselbe wie schnell wachsender Wohlstand.
+        confidence: 9
+        reference:
+          - docs/5-us-casestudy/03-us-states/en.md
+          - docs/5-us-casestudy/03-us-states/cn.md
+
+      - id: why-no-sovereign-crisis
+        question:
+          en: Why doesn't a poor state ever suffer a debt crisis like Greece?
+          cn: 为什么穷州不会像希腊那样爆发债务危机？
+          es: ¿Por qué un estado pobre nunca sufre una crisis de deuda como Grecia?
+          ja: 貧しい州はギリシャのような債務危機を起こさないのはなぜか？
+          de: Warum erlebt ein armer Bundesstaat nie eine Schuldenkrise wie Griechenland?
+        answer:
+          en: >
+            Three things tie the fifty state economies into one risk pool. Federal transfers: Washington funds the states and buffers a bad year. The Fed: one monetary policy and one currency for the whole country, so a state cannot outrun the cycle on its own. And Chapter 11: bankruptcy law applies inside the US, so a failing state or its companies restructure in court instead of defaulting on foreign debt. The level gaps stay — Mississippi is still last — but they never turn into the sovereign crises Europe gets.
+          cn: >
+            三样东西把五十个州的经济绑进同一个风险池。联邦转移支付：华盛顿给各州发钱，一个坏年份被缓冲掉。美联储：全境一套货币政策、一种货币，所以一个州不可能自己跑赢周期。还有第 11 章破产法：破产法在美国境内适用，所以出问题的州或企业是在法院里重组，而不是对外国债务违约。水平差距依然存在——密西西比仍然垫底——但它们从不变成欧洲那种主权危机。
+          es: >
+            Tres cosas atan las cincuenta economías estatales en un mismo conjunto de riesgo. Las transferencias federales: Washington financia a los estados y amortigua un mal año. La Fed: una política monetaria y una moneda para todo el país, así que un estado no puede salirse del ciclo por su cuenta. Y el Capítulo 11: la ley de quiebra aplica dentro de EE. UU., así que un estado en dificultades o sus empresas se reestructuran en un tribunal en lugar de incumplir deuda extranjera. Las diferencias de nivel se mantienen —Misisipi sigue al final— pero nunca se convierten en las crisis soberanas que ve Europa.
+          ja: >
+            50 州の経済をひとつのリスクプールに縛りつけるものが 3 つある。連邦の歳出——ワシントンが州に資金を配分し、悪い年を吸収する。Fed——全米共通の金融政策と共通の通貨なので、州が独自でサイクルから抜け出すことはできない。そして第 11 章——破産法は米国内で機能するから、破綻しそうな州やその中の企業は、対外債務の不払いではなく法廷で再編する。水準の格差は残る（ミシシッピはまだ最下位）が、ヨーロッパのような主権危機に化けることはない。
+          de: >
+            Drei Dinge binden die fünfzig Staatswirtschaften in einen gemeinsamen Risikopool. Bundestransfers: Washington finanziert die Staaten und fängt ein schlechtes Jahr ab. Die Fed: eine Geldpolitik und eine Währung für das ganze Land, sodass ein Staat dem Zyklus nicht eigenmächtig entkommen kann. Und Chapter 11: Das Insolvenzrecht gilt innerhalb der USA, sodass ein notleidender Staat oder seine Unternehmen sich vor Gericht neu aufstellen, statt an Auslandsschulden zu defaulten. Die Niveauunterschiede bleiben — Mississippi steht weiterhin hinten — aber sie werden nie zu den Staatskrisen, die Europa erlebt.
+        confidence: 9
+        reference:
+          - docs/5-us-casestudy/03-us-states/en.md
+          - docs/5-us-casestudy/03-us-states/cn.md

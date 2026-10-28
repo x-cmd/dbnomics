@@ -1,0 +1,124 @@
+id: x-dbnomics-3-macro-economics-05-laffer-curve
+
+data:
+  - name:
+      en: Laffer curve
+      cn: 拉弗曲线
+      es: curva de Laffer
+      ja: ラッファー曲線
+      de: Laffer-Kurve
+    qa:
+      - id: what-is-the-laffer-curve
+        question:
+          en: What is the Laffer curve?
+          cn: 拉弗曲线是什么？
+          es: ¿Qué es la curva de Laffer?
+          ja: ラッファー曲線とは？
+          de: Was ist die Laffer-Kurve?
+        answer:
+          en: >
+            A shape, not a number: a mountain whose peak is the tax rate where government revenue is highest. Raise taxes below the peak and revenue rises; raise them above it and revenue falls, because people stop earning extra, hide income or move away. The argument behind it is that tax cuts can pay for themselves.
+          cn: >
+            它是一个形状，不是一个数字：一座山，山顶就是财政收入最多的那个税率。在山顶之前加税，收入增加；过了山顶再加税，收入反而下降，因为人们不再多挣钱、藏起收入或者搬走。它背后的论点是：减税可以自己养活自己。
+          es: >
+            Es una forma, no una cifra: una montaña cuya cima es el tipo impositivo donde los ingresos públicos son máximos. Subir impuestos por debajo de la cima aumenta los ingresos; por encima, los reduce, porque la gente deja de generar más ingresos, los oculta o se marcha. El argumento detrás es que las rebajas fiscales se pagan solas.
+          ja: >
+            数値ではなく形である。頂点が政府収入を最大にする税率の山。頂点より低い税率なら税率を上げると収入は増え、頂点を越えると逆に減る——人々は追加の収入を稼がなくなる、隠す、流出するから。背後にある主張は「減税は自らを賄える」というもの。
+          de: >
+            Eine Form, keine Zahl: ein Berg, dessen Gipfel der Steuersatz mit den höchsten Einnahmen ist. Unterhalb des Gipfels steigen die Einnahmen mit dem Steuersatz; oberhalb fallen sie, weil Leute aufhören, mehr zu verdienen, Einkommen verstecken oder wegziehen. Das Argument dahinter: Steuersenkungen zahlen sich selbst.
+        confidence: 10
+        reference:
+          - docs/3-macro-economics/05-laffer-curve/en.md
+          - docs/3-macro-economics/05-laffer-curve/cn.md
+
+      - id: why-the-chart-uses-revenue-share-not-tax-rates
+        question:
+          en: Why does this chart use government revenue instead of tax rates?
+          cn: 为什么这张图用的是政府收入份额，而不是税率？
+          es: ¿Por qué este gráfico usa los ingresos del gobierno y no los tipos impositivos?
+          ja: なぜこのグラフは税率ではなく政府収入を使うのか？
+          de: Warum nutzt diese Grafik Staatseinnahmen statt Steuersätze?
+        answer:
+          en: >
+            Because public databases mostly carry revenue shares (the result) rather than tax rates (the knob the Laffer curve turns). So this chart plots what is actually comparable across 15 G20 economies — government revenue as a share of GDP against average real growth over 2000–25 — and it is a proxy, not the Laffer curve itself.
+          cn: >
+            因为公共数据库里大多只有财政收入份额（结果），而没有税率（拉弗曲线要拧的那个旋钮）。所以这张图画的是 15 个 G20 经济体真正可比的东西：政府收入占 GDP 的份额，对上 2000–25 年的平均实际增长。它是一个替代指标，不是拉弗曲线本身。
+          es: >
+            Porque las bases de datos públicas llevan sobre todo cuotas de ingresos (el resultado) y no los tipos impositivos (la palanca que gira la curva de Laffer). Así, este gráfico traza lo que sí es comparable entre 15 economías del G20: los ingresos del gobierno como porcentaje del PIB frente al crecimiento real promedio 2000–25. Es un sustituto, no la curva de Laffer misma.
+          ja: >
+            公開データベースが持つのは主に収入比率（結果）で、税率（ラッファー曲線が回すノブ）ではないから。したがってこのグラフは G20 の 15 経済体で実際に比較できるもの——政府収入の GDP 比と 2000–25 年の平均実質成長——をプロットしている。ラッファー曲線そのものではなく、代替指標である。
+          de: >
+            Weil öffentliche Datenbanken vor allem Einnahmeanteile (das Ergebnis) führen und keine Steuersätze (der Stellhebel, an dem die Laffer-Kurve dreht). Dieser Graph trägt daher das, was sich über 15 G20-Volkswirtschaften wirklich vergleichen lässt: Staatseinnahmen als Anteil am BIP gegen das reale Durchschnittswachstum 2000–25. Ein Ersatzmaß, nicht die Laffer-Kurve selbst.
+        confidence: 9
+        reference:
+          - docs/3-macro-economics/05-laffer-curve/en.md
+          - docs/3-macro-economics/05-laffer-curve/cn.md
+
+      - id: is-there-a-mountain-in-the-data
+        question:
+          en: Is there really no mountain in the data? What does that mean?
+          cn: 数据里真的没有山吗？这说明什么？
+          es: ¿De verdad no hay montaña en los datos? ¿Qué significa eso?
+          ja: データには本当に山がないのか。それはどういう意味か。
+          de: Gibt es in den Daten wirklich keinen Berg? Was heißt das?
+        answer:
+          en: >
+            Right, there is none. From Saudi Arabia's roughly 20% revenue share to France's roughly 45%, low-tax Saudi Arabia and Mexico and high-tax France and Germany all sit in the same growth band. Growth is driven by institutions, skills and the cycle, and those effects dwarf the revenue share. The curve may still exist at extreme rates — real economies just don't live at the extremes.
+          cn: >
+            确实没有。从沙特阿拉伯约 20% 的收入份额到法国约 45%，低税的沙特阿拉伯和墨西哥，与高税的法国和德国，全都落在同一个增长区间里。增长是由制度、技能和周期驱动的，这些因素的分量远远压过财政收入份额。这条曲线也许在极端税率下依然存在——只是真实经济体不生活在极端上。
+          es: >
+            Correcto, no hay ninguna. Desde la cuota de ingresos de Arabia Saudí (~20%) hasta la de Francia (~45%), Arabia Saudí y México con impuestos bajos, y Francia y Alemania con impuestos altos, están todos en la misma banda de crecimiento. El crecimiento lo determinan las instituciones, las capacidades y el ciclo, y esos efectos eclipsan la cuota de ingresos. La curva puede existir a tipos extremos; las economías reales simplemente no viven en los extremos.
+          ja: >
+            実際、ない。サウジアラビアの約 20% からフランスの約 45% まで、低税率のサウジアラビアとメキシコ、高税率のフランスとドイツがすべて同じ成長の帯に入っている。成長を決めるのは制度・スキル・サイクルで、その力は収入比率の差のはるかに上回っている。曲線は極端な税率では存在するかもしれないが、現実の経済は極端なところには住まない。
+          de: >
+            Richtig, es gibt keinen. Von Saudi-Arabiens Einnahmeanteil von rund 20% bis zu Frankreichs rund 45% liegen das steuerarme Saudi-Arabien und Mexiko sowie das steuerstarke Frankreich und Deutschland alle im selben Wachstumsband. Getrieben wird das Wachstum von Institutionen, Fähigkeiten und dem Zyklus, und diese Effekte überragen den Einnahmeanteil deutlich. Die Kurve mag bei extremen Sätzen existieren — reale Volkswirtschaften leben einfach nicht an den Extremen.
+        confidence: 9
+        reference:
+          - docs/3-macro-economics/05-laffer-curve/en.md
+          - docs/3-macro-economics/05-laffer-curve/cn.md
+
+      - id: do-tax-cuts-pay-for-themselves
+        question:
+          en: So do tax cuts pay for themselves or not?
+          cn: 那减税到底能不能自己养活自己？
+          es: Entonces, ¿las rebajas fiscales se pagan solas o no?
+          ja: では減税は自らを賄えるのか、賄えないのか。
+          de: Zahlen sich Steuersenkungen nun selbst oder nicht?
+        answer:
+          en: >
+            The chart cannot settle that, and it does not pretend to. It only shows that across the whole range of revenue shares any real economy uses, there is no visible link between how much the government takes and how fast the economy grows. A tax cut may raise revenue by spurring activity, or it may not — but the growth rate of the country is set by far bigger things than the tax knob.
+          cn: >
+            这张图没法给出答案，它也没假装能。它只说明：在真实经济体用到的全部财政收入份额区间里，政府收多少与经济长多快之间看不到明显联系。减税可能通过拉动活力增加收入，也可能不会——但一个国家的增长率，是由比税率大得多的东西决定的。
+          es: >
+            El gráfico no puede resolver eso, y no finge hacerlo. Solo muestra que, en todo el rango de cuotas de ingresos que usa una economía real, no hay un vínculo visible entre cuánto recauda el gobierno y cómo de rápido crece la economía. Una rebaja fiscal puede aumentar los ingresos estimulando la actividad, o puede que no — pero el crecimiento de un país lo marcan cosas mucho mayores que el mando de los impuestos.
+          ja: >
+            このグラフではその問いには答えられないし、答えようともしていない。示しているのは、本物の経済が使う収入比率の全域で、政府が取る財政の規模と経済成長の速さの間に目に見える関係がないことだけ。減税が活力を喚起して収入を増やすのかもしれないし、そうでないかもしれない——だが国の成長率を決めるのは、税率というノブよりはるかに大きな要素である。
+          de: >
+            Der Graph kann das nicht entscheiden und tut auch nicht so, als könnte er es. Er zeigt nur: Über die gesamte Bandbreite der Einnahmeanteile, die eine reale Wirtschaft nutzt, gibt es keinen sichtbaren Zusammenhang zwischen dem, was der Staat einnimmt, und der Geschwindigkeit des Wachstums. Eine Steuersenkung kann die Einnahmen über Aktivität erhöhen oder auch nicht — das Wachstumstempo eines Landes hängt aber an weit größeren Dingen als am Steuerhebel.
+        confidence: 8
+        reference:
+          - docs/3-macro-economics/05-laffer-curve/en.md
+          - docs/3-macro-economics/05-laffer-curve/cn.md
+
+      - id: why-do-china-and-india-look-different
+        question:
+          en: Why do China and India sit so much higher than France and Italy?
+          cn: 为什么中国和印度的点比法国、意大利高那么多？
+          es: ¿Por qué China e India están tan por encima de Francia e Italia?
+          ja: なぜ中国とインドはフランスやイタリアよりずっと上にあるのか。
+          de: Warum liegen China und Indien so viel höher als Frankreich und Italien?
+        answer:
+          en: >
+            Because catching up is a growth engine of its own. China averaged about 8% real growth over 2000–25 and India about 6%, while France and Italy averaged roughly 1% or less — economies already at the frontier grow at the speed of productivity and demographics, not at the speed of a tax change. The chart is about the absence of a Laffer shape, not about ranking countries.
+          cn: >
+            因为追赶本身就是一台增长引擎。2000–25 年，中国实际增长平均约 8%，印度约 6%；而法国和意大利平均只有 1% 左右甚至更低——已经站在前沿的经济体，增长速度取决于生产率和人口结构，而不是一次税率调整。这张图讲的是拉弗形状缺席，不是给国家排座次。
+          es: >
+            Porque alcanzar a los demás es un motor de crecimiento en sí mismo. China promedió cerca del 8% de crecimiento real entre 2000 y 25, e India cerca del 6%, mientras Francia e Italia promediaron alrededor del 1% o menos: las economías que ya están en la frontera crecen al ritmo de la productividad y la demografía, no al ritmo de un cambio impositivo. El gráfico trata de la ausencia de una forma de Laffer, no de ordenar países.
+          ja: >
+            追いつくこと自体が成長のエンジンだから。2000–25 年で、中国の平均実質成長は約 8%、インドは約 6%、一方フランスとイタリアは 1% 程度かそれ以下——すでに先端にいる経済は、税率の変更ではなく生産性と人口動態の速度で成長する。このグラフはラッファー型が存在しないことを示すもので、国家の順位づけではない。
+          de: >
+            Weil das Aufholen selbst ein Wachstumsmotor ist. China wuchs zwischen 2000 und 25 im Schnitt um rund 8% real, Indien um rund 6%, während Frankreich und Italien bei etwa 1% oder weniger lagen: Ökonomien an der Grenze wachsen mit dem Tempo von Produktivität und Demografie, nicht mit dem Tempo einer Steueränderung. Der Graph handelt vom Fehlen einer Laffer-Form, nicht von einer Rangliste der Länder.
+        confidence: 8
+        reference:
+          - docs/3-macro-economics/05-laffer-curve/en.md
+          - docs/3-macro-economics/05-laffer-curve/cn.md

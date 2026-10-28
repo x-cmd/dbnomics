@@ -1,0 +1,124 @@
+id: x-dbnomics-2-indicators-06-external-balance
+
+data:
+  - name:
+      en: the current account
+      cn: 经常账户
+      es: la cuenta corriente
+      ja: 経常収支
+      de: die Leistungsbilanz
+    qa:
+      - id: what-is-current-account
+        question:
+          en: What is the current account?
+          cn: 经常账户是什么？
+          es: ¿Qué es la cuenta corriente?
+          ja: 経常収支とは？
+          de: Was ist die Leistungsbilanz?
+        answer:
+          en: >
+            What a country sells to the rest of the world minus what it buys from it, plus the income and transfers it earns abroad, as a share of GDP. A surplus means the country is a net lender to the world; a deficit means it is a net borrower.
+          cn: >
+            一个国家卖给世界其他部分的东西减去买来的东西，再加上在国外挣到的收入和收到的转移支付——以占 GDP 的份额表示。顺差意味着它是世界的净贷款方，逆差意味着它是净借款方。
+          es: >
+            Lo que un país vende al resto del mundo menos lo que le compra, más los ingresos y las transferencias ganados en el extranjero, como parte del PIB. Un superávit significa que el país es prestamista neto del mundo; un déficit, que es deudor neto.
+          ja: >
+            その国が世界に対して売るものから買うものを差し引き、さらに海外で得た所得と转移支払いを足し、GDP 比で表したもの。黒字なら世界への純貸し出し者、赤字なら純借り入れ側。
+          de: >
+            Was ein Land an den Rest der Welt verkauft minus dem, was es von dort kauft, plus die im Ausland erzielten Einkommen und Transfers — als Anteil am BIP. Ein Überschuss heißt: das Land leiht der Welt netto Geld; ein Defizit: es nimmt netto Geld auf.
+        confidence: 10
+        reference:
+          - docs/2-indicators/06-external-balance/en.md
+          - docs/2-indicators/06-external-balance/cn.md
+
+      - id: is-surplus-good-deficit-bad
+        question:
+          en: Is a surplus good and a deficit bad?
+          cn: 顺差是好事，逆差是坏事吗？
+          es: ¿Es el superávit bueno y el déficit malo?
+          ja: 黒字はよく、赤字は悪いのか？
+          de: Ist ein Überschuss gut und ein Defizit schlecht?
+        answer:
+          en: >
+            Neither, on its own. Both are just the mirror of the gap between what a country saves and what it invests. A surplus says a country lends more than it borrows; a deficit says it borrows more than it lends. Neither one is a scorecard of competitiveness.
+          cn: >
+            单看都不是。它们只是「一国存的钱」与「一国投的钱」之间落差的镜子。顺差表示这个国家贷出去的比借进来的多，逆差表示借的比贷的多。两个都不是竞争力记分牌。
+          es: >
+            Ninguno de los dos, por sí solo. Ambos son solo el reflejo de la distancia entre lo que un país ahorra y lo que invierte. Un superávit dice que el país presta más de lo que pide prestado; un déficit, lo contrario. Ninguno es una tabla de posiciones de la competitividad.
+          ja: >
+            それ自体ではどちらも谈不上。どちらも「その国の貯蓄と投資の差」の鏡像にすぎない。黒字は借りより貸すほうが多いこと、赤字はその逆 뜻する。どちらも競争力のスコアボードではない。
+          de: >
+            Weder das eine noch das andere, für sich genommen. Beides ist nur das Spiegelbild der Lücke zwischen dem, was ein Land spart, und dem, was es investiert. Ein Überschuss heißt: es leiht mehr aus, als es aufnimmt; ein Defizit umgekehrt. Keines von beidem ist eine Rangliste der Wettbewerbsfähigkeit.
+        confidence: 10
+        reference:
+          - docs/2-indicators/06-external-balance/en.md
+          - docs/2-indicators/06-external-balance/cn.md
+
+      - id: how-can-us-run-a-deficit-indefinitely
+        question:
+          en: How can the US run a deficit and finance it indefinitely?
+          cn: 美国为什么能一直维持逆差还融得到钱？
+          es: ¿Cómo puede EE. UU. mantener un déficit y financiarlo indefinidamente?
+          ja: アメリカはなぜ赤字を抱え続け면서融資できるのか？
+          de: Wie kann die USA dauerhaft ein Defizit finanzieren?
+        answer:
+          en: >
+            Because it borrows in its own currency. The US runs a deficit of about 3% of GDP (‑3.1% in 2025 on the chart) and the world is willing to hold dollar-denominated debt, so it never runs out of room. Other countries need foreign currency to do the same, and that is what runs out.
+          cn: >
+            因为它是以本币借款。美国逆差约 GDP 的 3%（图上 2025 年是 ‑3.1%），而世界愿意持有美元计价的债务，所以它永远不缺余地。别的国家要这么干得先有外币，那才是会耗尽的东西。
+          es: >
+            Porque pide prestado en su propia moneda. EE. UU. arrastra un déficit de alrededor del 3% del PIB (‑3,1% en 2025 en el gráfico) y el mundo está dispuesto a holderse deuda en dólares, así que nunca se queda sin margen. Otros países necesitan divisas para hacer lo mismo, y eso es lo que se agota.
+          ja: >
+            自国通貨で借りられるから。アメリカの赤字は GDP の約 3%（図の 2025 年は ‑3.1%）で、世界はドル建ての債務を持ってくれるので、余地が尽きない。他国には外貨が要り、枯れるのはそちら。
+          de: >
+            Weil sie in der eigenen Währung aufnimmt. Die USA fahren ein Defizit von rund 3% des BIP (‑3,1% im Diagramm für 2025), und die Welt ist bereit, auf Dollar lautende Schulden zu halten — so geht ihnen nie der Spielraum aus. Andere Länder bräuchten dafür Devisen, und genau die gehen aus.
+        confidence: 9
+        reference:
+          - docs/2-indicators/06-external-balance/en.md
+          - docs/2-indicators/06-external-balance/cn.md
+
+      - id: why-germany-surplus-is-a-problem
+        question:
+          en: Why is Germany's big surplus a problem for the euro area?
+          cn: 德国的大额顺差为什么是欧元区的麻烦？
+          es: ¿Por qué el gran superávit de Alemania es un problema para la zona euro?
+          ja: ドイツの黒字はなぜユーロ圏の問題なのか？
+          de: Warum ist Deutschlands großer Überschuss ein Problem für die Eurozone?
+        answer:
+          en: >
+            Because a surplus is money leaving one corner of the euro area and pooling in another. Germany's 6.4% surplus in 2025 means the money keeps concentrating there instead of spreading around the bloc, which is a friction point for the single currency.
+          cn: >
+            因为顺差意味着钱从欧元区的一个角落流到另一个角落。德国 2025 年 6.4% 的顺差意味着钱不断往那儿堆，而不是在欧元区内部转起来——这对单一货币来说是个摩擦点。
+          es: >
+            Porque un superávit es dinero que sale de una esquina de la zona euro y se acumula en otra. El superávit de Alemania del 6,4% en 2025 significa que el dinero se sigue concentrando allí en vez de circular por el bloque, lo que es un punto de fricción para la moneda única.
+          ja: >
+            黒字とは、ユーロ圏の一隅から出て他の一隅に溜まる金のことだから。ドイツの 2025 年 6.4% の黒字は、金が圏内で回るのではなく一か所に集まり続けることを意味し、単一通貨にとって摩擦点になる。
+          de: >
+            Weil ein Überschuss Geld aus einer Ecke der Eurozone in eine andere bedeutet. Deutschlands Überschuss von 6,4% im Jahr 2025 heißt: Das Geld sammelt sich weiter dort an, statt im Block zu zirkulieren — für die Einheitswährung ein Reibungspunkt.
+        confidence: 9
+        reference:
+          - docs/2-indicators/06-external-balance/en.md
+          - docs/2-indicators/06-external-balance/cn.md
+
+      - id: what-do-the-colors-mean
+        question:
+          en: What do the red bars mean on the chart?
+          cn: 图上的红色柱子代表什么？
+          es: ¿Qué significan las barras rojas del gráfico?
+          ja: 図の赤い棒は何を表すのか？
+          de: Was bedeuten die roten Balken im Diagramm?
+        answer:
+          en: >
+            Red marks the deficit side. On the 2025 chart two economies are in deficit: the US at ‑3.1% of GDP and Saudi Arabia at ‑1.8%. All the others are in surplus, from China at 1.6% up to Switzerland at 7.6%.
+          cn: >
+            红色标的是逆差这一边。2025 年图上有两个经济体处于逆差：美国 ‑3.1% GDP，沙特 ‑1.8%。其余都是顺差，从中国的 1.6% 到瑞士的 7.6%。
+          es: >
+            El rojo marca el lado del déficit. En el gráfico de 2025 hay dos economías en déficit: EE. UU. con ‑3,1% del PIB y Arabia Saudí con ‑1,8%. Todas las demás están en superávit, desde China con el 1,6% hasta Suiza con el 7,6%.
+          ja: >
+            赤い棒が赤字側を示す。2025 年の図で赤字なのは 2 つ——アメリカ（GDP 比 ‑3.1%）とサウジアラビア（‑1.8%）。ほかはすべて黒字で、中国の 1.6% からスイスの 7.6% まで。
+          de: >
+            Rot markiert die Defizitseite. Im Diagramm für 2025 sind zwei Volkswirtschaften im Defizit: die USA mit ‑3,1% des BIP und Saudi-Arabien mit ‑1,8%. Alle übrigen haben einen Überschuss, von China mit 1,6% bis zur Schweiz mit 7,6%.
+        confidence: 10
+        reference:
+          - docs/2-indicators/06-external-balance/en.md
+          - docs/2-indicators/06-external-balance/cn.md

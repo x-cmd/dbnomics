@@ -1,0 +1,119 @@
+id: x-dbnomics-3-macro-economics-03-wagners-law
+data:
+  - name:
+      en: Wagner's law
+      cn: 瓦格纳法则
+      es: ley de Wagner
+      ja: ワーグナーの法則
+      de: Wagners Gesetz
+    qa:
+      - id: does-wagners-law-still-hold
+        question:
+          en: Does Wagner's law still hold?
+          cn: 瓦格纳法则现在还成立吗？
+          es: ¿La ley de Wagner sigue cumpliéndose?
+          ja: ワーグナーの法則は今も成り立つか？
+          de: Gilt Wagners Gesetz noch?
+        answer:
+          en: >
+            Yes, and China is the textbook case: per-capita GDP went from $951 in 2000 to $12,969 in 2024 while the government revenue share doubled from 13.4% to 26.4%. Urbanisation, social insurance and infrastructure all swelled together with incomes. The law says richer people ask for more public services, and the government ends up taking a bigger slice of the economy.
+          cn: >
+            成立，而且中国是教科书案例：人均 GDP 从 2000 年的 951 美元涨到 2024 年的 12,969 美元，政府收入份额却从 13.4% 翻倍到 26.4%。城镇化、社会保障和基础设施都随着收入一起膨胀。这条法则是说：人越有钱就越想要更多公共服务，于是政府从经济里切走的份额也越来越大。
+          es: >
+            Sí, y China es el caso de manual: el PIB per cápita pasó de 951 dólares en 2000 a 12.969 en 2024, mientras la cuota de ingresos del Gobierno se duplicaba del 13,4% al 26,4%. Urbanización, seguridad social e infraestructura creciendo a la vez con las rentas. La ley dice que los más ricos piden más servicios públicos, y el Gobierno termina quedándose con una porción mayor de la economía.
+          ja: >
+            成り立ち、中国が教科書の例になっている。人当たり GDP は 2000 年の 951 ドルから 2024 年の 12,969 ドルへ、政府収入の比率は 13.4% から 26.4% へ倍増した。都市化、社会保障、インフラが所得と一緒に膨らんだ。この法則は「豊かになるほど公的サービスを多く求めるので、政府が経済から取る割合も大きくなる」という意味である。
+          de: >
+            Ja, und China ist der Lehrbuchfall: Das BIP pro Kopf stieg von 951 Dollar (2000) auf 12.969 (2024), während der Anteil der Staatseinnahmen am BIP sich von 13,4% auf 26,4% verdoppelte. Urbanisierung, Sozialversicherung und Infrastruktur wuchsen gemeinsam mit den Einkommen. Das Gesetz besagt: Wer reicher wird, verlangt mehr öffentliche Leistungen, und so nimmt der Staat einen größeren Teil der Wirtschaft.
+        confidence: 9
+        reference:
+          - docs/3-macro-economics/03-wagners-law/en.md
+          - docs/3-macro-economics/03-wagners-law/cn.md
+      - id: why-is-the-us-line-vertical
+        question:
+          en: Why is the US line nearly vertical?
+          cn: 为什么美国那条线几乎是垂直的？
+          es: ¿Por qué la línea de EE. UU. es casi vertical?
+          ja: なぜ米国のラインはほぼ垂直なのか？
+          de: Warum ist die US-Linie fast senkrecht?
+        answer:
+          en: >
+            Because the US is already far along the curve. Its per-capita GDP rose from about $37,101 in 2000 to $89,678 in 2024 - more than a doubling - yet the revenue share stayed flat around 30%, moving only between 28.2% and 32.4%. A country that is already rich keeps its government at roughly the same size: that is the second half of Wagner's story, government size converging in rich economies.
+          cn: >
+            因为美国已经在这条曲线的很后面了。它的人均 GDP 从 2000 年的约 37,101 美元涨到 2024 年的 89,678 美元，翻了一倍还多，可收入份额一直平在 30% 上下，只在 28.2% 到 32.4% 之间动。一个已经很富的国家，政府规模保持大致不变——这就是瓦格纳故事的后半段：富裕经济体里政府规模趋于收敛。
+          es: >
+            Porque EE. UU. ya va muy adelantado en la curva. Su PIB per cápita subió de unos 37.101 dólares en 2000 a 89.678 en 2024 - más que duplicándose - y sin embargo la cuota se mantuvo plana alrededor del 30%, moviéndose solo entre el 28,2% y el 32,4%. Un país ya rico mantiene su Gobierno más o menos igual: esa es la segunda mitad de la ley de Wagner, la convergencia del tamaño del Estado en las economías ricas.
+          ja: >
+            米国はすでにこの曲線のかなり後方にあるためである。人当たり GDP は 2000 年の 37,101 ドルから 2024 年の 89,678 ドルへ 2 倍以上伸びたのに、政府収入の比率は 30% 前後で平坦のまま、28.2% から 32.4% の間でしか動いていない。すでに豊かな国は政府の規模をほぼ一定に保つ。これがワーグナーの法則の後半、富裕経済で政府規模が収束する部分である。
+          de: >
+            Weil die USA auf dieser Kurve schon weit vorn sind. Ihr BIP pro Kopf stieg von rund 37.101 Dollar (2000) auf 89.678 (2024) - mehr als eine Verdopplung -, doch der Anteil blieb flach um 30% und bewegte sich nur zwischen 28,2% und 32,4%. Ein bereits reiches Land hält seinen Staat ungefähr gleich groß: das ist die zweite Hälfte von Wagners Gesetz, die Konvergenz der Staatsgröße in reichen Volkswirtschaften.
+        confidence: 9
+        reference:
+          - docs/3-macro-economics/03-wagners-law/en.md
+          - docs/3-macro-economics/03-wagners-law/cn.md
+      - id: why-is-the-euro-area-at-46-percent
+        question:
+          en: Why is the euro area's revenue share 46%?
+          cn: 为什么欧元区的收入份额是 46%？
+          es: ¿Por qué la cuota de ingresos de la zona euro es del 46%?
+          ja: ユーロ圏の政府収入比率はなぜ 46% なのか？
+          de: Warum beträgt der Einnahmenanteil der Eurozone 46%?
+        answer:
+          en: >
+            It is the largest of the three and it has been stable for decades - the top plateau of the curve. Long-established welfare states collect a high and remarkably steady share of GDP, so on this chart the euro area sits well above the US and China without moving. Note that this is revenue, not spending: the euro area also carries the heaviest tax burden in this group.
+          cn: >
+            这是三者中最高的，而且几十年来一直稳定——就是曲线顶部的那块平台。建成多年的福利国家长期征收一个很高而且异常稳定的 GDP 份额，所以在这张图上欧元区稳稳地高在美国和中国之上、基本不动。还要注意这是收入而不是支出：欧元区在这一组里的税收负担也最重。
+          es: >
+            Es la mayor de las tres y lleva décadas estable: la meseta superior de la curva. Los estados del bienestar consolidados recaudan una parte alta del PIB con una estabilidad notable, así que en el gráfico la zona euro se sitúa muy por encima de EE. UU. y China sin moverse. Ojo: es ingreso, no gasto; la zona euro carga con la mayor presión fiscal del grupo.
+          ja: >
+            三者の中で最も高く、数十年安定している。曲線の上部の台地がこれである。成熟した福祉国家は GDP の高位かつ異常に安定した割合を徴収し続けるため、この図ではユーロ圏は動かずに米国や中国を大きく上回る。注意すべきは、政府支出ではなく収入だということ。ユーロ圏はこのグループの中で租税負担も最も重い。
+          de: >
+            Der höchste der drei und seit Jahrzehnten stabil - das obere Plateau der Kurve. Etablierte Wohlfahrtsstaaten erheben einen hohen und bemerkenswert stabilen Anteil am BIP, weshalb die Eurozone im Diagramm deutlich über den USA und China liegt, ohne sich zu bewegen. Beachten Sie: das ist Einnahme, nicht Ausgabe; die Eurozone trägt in dieser Gruppe auch die schwerste Steuerlast.
+        confidence: 8
+        reference:
+          - docs/3-macro-economics/03-wagners-law/en.md
+          - docs/3-macro-economics/03-wagners-law/cn.md
+      - id: does-26-percent-revenue-mean-26-percent-spending
+        question:
+          en: Does a 26% revenue share mean the government spends 26% of GDP?
+          cn: 26% 的收入份额，是不是意味着政府花掉了 GDP 的 26%？
+          es: ¿Una cuota de ingresos del 26% significa que el Gobierno gasta el 26% del PIB?
+          ja: 収入比率 26% とは、政府が GDP の 26% を使うことを意味するか？
+          de: Heißt ein Einnahmenanteil von 26%, dass der Staat auch 26% des BIP ausgibt?
+        answer:
+          en: >
+            No. The chart measures government revenue - the money that flows in - not what the government spends. Revenue and spending differ by the deficit: a government can collect 26% of GDP and spend more than that, which is how a deficit appears. The page also uses government revenue deliberately, because revenue is what ties directly to the size of the state in Wagner's argument.
+          cn: >
+            不是。这张图量的是政府收入——流进来的钱——而不是政府花掉的钱。收入和支出的差额就是赤字：政府可以收 GDP 的 26% 而花得更多，赤字就是这么来的。本页坚持用收入口径，是因为在瓦格纳的论证里，收入才是直接对应国家规模的指标。
+          es: >
+            No. El gráfico mide los ingresos del Gobierno - el dinero que entra - no lo que el Gobierno gasta. Ingresos y gasto difieren en el déficit: un Gobierno puede cobrar el 26% del PIB y gastar más, y así aparece el déficit. La página usa ingresos a propósito, porque en el argumento de Wagner son los ingresos los que se ligan directamente al tamaño del Estado.
+          ja: >
+            違う。この図が測るのは政府収入（入ってくるお金）であって、政府の支出ではない。収入と支出の差が赤字であり、政府は GDP の 26% を集めてそれ以上を使うこともある。本ページが収入口径を採るのは、ワーグナーの議論では国家規模に直接結びつくのが収入だからである。
+          de: >
+            Nein. Das Diagramm misst die Staatseinnahmen - das Geld, das hereinkommt - nicht das, was der Staat ausgibt. Einnahmen und Ausgaben unterscheiden sich um das Defizit: Ein Staat kann 26% des BIP einnehmen und mehr ausgeben, so entsteht das Defizit. Die Seite verwendet bewusst Einnahmen, weil in Wagners Argument genau sie mit der Größe des Staates zusammenhängen.
+        confidence: 8
+        reference:
+          - docs/3-macro-economics/03-wagners-law/en.md
+          - docs/3-macro-economics/03-wagners-law/cn.md
+      - id: does-a-bigger-government-mean-a-better-one
+        question:
+          en: Does a bigger government mean a better one?
+          cn: 政府更大是不是就更好？
+          es: ¿Un Gobierno más grande es un Gobierno mejor?
+          ja: 政府が大きいほどいいのか？
+          de: Ist ein größerer Staat ein besserer Staat?
+        answer:
+          en: >
+            No. Wagner's law is a description, not a recommendation: it says government size tends to grow with income, not that it should. Whether a larger public sector is good or bad depends on what it buys - and the answer differs by country. The chart also cannot tell you that a bigger share caused faster growth; the euro area has the largest revenue share of the three, and China the fastest growth, so the two plainly do not line up.
+          cn: >
+            不能。瓦格纳法则是一种描述，不是建议：它说的是政府规模往往随收入一起变大，而不是说它应该变大。政府做大是好是坏，取决于它买来了什么——而这个答案因国而异。这张图也无法说明更大的份额带来了更快的增长：欧元区的收入份额最大，中国的增长最快，两者明显对不上。
+          es: >
+            No. La ley de Wagner es una descripción, no una recomendación: dice que el tamaño del Estado tiende a crecer con la renta, no que deba crecer. Que un sector público mayor sea bueno o malo depende de lo que compre, y la respuesta varía según el país. El gráfico tampoco puede decir que una cuota mayor causó más crecimiento: la zona euro tiene la mayor cuota de ingresos de las tres y China el crecimiento más rápido, así que las dos cosas no encajan.
+          ja: >
+            できない。ワーグナーの法則は説明であって推奨ではない。政府の規模は所得とともに大きくなる傾向を示すのであり、そうあるべきだと言っているのではない。大きな公共部門がよいかはどれだけ買い物をするかで、答えは国ごとに違う。この図から「比率が高いほど成長が速かった」とは言えない。ユーロ圏の収入比率は三者で最大、中国の成長は最速で、両者は単純には対応していない。
+          de: >
+            Nein. Wagners Gesetz ist eine Beschreibung, keine Empfehlung: Es sagt, dass die Staatsgröße mit dem Einkommen wächst, nicht dass sie wachsen sollte. Ob ein größerer öffentlicher Sektor gut oder schlecht ist, hängt davon ab, was er einkauft - und die Antwort unterscheidet sich von Land zu Land. Aus dem Diagramm lässt sich auch nicht ablesen, dass ein größerer Anteil schnelleres Wachstum verursacht habe: Die Eurozone hat den größten Einnahmenanteil, China das schnellste Wachstum; beides passt schlicht nicht zusammen.
+        confidence: 8
+        reference:
+          - docs/3-macro-economics/03-wagners-law/en.md
+          - docs/3-macro-economics/03-wagners-law/cn.md

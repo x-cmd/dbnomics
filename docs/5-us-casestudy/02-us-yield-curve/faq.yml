@@ -1,0 +1,124 @@
+id: x-dbnomics-5-us-casestudy-02-us-yield-curve
+
+data:
+  - name:
+      en: the US yield curve
+      cn: 美国收益率曲线
+      es: la curva de tipos de EE. UU.
+      ja: 美国的イールドカーブ
+      de: die US-Zinskurve
+    qa:
+      - id: what-is-an-inversion
+        question:
+          en: What does it mean when the curve inverts?
+          cn: 收益率曲线「倒挂」是什么意思？
+          es: ¿Qué significa que la curva se invierta?
+          ja: イールドカーブが「逆張り」になるというのはどういうこと？
+          de: Was bedeutet es, wenn die Kurve invertiert?
+        answer:
+          en: >
+            It means short-term rates sit above long-term rates: the 3-month Treasury yield is higher than the 10-year yield. That is an unusual arrangement — normally you get paid more for locking money up for ten years — and it says traders expect the central bank to cut soon. The chart measures it as the 10-year minus the 3-month spread; a negative number (the red bars) means inversion. In 2023 the spread was −1.42 percentage points, the deepest in the series.
+          cn: >
+            意思是短端利率高于长端：3 个月期美债收益率比 10 年期还高。这是个反常的排列——通常你把钱锁十年应该拿更多利息——它说明交易员预期央行很快会降息。图上用「10 年期减 3 个月」的利差来衡量，负数（红色柱子）就是倒挂。2023 年利差是 −1.42 个百分点，是全系列最深的一次。
+          es: >
+            Significa que los tipos cortos están por encima de los largos: la letra del Tesoro a 3 meses rinde más que la de 10 años. Es una disposición inusual —normalmente te pagan más por bloquear el dinero diez años— y dice que los operadores esperan que el banco central baje tipos pronto. El gráfico lo mide como el diferencial a 10 años menos el de 3 meses; un número negativo (las barras rojas) significa inversión. En 2023 el diferencial fue de −1,42 puntos porcentuales, el más profundo de la serie.
+          ja: >
+            短期金利が長期金利を上回ること——3 か月国債利回りが 10 年国債より高い状態。通常の契約では 10 年固定にするほうが利回りが高いので、これは異常な並びで、トレーダーが中央銀行の利下げを近いと期待しているしるしだ。グラフは「10 年物マイナス 3 か月物」の利差で示しており、マイナス（赤い棒）が逆張りを意味する。2023 年の利差は −1.42 パーセントポイントで、系列内で最も深い逆張りだった。
+          de: >
+            Es bedeutet, dass die Kurzfristen über den Langfristen liegen: Die 3-Monats-Rendite liegt über der 10-Jahres-Rendite. Das ist eine ungewöhnliche Anordnung — normalerweise zahlt man mehr, wenn man das Geld zehn Jahre festlegt — und sie sagt, dass Händler mit einer baldigen Zinssenkung rechnen. Die Grafik misst das als Abstand zwischen 10-Jahres- und 3-Monats-Rendite; ein negativer Wert (die roten Balken) bedeutet Inversion. 2023 lag der Abstand bei −1,42 Prozentpunkten, dem tiefsten der Reihe.
+        confidence: 10
+        reference:
+          - docs/5-us-casestudy/02-us-yield-curve/en.md
+          - docs/5-us-casestudy/02-us-yield-curve/cn.md
+
+      - id: why-no-recession-this-time
+        question:
+          en: The curve inverted in 2023–24 but no recession came. Is the signal broken?
+          cn: 2023–24 年倒挂了却没来衰退，这个信号是不是失灵了？
+          es: La curva se invirtió en 2023–24 pero no vino ninguna recesión. ¿Se rompió la señal?
+          ja: 2023–24 年に逆張りになったのに不況は来なかった。シグナルは壊れたのか？
+          de: Die Kurve invertierte 2023–24, aber es kam keine Rezession. Ist das Signal kaputt?
+        answer:
+          en: >
+            The page's answer is that the predictor is not broken, the clock just ran slower. Two things are usually missed: the lead time between inversion and recession is 6–24 months, so the 2023–24 inversion was still inside its window, and this time AI capital spending kept growth alive. Fiscal policy — the structural deficit that never goes away — plus AI investment slowed the countdown rather than stopping it.
+          cn: >
+            这一页的判断是：预测器没坏，只是时钟走慢了。通常被忽略的有两件事——倒挂到衰退的领先时间是 6–24 个月，所以 2023–24 年的倒挂还在它的窗口期内；而这一次人工智能的资本开支让增长撑住了。财政政策（那个挥之不去的结构性赤字）加上 AI 投资，把倒计时拨慢了，而不是让它停下。
+          es: >
+            La respuesta de la página es que el predictor no está roto: el reloj simplemente corrió más lento. Se pasan por alto dos cosas: el desfase entre la inversión y la recession es de 6–24 meses, así que la inversión de 2023–24 seguía dentro de su ventana, y esta vez el gasto de capital en IA mantuvo vivo el crecimiento. La política fiscal —el déficit estructural que no se va nunca— más la inversión en IA frenaron la cuenta atrás en lugar de detenerla.
+          ja: >
+            このページの判断は、予知計が壊れたのではなく時計が遅く流れただけだというものである。見落とされがちなのが 2 つある。逆張りと不況との先行時間は 6–24 か月であり、2023–24 年の逆張りはまだその窓の中にあった；另外、今回は AI の設備投資が成長を維持した。財政政策（消えない構造的赤字）に AI 投資が加わり、カウントダウンを止めたのではなく遅らせただけだ。
+          de: >
+            Die Antwort der Seite: Der Indikator ist nicht kaputt, die Uhr ging nur langsamer. Zwei Dinge werden üblicherweise übersehen: Die Vorlaufzeit zwischen Inversion und Rezession beträgt 6–24 Monate, die Inversion von 2023–24 lag also noch innerhalb ihres Fensters, und diesmal hielt KI-Investitionsausgabe das Wachstum am Leben. Fiskalpolitik — das strukturelle Defizit, das nie verschwindet — plus KI-Investition verlangsamten den Countdown, statt ihn zu stoppen.
+        confidence: 9
+        reference:
+          - docs/5-us-casestudy/02-us-yield-curve/en.md
+          - docs/5-us-casestudy/02-us-yield-curve/cn.md
+
+      - id: which-inversions-matter
+        question:
+          en: Which of the inversions actually mattered?
+          cn: 几次倒挂里，哪几次真的预示了衰退？
+          es: ¿Qué inversiones anticiparon de verdad una recesión?
+          ja: 逆張りのうち、実際に不況を予知したのはどれ？
+          de: Welche Inversionen kündigten tatsächlich eine Rezession an?
+        answer:
+          en: >
+            Three since 1995, and each was followed by trouble: 2000 (the dot-com bust), 2006–07 (the financial crisis), and 2019 (before the pandemic). In the spread chart the red bars fall in 2000, 2006, 2022 and 2023, the two most recent being the deepest at −0.74 and −1.42 percentage points; 2024 sits at exactly 0.00 and 2025 at +0.46 as the curve re-steepened. Over 60 years every US recession was preceded by an inversion, with no false positives.
+          cn: >
+            1995 年以来三次，每一次后面都跟着麻烦：2000 年（互联网泡沫破裂）、2006–07 年（金融危机）、2019 年（疫情前）。在利差图上，红色柱子出现在 2000、2006、2022 和 2023 年，最近这两次最深，分别是 −0.74 和 −1.42 个百分点；2024 年正好是 0.00，2025 年是 +0.46，曲线重新变陡。60 年里美国的每一次衰退前都有倒挂，没有一次误报。
+          es: >
+            Tres desde 1995, y cada una vino seguida de problemas: 2000 (el estallido puntocom), 2006–07 (la crisis financiera) y 2019 (antes de la pandemia). En el gráfico del diferencial las barras rojas aparecen en 2000, 2006, 2022 y 2023, las dos últimas y más profundas, con −0,74 y −1,42 puntos porcentuales; 2024 queda en exactamente 0,00 y 2025 en +0,46, la curva vuelve a empinarse. En 60 años todas las recesiones de EE. UU. fueron precedidas por una inversión, sin falsos positivos.
+          ja: >
+            1995 年以降で 3 回あり、いずれも実際のあとに続いた。2000 年（ドットコムバブルの崩壊）、2006–07 年（金融危機）、2019 年（パンデミ前）だ。利差グラフの赤い棒は 2000、2006、2022、2023 年にあり、直近の 2 つが最も深く、それぞれ −0.74 と −1.42 パーセントポイントだった。2024 年はちょうど 0.00、2025 年は +0.46 で逆張りが解消された。60 年間、アメリカの不況はすべて逆張りに先導され、偽陽性例は一つもない。
+          de: >
+            Drei seit 1995, und jedes Mal folgten Probleme: 2000 (Dotcom-Crash), 2006–07 (die Finanzkrise) und 2019 (vor der Pandemie). Im Spread-Diagramm liegen die roten Balken in 2000, 2006, 2022 und 2023; die beiden jüngsten und tiefsten sind mit −0,74 und −1,42 Prozentpunkten die markantesten. 2024 liegt bei exakt 0,00 und 2025 bei +0,46, die Kurve steigt wieder. In 60 Jahren ging jeder US-Rezession eine Inversion voraus, ohne Fehlsignale.
+        confidence: 9
+        reference:
+          - docs/5-us-casestudy/02-us-yield-curve/en.md
+          - docs/5-us-casestudy/02-us-yield-curve/cn.md
+
+      - id: what-does-year-end-data-miss
+        question:
+          en: The chart only shows year-end snapshots. Does that hide anything?
+          cn: 图上只有年末时点，是不是漏掉了什么？
+          es: El gráfico solo muestra instantáneas de fin de año. ¿Se está ocultando algo?
+          ja: グラフは年末のスナップショットだけ。何かを見落としているのではないか？
+          de: Die Grafik zeigt nur Jahresendstände. Wird etwas verdeckt?
+        answer:
+          en: >
+            Yes, quite a lot. Every point is the last trading day of the year, so the chart cannot show an inversion that lasted only a few months and healed before December 31. The 2022–23 episode is the clearest case: on a year-end basis 2022 reads −0.74 and 2023 reads −1.42, but the curve was inverted for much of 2023 and into early 2024, and the red bars therefore mark the years the inversion touched rather than the whole episode. The same applies to the level chart: a rate that spiked in the middle of a year and fell back by December leaves only its year-end value behind.
+          cn: >
+            是的，漏掉不少。每一个点都是当年最后一个交易日，所以如果倒挂只持续了几个月、赶在 12 月 31 日前就修复了，图上根本看不到。2022–23 年那一轮就是最明显的例子：按年末口径 2022 年是 −0.74、2023 年是 −1.42，但曲线其实在 2023 年大半年和 2024 年初都是倒挂的，所以红柱标记的是「倒挂碰到的年份」，而不是整段过程。利率水平那张图同理：年中冲高、年底回落的利率，只留下年末那一个数。
+          es: >
+            Sí, bastante. Cada punto es el último día de negociación del año, así que la gráfica no puede mostrar una inversión que duró solo unos meses y se cerró antes del 31 de diciembre. El episodio de 2022–23 es el caso más claro: con corte de fin de año, 2022 aparece como −0,74 y 2023 como −1,42, pero la curva estuvo invertida buena parte de 2023 y hasta principios de 2024, de modo que las barras rojas marcan los años que la inversión tocó y no el episodio entero. Lo mismo vale para la gráfica de niveles: un tipo que se dispara a mitad de año y cae de nuevo en diciembre solo deja su valor de cierre.
+          ja: >
+            かなりある。各点はすべてその年の最後の営業日なので、数か月しか続かず 12 月 31 日前に解消した逆張りは図に出ない。2022–23 年の局面が典型的な例だ——年末ベースでは 2022 年が −0.74、2023 年が −1.42 と出るが、実際には 2023 年の長いあいだと 2024 年初めにも逆張りだった。つまり赤い棒は「逆張りが及んだ年」を示すのであって、局面全体ではない。金利水準のグラフも同様で、年の途中で上昇し年末には戻った金利は、年末の値しか残らない。
+          de: >
+            Ja,quiteviel. Jeder Punkt ist der letzte Handelstag des Jahres, die Grafik kann also eine Inversion nicht zeigen, die nur wenige Monate anhielt und sich vor dem 31. Dezember wieder auflöste. Das Geschehen von 2022–23 ist der deutlichste Fall: Auf Jahresendbasis liest man für 2022 −0,74 und für 2023 −1,42, die Kurve war aber einen großen Teil von 2023 und noch einmal Anfang 2024 invertiert. Die roten Balken markieren also die Jahre, die die Inversion berührte, nicht das ganze Geschehen. Für die Zinsniveaugrafik gilt dasselbe: Ein Zins, der zur Jahresmitte hochschnellte und bis Dezember zurückfiel, hinterlässt nur seinen Jahresendwert.
+        confidence: 8
+        reference:
+          - docs/5-us-casestudy/02-us-yield-curve/en.md
+          - docs/5-us-casestudy/02-us-yield-curve/cn.md
+
+      - id: what-does-it-mean-for-me
+        question:
+          en: What does an inversion mean for ordinary people — my mortgage, my savings, my job?
+          cn: 倒挂对普通人意味着什么？房贷、存款、工作会怎样？
+          es: '¿Qué significa una inversión para la gente normal: mi hipoteca, mis ahorros, mi trabajo?'
+          ja: 逆張りは一般人に何をもたらすか——住宅ローン、貯金、仕事に？
+          de: 'Was bedeutet eine Inversion für normale Leute: meine Hypothek, meine Ersparnisse, mein Job?'
+        answer:
+          en: >
+            The curve is a forecast, so it does not change your rent, but it changes what the forecast is likely to be. An inversion says the Fed is expected to cut, and lower policy rates feed through to mortgages, credit cards and deposit rates. On this page the 3-month bill sits at 3.68% at end-2025 while the 10-year is at 4.14% — a positive spread again, which is the market pricing a slow return to easier money rather than a recession. For your job, the useful reading is the historical pattern: the signal has been about employment and activity 6–24 months after the inversion, not on the day the red bar appears.
+          cn: >
+            收益率曲线是预测，所以它不会改变你的房租，但它会改变「预测会是什么」。倒挂意味着美联储大概要降息，而政策利率会传导到房贷、信用卡和存款利率。这一页上，2025 年末 3 个月期国库券是 3.68%，10 年期是 4.14%——利差已经转正，说明市场定价的是「缓慢回到宽松」而不是衰退。至于工作，最有用的读法是历史规律：这个信号指向的是倒挂后 6–24 个月的就业和经济活动，而不是红柱出现的那一天。
+          es: >
+            La curva es una previsión, así que no cambia tu alquiler, pero cambia lo que la previsión probablemente sea. Una inversión dice que se espera que la Fed baje tipos, y unos tipos oficiales más bajos se transmiten a hipotecas, tarjetas de crédito y depósitos. En esta página la letra a 3 meses está en 3,68% a finales de 2025 y la de 10 años en 4,14% — un diferencial de nuevo positivo, es decir el mercado está descontando un regreso lento a dinero más barato y no una recesión. Para tu trabajo, la lectura útil es el patrón histórico: la señal ha apuntado a empleo y actividad 6–24 meses después de la inversión, no el día que aparece la barra roja.
+          ja: >
+            イールドカーブは予測であって家賃を変えるものではないが、「予測の中身」を変える。逆張りは Fed の利下げが近いことを意味し、政策金利は住宅ローン・クレジットカード・預金金利に伝播する。このページでは 2025 年末に 3 か月国庫券 3.68%、10 年国債 4.14% で、利差は再びプラス——市場は不況ではなく「缓慢な緩和への回帰」を織り込んでいる。至于仕事だが、有用な読み方は歴史的なパターンで、このシグナルは赤棒が出た日ではなく、逆張りから 6–24 か月後の雇用と経済活動を示していた。
+          de: >
+            Die Kurve ist eine Prognose, sie ändert also nicht Ihre Miete — aber sie ändert, was die Prognose sein wird. Eine Inversion sagt, dass von der Fed Zinssenkungen erwartet werden, und niedrigere Leitzinsen schlagen auf Hypotheken, Kreditkarten und Einlagenzinsen durch. Auf dieser Seite liegt der 3-Monats-Bill zum Jahresende 2025 bei 3,68% und die 10-Jahres-Rendite bei 4,14% — der Abstand ist wieder positiv, das heißt der Markovt preist eine langsame Rückkehr zu lockerem Geld ein, keine Rezession. Für Ihren Job ist der nützliche Blick der historische Musterabgleich: Das Signal hat auf Beschäftigung und Aktivität 6–24 Monate nach der Inversion gezeigt, nicht auf den Tag, an dem der rote Balken erscheint.
+        confidence: 8
+        reference:
+          - docs/5-us-casestudy/02-us-yield-curve/en.md
+          - docs/5-us-casestudy/02-us-yield-curve/cn.md

@@ -1,0 +1,121 @@
+id: x-dbnomics-3-macro-economics-01-phillips-curve
+
+data:
+  - name:
+      en: Phillips curve
+      cn: 菲利普斯曲线
+      es: curva de Phillips
+      ja: フィlipps 曲線
+      de: Phillips-Kurve
+    qa:
+      - id: does-the-phillips-curve-still-work
+        question:
+          en: Does the Phillips curve still work?
+          cn: 菲利普斯曲线现在还成立吗？
+          es: ¿La curva de Phillips sigue funcionando?
+          ja: フィlipps 曲線は今も成り立つのか？
+          de: Funktioniert die Phillips-Kurve noch?
+        answer:
+          en: >
+            It still shows up, but it moves. Each line on this chart is one country's actual path from 2000 to 2025, not a fixed curve: the US swings through the pandemic pit, out to 8% inflation with unemployment still under 4%, then back to 3.0% inflation and 4.1% unemployment in 2024. So read it as a range that shifts, not as one straight line you slide along.
+          cn: >
+            还看得到，但它会移动。图上每条线是某国 2000—2025 年的实际轨迹，不是拟合出来的一条固定曲线：美国先掉进疫情坑，再冲到 8% 通胀而失业率仍在 4% 以下，然后 2024 年回到 3.0% 通胀和 4.1% 失业。所以它更像一个会移动的区间，而不是一条能沿着滑动的直线。
+          es: >
+            Todavía se ve, pero se mueve. Cada línea del gráfico es la trayectoria real de un país entre 2000 y 2025, no una curva fija: EE. UU. pasa por el pozo de la pandemia, sale al 8% de inflación con el desempleo aún por debajo del 4%, y en 2024 vuelve al 3,0% de inflación y al 4,1% de desempleo. Léela como un rango que se desplaza, no como una recta por la que uno se desliza.
+          ja: >
+            見方は残しているが、線は動く。この図の各ラインは 2000～2025 年の実際の経路であって、固定された曲線ではない。米国はパンデミックの底から、失業率がなお 4% を切っていたのにインフレ 8% の地点まで進み、2024 年にはインフレ 3.0%、失業率 4.1% に戻る。したがってラインに沿って滑る 1 本の直線より、位置が動く幅として読むべきものだ。
+          de: >
+            Sie taucht noch auf, verschiebt sich aber. Jede Linie ist der tatsächliche Pfad eines Landes von 2000 bis 2025, keine fest angepasste Kurve: Die USA durchlaufen das Pandemie-Loch, ziehen auf 8% Inflation bei einer Arbeitslosigkeit von noch unter 4% und landen 2024 wieder bei 3,0% Inflation und 4,1% Arbeitslosigkeit. Man liest sie also als einen Bereich, der sich verschiebt, nicht als eine Gerade, auf der man entlanggleitet.
+        confidence: 9
+        reference:
+          - docs/3-macro-economics/01-phillips-curve/en.md
+          - docs/3-macro-economics/01-phillips-curve/cn.md
+      - id: did-rate-hikes-kill-inflation-without-a-recession
+        question:
+          en: Did rate hikes really kill inflation without causing a recession?
+          cn: 加息真的在不引发衰退的情况下压住了通胀吗？
+          es: ¿Las subidas de tipos acabaron con la inflación sin provocar una recessión?
+          ja: 利上げは不況を起こすことなくインフレを抑えきったのか？
+          de: Haben die Zinserhöhungen die Inflation ohne Rezession besiegt?
+        answer:
+          en: >
+            On this chart, yes for the US: inflation came down from 8% in 2022 to 3.0% in 2024 while unemployment only rose from 3.6% to 4.1%, a very small cost in jobs. Other countries paid more: in the euro area unemployment was still falling as inflation hit 8.4%, and it had the harder problem because its inflation came from an energy supply shock rather than from too much demand.
+          cn: >
+            就美国这张图来说，是的：通胀从 2022 年的 8% 降到 2024 年的 3.0%，失业率只从 3.6% 升到 4.1%，就业代价很小。别的国家代价更高：欧元区在通胀冲到 8.4% 时失业率还在下降，而且欧元区的难题更棘手——它的通胀来自能源供给冲击，而不是需求太热。
+          es: >
+            Según este gráfico, sí para EE. UU.: la inflación bajó del 8% en 2022 al 3,0% en 2024 mientras el desempleo solo subía del 3,6% al 4,1%, un coste en empleo muy pequeño. Otros países pagaron más: en la zona euro el desempleo seguía bajando mientras la inflación llegaba al 8,4%, y allí el problema era más difícil porque la inflación venía de un shock de oferta de energía y no de exceso de demanda.
+          ja: >
+            この図を見る限り、米国ではそう。インフレは 2022 年の 8% から 2024 年の 3.0% へ落ち、失業率は 3.6% から 4.1% への上昇にとどまった。雇用への負荷は小さい。他国では負担が大きかった——ユーロ圏はインフレが 8.4% に達したうえ失業率はなお低下しており、しかも伸びの主因は需要過熱ではなくエネルギー供給のショックだった。
+          de: >
+            Laut diesem Diagramm ja für die USA: Die Inflation fiel von 8% (2022) auf 3,0% (2024), während die Arbeitslosigkeit nur von 3,6% auf 4,1% stieg — ein sehr kleiner Preis in Beschäftigung. Andere Länder zahlten mehr: In der Eurozone sank die Arbeitslosigkeit weiter, während die Inflation 8,4% erreichte; dort kam die Inflation aus einem Energieschock, nicht aus zu heißer Nachfrage.
+        confidence: 8
+        reference:
+          - docs/3-macro-economics/01-phillips-curve/en.md
+          - docs/3-macro-economics/01-phillips-curve/cn.md
+      - id: why-is-china-in-the-low-inflation-corner
+        question:
+          en: Why is China stuck in the low-inflation corner?
+          cn: 为什么中国待在低通胀那一角？
+          es: ¿Por qué China se queda en la esquina de baja inflación?
+          ja: 中国はなぜ低インフレの隅にいるのか？
+          de: Warum sitzt China in der niedrigen Inflationsecke?
+        answer:
+          en: >
+            Because demand is weak, not because the curve works better there. China's line sits near 0.4% inflation with unemployment close to 5%, a combination that means prices are barely rising while plenty of workers are still idle. That is a demand story, not a triumph of the trade-off.
+          cn: >
+            因为需求疲弱，不是因为这条曲线在那里表现更好。中国那条线在 0.4% 通胀附近、失业率在 5% 上下，意味着物价几乎不涨、闲置的劳动力却仍然很多。这是需求问题，不是这份取舍的胜利。
+          es: >
+            Porque la demanda es débil, no porque la curva funcione mejor allí. La línea china ronda el 0,4% de inflación con un desempleo cercano al 5%: precios que apenas suben mientras siguen muchos trabajadores ociosos. Es una historia de demanda, no un triunfo del intercambio.
+          ja: >
+            弱い需要のためであり、曲線がそこでうまくいっているからではない。中国のラインはインフレ約 0.4%、失業率 5% 前後にあり、物価はほぼ上がらず余剰労働は残る、という組合せ。曲線が勝ったのではなく、需要の問題である。
+          de: >
+            Weil die Nachfrage schwach ist, nicht weil die Kurve dort besser funktionierte. Chinas Linie liegt bei rund 0,4% Inflation bei einer Arbeitslosigkeit nahe 5%: Die Preise steigen kaum, während viele Arbeitskräfte weiter ungenutzt bleiben. Eine Geschichte der Nachfrage, kein Triumph der Abwägung.
+        confidence: 9
+        reference:
+          - docs/3-macro-economics/01-phillips-curve/en.md
+          - docs/3-macro-economics/01-phillips-curve/cn.md
+      - id: how-do-i-read-this-chart
+        question:
+          en: How do I read this chart?
+          cn: 这张图该怎么读？
+          es: ¿Cómo se lee este gráfico?
+          ja: この図は要怎么読む？
+          de: Wie liest man dieses Diagramm?
+        answer:
+          en: >
+            Every year becomes one point: x is that year's inflation rate, y is that year's unemployment rate, and the line joins the points in time order. So a line moving right and down means inflation rising while unemployment falls. There is no fitted curve here — the shape you see is what each country actually lived through.
+          cn: >
+            每一年是一个点：x 是那一年的通胀率，y 是那一年的失业率，点按时间顺序连成线。所以一条线往右下方走，就是通胀上行、失业率下行。这里没有拟合曲线，你看到的形状就是各国真实经历过的轨迹。
+          es: >
+            Cada año es un punto: el eje x es la inflación de ese año, el eje y el desempleo, y la línea une los puntos en orden temporal. Una línea que baja hacia la derecha significa inflación al alza y desempleo a la baja. Aquí no hay curva ajustada: la forma que ves es por lo que cada país pasó realmente.
+          ja: >
+            1 年が 1 点になる。x はその年のインフレ率、y はその年の失業率で、点は時系列順に線で結ばれている。右下に動くラインは、インフレは上がり失業率は下がったことを意味する。ここに当てはめた曲線はない。見える形は各国が実際に歩んだ経路そのものだ。
+          de: >
+            Jedes Jahr wird ein Punkt: x ist die Inflation dieses Jahres, y die Arbeitslosigkeit; die Linie verbindet die Punkte in zeitlicher Reihenfolge. Eine Linie nach rechts unten bedeutet steigende Inflation bei fallender Arbeitslosigkeit. Hier ist keine Kurve angepasst — die Form zeigt, was jedes Land tatsächlich durchlaufen hat.
+        confidence: 9
+        reference:
+          - docs/3-macro-economics/01-phillips-curve/en.md
+          - docs/3-macro-economics/01-phillips-curve/cn.md
+      - id: government-or-central-bank
+        question:
+          en: Who picks the point on the curve — the government or the central bank?
+          cn: 这条曲线上的点由谁来选——政府还是央行？
+          es: ¿Quién elige el punto de la curva, el gobierno o el banco central?
+          ja: 曲線上の点を選ぶのは政府か中央銀行か？
+          de: Wer wählt den Punkt auf der Kurve, die Regierung oder die Notenbank?
+        answer:
+          en: >
+            In practice the central bank, because it controls interest rates, and the US line shows why: the Fed raised rates from 0 to 5.5% and the economy moved along the curve to lower inflation and only slightly higher unemployment. But a central bank can only steer demand — it cannot fix an energy supply shock, which is why the euro area's path looked different.
+          cn: >
+            实际上是央行，因为利率归它管，美国那条线就是证明：美联储把利率从 0 加到 5.5%，经济沿着曲线走到更低通胀、失业率只略升的地方。但央行只能管需求，管不了能源供给冲击——欧元区那条路径形状不同，正是这个原因。
+          es: >
+            En la práctica, el banco central, porque controla los tipos de interés, y la línea de EE. UU. lo muestra: la Fed subió del 0% al 5,5% y la economía se movió por la curva hasta menos inflación y solo algo más de desempleo. Pero un banco central solo puede manejar la demanda: no puede arreglar un shock de oferta de energía, y por eso el camino de la zona euro fue distinto.
+          ja: >
+            実質的に中央銀行。金利を操作できるのは中央銀行だけだからで、米国のラインが証明している。FRB が 0% から 5.5% へ引き上げ、経済は曲線に沿ってインフレは低く失業率はわずかに高い地点へ移った。ただし中央銀行が動かせるのは需要だけで、エネルギー供給ショックには対処できない。ユーロ圏の経路が違ったのはそのせい。
+          de: >
+            In der Praxis die Notenbank, denn sie bestimmt die Zinsen, und die US-Linie zeigt es: Die Fed hob von 0 auf 5,5% an, und die Wirtschaft wanderte auf der Kurve zu weniger Inflation und nur etwas mehr Arbeitslosigkeit. Eine Notenbank kann aber nur die Nachfrage steuern — einen Energieschock kann sie nicht reparieren, weshalb der Weg der Eurozone anders aussah.
+        confidence: 8
+        reference:
+          - docs/3-macro-economics/01-phillips-curve/en.md
+          - docs/2-indicators/07-policy-rates/en.md
+          - docs/3-macro-economics/01-phillips-curve/cn.md

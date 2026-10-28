@@ -1,0 +1,101 @@
+id: x-dbnomics-5-us-casestudy-01-united-states
+
+data:
+  - name:
+      en: the United States
+      cn: 美国
+      es: Estados Unidos
+      ja: 米国
+      de: die USA
+    qa:
+      - id: why-a-page-for-the-us
+        question:
+          en: Why does the US get its own page?
+          cn: 为什么美国要单独一页？
+          es: ¿Por qué EE. UU. tiene página propia?
+          ja: なぜ米国は単独ページなのか？
+          de: Warum hat die USA eine eigene Seite?
+        answer:
+          en: >
+            Because it wears four hats at once: the largest economy by nominal GDP, the biggest debtor (government debt above 120% of GDP), the central bank of the world, and the issuer of the reserve currency. No other country plays all four roles, so there is no way to show it in a single line on someone else's chart.
+          cn: >
+            因为它同时戴着四顶帽子：名义 GDP 最大的经济体、最大的债务人（政府债务超过 GDP 的 120%）、世界的央行、储备货币的发行者。没有第二个国家同时扮演这四个角色，所以没法把它塞进别人图表里的一行里。
+          es: >
+            Porque lleva cuatro sombreros a la vez: la mayor economía por PIB nominal, el mayor deudor (deuda pública por encima del 120% del PIB), el banco central del mundo y el emisor de la moneda de reserva. Ningún otro país asume los cuatro papeles a la vez, así que no cabe en una línea del gráfico de otro.
+          ja: >
+            同時に 4 つの帽子をかぶっているからである。名目 GDP で最大の経済体、最大の債務者（政府債務が GDP の 120% 超）、世界の中央銀行、そして基軸通貨の発行者。この 4 つを同時に担う国はどこにもないため、他の国のグラフの 1 行には収まらない。
+          de: >
+            Weil sie gleichzeitig vier Hüte trägt: die größte Volkswirtschaft nach nominalem BIP, den größten Schuldner (Staatsschulden über 120% des BIP), die Zentralbank der Welt und den Emittenten der Reservewährung. Kein anderes Land besetzt alle vier Rollen, also passt es in keine Zeile eines fremden Diagramms.
+        confidence: 10
+        reference:
+          - docs/5-us-casestudy/01-united-states/en.md
+          - docs/5-us-casestudy/01-united-states/cn.md
+
+      - id: why-is-a-deficit-normal
+        question:
+          en: Is a permanent government deficit normal in the US?
+          cn: 美国长期财政赤字是常态吗？
+          es: ¿Es normal un déficit fiscal permanente en EE. UU.?
+          ja: 米国で恒常的な財政赤字は正常なのか？
+          de: Ist ein dauerhaftes Haushaltsdefizit in den USA normal?
+        answer:
+          en: >
+            Yes, on this page it is the normal state rather than the exception. Revenue stays flat around 17–19% of GDP while spending trends upward, so the gap between the green and red lines widens. The blue "net lending" line is the same story in one number: it is negative in every year shown, meaning the federal government spends more than it collects. It was −1.4% of GDP in 2001 and −7.5% in 2025.
+          cn: >
+            在这一页里，它确实是常态而不是例外。财政收入在 GDP 的 17–19% 附近走平，支出却一路向上，所以绿线和红线之间的缺口越拉越大。蓝色的「净借贷」线是同一件事的一个数字：图上每一年都是负的，说明联邦政府花的比收的多。2001 年是 GDP 的 −1.4%，2025 年是 −7.5%。
+          es: >
+            Sí: en esta página es el estado normal y no la excepción. Los ingresos se quedan planos en el 17–19% del PIB mientras el gasto tiende al alza, así que la brecha entre la línea verde y la roja se ensancha. La línea azul de «neto prestatario» es lo mismo en un solo número: es negativa en todos los años del gráfico, o sea que el gobierno federal gasta más de lo que recauda. Fue −1,4% del PIB en 2001 y −7,5% en 2025.
+          ja: >
+            このページでは、例外ではなく通常状態である。収入は GDP の 17–19% で横ばいなのに対し支出は上向きに傾くため、緑の線と赤の線の落差が拡大する。青い「純貸借」の線は同じことを 1 つの数字で示したもので、図のすべての年でマイナス——連邦政府は入るより支出が多い。2001 年は GDP 比 −1.4%、2025 年は −7.5% だった。
+          de: >
+            Ja: Auf dieser Seite ist es der Normalzustand und nicht die Ausnahme. Die Einnahmen bleiben flach bei 17–19% des BIP, während die Ausgaben nach oben tendieren — die Lücke zwischen grüner und roter Linie wächst also. Die blaue „Netto-Kreditgeber"-Linie ist dieselbe Geschichte in einer Zahl: In jedem gezeigten Jahr ist sie negativ, das heißt, der Bundeshaushalt gibt mehr aus als er einnimmt. 2001 waren es −1,4% des BIP, 2025 −7,5%.
+        confidence: 9
+        reference:
+          - docs/5-us-casestudy/01-united-states/en.md
+          - docs/5-us-casestudy/01-united-states/cn.md
+
+      - id: why-do-markets-tolerate-us-debt
+        question:
+          en: Why do markets tolerate US debt above 120% of GDP when Greece's 152% caused a crisis?
+          cn: 美国债务超过 GDP 的 120% 市场却忍得住，希腊 152% 却引发了危机，为什么？
+          es: ¿Por qué los mercados toleran una deuda de EE. UU. superior al 120% del PIB si la de Grecia, al 152%, provocó una crisis?
+          ja: ギリシャの 152% は危機を招いたのに、米国の 120% 超は市場が許容する。なぜか？
+          de: Warum dulden Märkte US-Schulden von über 120% des BIP, obwohl Griechenlands 152% eine Krise auslöste?
+        answer:
+          en: >
+            Two reasons. First, the US issues and repays in its own currency — you cannot run out of dollars you print yourself, so the "sudden stop" that hits a euro-area borrower cannot happen. Second, the debt is owed largely to domestic savers who hold it in their own currency. That is also why the chart shows the US next to Japan (248.7%), the classic "high debt, no crisis" case, and above the EU's 60% Maastricht reference line, which is a guideline for euro-area members, not a rule for Washington.
+          cn: >
+            两个原因。第一，美国用本币发债、本币还债——你不会花光自己印的美元，所以欧元区借款人最怕的那种「突然断供」在美国身上不会发生。第二，这笔债务的持有者大部分是持有本币的国内储蓄者。所以图上美国和 248.7% 的日本排在一起，是典型的「高债务、无危机」案例；同时它高于欧盟 60% 的马斯特里赫特参考线——那条线是给欧元区成员的指南，不是给华盛顿的规矩。
+          es: >
+            Por dos razones. Primera: EE. UU. emite y repaga en su propia moneda — no puedes quedarte sin dólares que tú mismo imprimes, así que el "parón súbito" que golpea a un prestatario del euro no puede ocurrir. Segunda: buena parte de esa deuda está en manos de ahorreadores domésticos que la mantienen en su propia moneda. Por eso el gráfico coloca a EE. UU. junto a Japón (248,7%), el caso clásico de «deuda alta, sin crisis», y por encima de la línea de referencia Maastricht del 60%, que es una guía para los miembros del euro, no una norma para Washington.
+          ja: >
+            理由は 2 つある。第 1 に、米国は自国通貨で発行し自国通貨で返済する——自分で刷ったドルを使い切ることはないので、ユーロ圏の借入者を襲う「突然の資金途絶え」は起こりえない。第 2 に、その債務の大部分は自国通貨で保有する国内の貯蓄者が握っている。図で米国が 248.7% の日本と並ぶのは「高債務、危機なし」の古典例であり、EU の 60% のマーストリヒ卜基準線（ユーロ圏成员国向けのガイドラインであってワシントンへの規則ではない）を超えている 이유でもある。
+          de: >
+            Aus zwei Gründen. Erstens gibt und zurückzahlt die USA in eigener Währung — man kann nicht aus Dollar ausfallen, die man selbst druckt, sodass der „plötzliche Stopp", der einen Kreditnehmer im Euro-Raum trifft, hier nicht eintreten kann. Zweitens halten überwiegend inländische Sparer die Schuld in ihrer eigenen Währung. Deshalb steht die USA im Diagramm neben Japan (248,7%), dem klassischen Fall „hohe Schulden, keine Krise", und über der Maastricht-Referenzlinie von 60% — die ein Richtwert für Euro-Mitglieder ist, keine Vorschrift für Washington.
+        confidence: 9
+        reference:
+          - docs/5-us-casestudy/01-united-states/en.md
+          - docs/5-us-casestudy/01-united-states/cn.md
+
+      - id: what-is-the-exorbitant-privilege
+        question:
+          en: What is the "exorbitant privilege" and what does the ~3% deficit buy?
+          cn: 什么是「过度特权」？常年 3% 的逆差换来了什么？
+          es: ¿Qué es el "privilegio exagerado" y qué compra el déficit del ~3%?
+          ja: 「過剰な特権」とは何か？GDP 比約 3% の赤字は何买到のか？
+          de: Was ist das "exorbitante Privileg" und was bringt das Defizit von ~3%?
+        answer:
+          en: >
+            A country that can borrow forever in a currency it issues itself pays a lower interest rate than anyone else, and that saving is the privilege. The US runs a persistent current-account deficit of about 3% of GDP — in the 2025 chart it is −3.1%, against surpluses of 6.4% for Germany and 7.6% for Switzerland. In plain terms: the rest of the world is willing to lend America money in dollars, and in return America gets cheap financing plus the demand for its exports. No other country can do this, which is why the page calls the dollar system the foundation.
+          cn: >
+            一个能永远用自己发行的货币借钱的国家，付的利息比谁都低，这笔省下来的钱就是「特权」。美国常年保持约占 GDP 3% 的经常账户逆差——2025 年图上是 −3.1%，对照德国 6.4% 的顺差和瑞士 7.6% 的顺差。说白了：世界愿意用美元借钱给美国，作为交换，美国拿到了低成本融资加上对本国出口的需求。没有第二个国家能做到，所以这一页说美元体系是这一切的地基。
+          es: >
+            Un país que puede pedir prestado indefinidamente en una moneda que él mismo emite paga un interés menor que nadie, y ese ahorro es el privilegio. EE. UU. mantiene un déficit persistente en cuenta corriente de alrededor del 3% del PIB — en el gráfico de 2025 es −3,1%, frente a superávits del 6,4% de Alemania y del 7,6% de Suiza. En lenguaje llano: el resto del mundo está dispuesto a prestarle dinero a América en dólares, y a cambio América obtiene financiación barata más demanda para sus exportaciones. Ningún otro país puede hacer esto, y por eso la página llama al sistema del dólar la base de todo.
+          ja: >
+            自分が発行する通貨で無限に借りられる国は、誰より低い金利で資金調達できる。その節約分が「特権」である。米国は GDP の約 3% に達する経常収支赤字を抱え続け、2025 年の図では −3.1%——同じ図でドイツの黒字は 6.4%、スイスの黒字は 7.6% だった。要するに、世界はドルでアメリカに資金を貸すことを受け入れ、その代わりにアメリカは安い資金調達と自国輸出国への需要を得る。他の国にはこれができない。だからこのページはドル体制を土台と呼ぶ。
+          de: >
+            Ein Land, das unbegrenzt in einer selbst emittierten Währung aufnehmen kann, zahlt einen niedrigeren Zins als alle anderen, und diese Ersparnis ist das Privileg. Die USA fahren dauerhaft ein Defizit in der Leistungsbilanz von rund 3% des BIP — im Diagramm für 2025 sind es −3,1%, gegenüber Überschüssen von 6,4% für Deutschland und 7,6% für die Schweiz. Übersetzt: Die restliche Welt ist bereit, Amerika in Dollar Geld zu leihen, und Amerika bekommt dafür günstige Finanzierung plus Nachfrage nach seinen Exporten. Kein anderes Land kann das, weshalb die Seite das Dollarsystem als Fundament bezeichnet.
+        confidence: 9
+        reference:
+          - docs/5-us-casestudy/01-united-states/en.md
+          - docs/5-us-casestudy/01-united-states/cn.md

@@ -1,0 +1,124 @@
+id: x-dbnomics-1-overview-01-about
+
+data:
+  - name:
+      en: about this site
+      cn: 关于本站
+      es: sobre este sitio
+      ja: このサイトについて
+      de: über diese Seite
+    qa:
+      - id: what-is-dbnomics
+        question:
+          en: What is DBnomics?
+          cn: 什么是 DBnomics？
+          es: ¿Qué es DBnomics?
+          ja: DBnomics とは？
+          de: Was ist DBnomics?
+        answer:
+          en: >
+            A free library of economic statistics. It collects time series from official publishers — the IMF, the World Bank, OECD, Eurostat, central banks — and puts them all behind one API, a single doorway you can call to get the numbers.
+          cn: >
+            一个免费的经济统计资料库。它把各国官方机构的时间序列——IMF、世界银行、OECD、Eurostat、各央行——收进同一个 API，也就是一扇统一的门，取数只从这里进。
+          es: >
+            Una biblioteca gratuita de estadísticas económicas. Recopila series temporales de organismos oficiales —el FMI, el Banco Mundial, la OCDE, Eurostat, los bancos centrales— y las deja todas detrás de una única API, una sola puerta de entrada a los datos.
+          ja: >
+            無料の経済統計ライブラリ。IMF・世界銀行・OECD・Eurostat・中央銀行といった公的機関の時系列を 1 つの API にまとめている。数字を取りにいく門が 1 つあるようなものだ。
+          de: >
+            Eine kostenlose Bibliothek wirtschaftlicher Statistiken. Sie sammelt Zeitreihen von amtlichen Herausgebern — IWF, Weltbank, OECD, Eurostat, Notenbanken — und stellt alles hinter eine API, also eine einzige Tür zu den Zahlen.
+        confidence: 9
+        reference:
+          - docs/1-overview/01-about/en.md
+          - docs/1-overview/01-about/cn.md
+
+      - id: why-every-chart-is-a-url
+        question:
+          en: Why is every chart on this site just a link?
+          cn: 为什么本站每张图都只是一个链接？
+          es: ¿Por qué cada gráfico del sitio es solo un enlace?
+          ja: なぜこのサイトの図はすべてリンクなのか？
+          de: Warum ist jedes Diagramm auf dieser Seite nur ein Link?
+        answer:
+          en: >
+            Because the picture is rendered from the link itself: the URL carries the chart option, and that option holds the numbers. Open it and you get a static picture; paste it into a document and it still works; an AI agent can read the data straight out of the link.
+          cn: >
+            因为图就是从链接本身渲染出来的：URL 里装着图表的配置，数字都在里面。点开是一张静态图；贴进任何文档照样能用；AI 也能直接从链接里读出数据。
+          es: >
+            Porque el gráfico se genera a partir del propio enlace: la URL lleva la configuración del gráfico y ahí están los números. Al abrirla obtienes una imagen estática; al pegarla en un documento sigue funcionando; un agente de IA puede leer los datos directamente del enlace.
+          ja: >
+            図がリンクそのものから描かれるため。URL にグラフの設定が入っており、その中に数値がある。開けば静的な図になり、どの文書に貼ってもそのまま機能し、AI もリンクから数値を直接読み取れる。
+          de: >
+            Weil das Diagramm aus dem Link selbst erzeugt wird: Die URL trägt die Diagrammeinstellung, und darin stecken die Zahlen. Öffnen liefert ein statisches Bild, in ein Dokument eingefügt funktioniert es weiter, und ein KI-Agent liest die Daten direkt aus dem Link.
+        confidence: 9
+        reference:
+          - docs/1-overview/01-about/en.md
+          - docs/1-overview/01-about/cn.md
+
+      - id: how-to-fetch-data
+        question:
+          en: How do I fetch the data myself?
+          cn: 我怎么自己去取数？
+          es: ¿Cómo obtengo los datos yo mismo?
+          ja: 自分でデータを取るには？
+          de: Wie hole ich mir die Daten selbst?
+        answer:
+          en: >
+            With the x-cmd module. `x dbnomics data imf.us.gdp.growth` fetches one series, `x dbnomics align imf.us.gdp imf.cn.gdp` aligns several side by side, and `x dbnomics alias` prints the preset alias table. Full help lives at x-cmd.com/mod/dbnomics.
+          cn: >
+            用 x-cmd 模块。`x dbnomics data imf.us.gdp.growth` 取一条序列，`x dbnomics align imf.us.gdp imf.cn.gdp` 把多条并排对齐，`x dbnomics alias` 打印预置的别名表。完整帮助见 x-cmd.com/mod/dbnomics。
+          es: >
+            Con el módulo de x-cmd. `x dbnomics data imf.us.gdp.growth` trae una serie, `x dbnomics align imf.us.gdp imf.cn.gdp` alinea varias en paralelo y `x dbnomics alias` imprime la tabla de alias. La ayuda completa está en x-cmd.com/mod/dbnomics.
+          ja: >
+            x-cmd モジュールを使う。`x dbnomics data imf.us.gdp.growth` で 1 系列、`x dbnomics align imf.us.gdp imf.cn.gdp` で複数系列を横に揃えて取る、`x dbnomics alias` でalias表を表示。詳しいヘルプは x-cmd.com/mod/dbnomics。
+          de: >
+            Mit dem x-cmd-Modul. `x dbnomics data imf.us.gdp.growth` holt eine Serie, `x dbnomics align imf.us.gdp imf.cn.gdp` richtet mehrere nebeneinander aus, `x dbnomics alias` druckt die Alias-Tabelle. Die vollständige Hilfe steht unter x-cmd.com/mod/dbnomics.
+        confidence: 10
+        reference:
+          - docs/1-overview/01-about/en.md
+          - docs/1-overview/01-about/cn.md
+
+      - id: how-fresh-is-the-data
+        question:
+          en: Where does the data come from, and how fresh is it?
+          cn: 数据从哪来？有多新？
+          es: ¿De dónde vienen los datos y qué tan frescos están?
+          ja: データはどこから来て、最新度は？
+          de: Woher kommen die Daten, und wie aktuell sind sie?
+        answer:
+          en: >
+            From the IMF's World Economic Outlook (2025 edition, forecasts included) and BIS policy rates. Every chart uses 2025 as its latest year.
+          cn: >
+            来自 IMF 的《世界经济展望》（2025 年版，含预测）和 BIS 政策利率。所有图表都以 2025 年为最新一年。
+          es: >
+            Del World Economic Outlook del FMI (edición 2025, con previsiones) y de los tipos oficiales del BIS. Todos los gráficos usan 2025 como su año más reciente.
+          ja: >
+            IMF の『世界経済展望』(2025 年版、予測込み)と BIS の政策金利。すべてのグラフは 2025 年を最新年としている。
+          de: >
+            Aus dem World Economic Outlook des IWF (Ausgabe 2025, mit Prognosen) und von den Leitzinsen des BIS. Jedes Diagramm nutzt 2025 als letztes Jahr.
+        confidence: 9
+        reference:
+          - docs/1-overview/01-about/en.md
+          - docs/1-overview/01-about/cn.md
+
+      - id: how-do-i-use-it-with-an-ai-agent
+        question:
+          en: How do I use this site with an AI agent?
+          cn: 怎么让 AI 智能体用上这个站？
+          es: ¿Cómo uso este sitio con un agente de IA?
+          ja: AI エージェントでこのサイトを使うには？
+          de: Wie nutze ich diese Seite mit einem KI-Agenten?
+        answer:
+          en: >
+            Point the agent at the draw skill (the SKILL.md file linked on this page) and ask for the chart you want — for example, a US-versus-China GDP chart. The agent reads the numbers out of the link and renders the chart itself.
+          cn: >
+            把本页链接的 draw skill（那份 SKILL.md 文件）指给智能体，再告诉它你要什么图——比如美国对中国的 GDP 对比图。智能体直接从链接里读出数字，自己把图画出来。
+          es: >
+            Apunta al agente a la skill draw (el archivo SKILL.md enlazado en esta página) y pídele el gráfico que quieras —por ejemplo, un gráfico del PIB de EE. UU. frente a China—. El agente lee los números del enlace y genera el gráfico por su cuenta.
+          ja: >
+            このページでリンクされている draw スキル(SKILL.md ファイル)をエージェントに読ませ、欲しい図を依頼する——たとえば「アメリカと中国の GDP をグラフ化して」。エージェントがリンクから数値を読み、自力で図を描く。
+          de: >
+            Richte den Agenten auf die draw skill (die auf dieser Seite verlinkte SKILL.md-Datei) und bitte ihn um das gewünschte Diagramm — etwa USA gegen China BIP. Der Agent liest die Zahlen aus dem Link und zeichnet den Chart selbst.
+        confidence: 9
+        reference:
+          - docs/1-overview/01-about/en.md
+          - docs/1-overview/01-about/cn.md

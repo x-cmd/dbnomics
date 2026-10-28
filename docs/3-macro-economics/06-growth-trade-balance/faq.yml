@@ -1,0 +1,124 @@
+id: x-dbnomics-3-macro-economics-06-growth-trade-balance
+
+data:
+  - name:
+      en: Growth and the external balance
+      cn: 增长与外部收支
+      es: Crecimiento y el saldo exterior
+      ja: 成長と対外収支
+      de: Wachstum und außenwirtschaftliches Gleichgewicht
+    qa:
+      - id: is-a-surplus-good-and-a-deficit-bad
+        question:
+          en: Isn't a trade surplus good and a deficit bad?
+          cn: 顺差不总是好事，逆差不总是坏事吗？
+          es: ¿No es el superávit algo bueno y el déficit algo malo?
+          ja: 黒字はよく、赤字は悪い、そう単純にはいかないのでは。
+          de: Ist ein Überschuss nicht gut und ein Defizit nicht schlecht?
+        answer:
+          en: >
+            It is intuitive and wrong. A surplus means a country lends to the rest of the world; a deficit means it borrows. Neither is a score on competitiveness — the balance just mirrors the gap between what a country saves and what it invests, and you need a deficit if you invest more than you save.
+          cn: >
+            直观，但不对。顺差表示一个国家在给世界放贷，逆差表示它在借钱。两者都不是竞争力的记分牌——外部收支只是"一国存多少"和"一国投多少"之间缺口的镜像。如果投资超过储蓄，就必须有逆差。
+          es: >
+            Es intuitivo y está equivocado. Un superávit significa que un país presta al resto del mundo; un déficit, que pide prestado. Ninguno es una nota de competitividad: el saldo solo refleja la brecha entre lo que un país ahorra y lo que invierte, y hace falta déficit si invierte más de lo que ahorra.
+          ja: >
+            直感的だが誤り。黒字なら一国が世界へ貸している、赤字なら借りている、ということであり、どちらも競争力のスコアではない。対外収支は「貯めてきた額」と「投資した額」の差を映すだけで、貯めより投資が多いなら赤字になるしかない。
+          de: >
+            Intuitiv und falsch. Ein Überschuss heißt, ein Land leiht der Welt; ein Defizit, es leiht sich. Beides ist keine Wettbewerbsnote: Das Gleichgewicht spiegelt nur die Lücke zwischen Sparen und Investieren, und wer mehr investiert als spart, braucht ein Defizit.
+        confidence: 9
+        reference:
+          - docs/3-macro-economics/06-growth-trade-balance/en.md
+          - docs/3-macro-economics/06-growth-trade-balance/cn.md
+
+      - id: how-can-the-us-grow-fast-and-still-run-a-deficit
+        question:
+          en: How can the US grow fast and still run a trade deficit?
+          cn: 美国怎么能高增长同时还有逆差？
+          es: ¿Cómo puede EE. UU. crecer rápido y aun así tener déficit?
+          ja: 米国はどうやって高い成長と赤字を両立しているのか。
+          de: Wie kann die USA schnell wachsen und trotzdem ein Defizit haben?
+        answer:
+          en: >
+            Because the US has the strongest demand in the world, and it finances that demand with other people's savings. Thanks to the dollar it can import capital — borrow in its own currency — so the rest of the world sends it the money it needs to buy their goods and assets. The deficit is the price of that privilege, not a weakness.
+          cn: >
+            因为美国拥有全世界最强的需求，而它用别人的储蓄来给这份需求融资。靠美元，它可以进口资本——用本币借钱——于是全世界把钱送过来，让它去买别人的商品和资产。逆差是这份特权的代价，不是弱点。
+          es: >
+            Porque EE. UU. tiene la demanda más fuerte del mundo, y financia esa demanda con el ahorro de los demás. Gracias al dólar puede importar capital —pedir prestado en su propia moneda—, así que el resto del mundo le envía el dinero que necesita para comprar sus bienes y activos. El déficit es el precio de ese privilegio, no una debilidad.
+          ja: >
+            米国は世界で最も強い需要を抱え、その需要を他国の貯蓄で賄っているから。ドルによって資本を輸入できる——自国通貨で借りられる——ので、世界が資金を送り出し、他国の商品や資産を買う資金が米国に流れる。赤字はこの特権の対価であって、弱点ではない。
+          de: >
+            Weil die USA die stärkste Nachfrage der Welt haben und sie mit der Sparquote anderer finanzieren. Dank des Dollar können sie Kapital importieren — in eigener Währung aufnehmen —, sodass der Rest der Welt ihnen das Geld schickt, mit dem sie dessen Güter und Anlagen kaufen. Das Defizit ist der Preis dieses Privilegs, keine Schwäche.
+        confidence: 9
+        reference:
+          - docs/3-macro-economics/06-growth-trade-balance/en.md
+          - docs/3-macro-economics/06-growth-trade-balance/cn.md
+
+      - id: why-does-the-euro-area-have-a-surplus-with-slow-growth
+        question:
+          en: Why does the euro area run a 2–3% surplus with slow growth?
+          cn: 欧元区为什么增长很慢，却有 2–3% 的顺差？
+          es: ¿Por qué la zona del euro mantiene un superávit del 2–3% con poco crecimiento?
+          ja: ユーロ圏はなぜ低い成長ながら 2–3% の黒字を出すのか。
+          de: Warum fährt die Eurozone mit 2–3% Überschuss und niedrigem Wachstum?
+        answer:
+          en: >
+            Because domestic demand is weak: households save and firms hesitate to invest, so the euro area's growth comes from exports instead, with Germany as the engine. When a region buys less from itself than it sells abroad, the surplus appears — a mirror of the same saving–investment gap, not a sign of exceptional strength.
+          cn: >
+            因为国内需求疲弱：家庭存钱、企业不敢投资，所以欧元区的增长靠出口来撑，德国是那台发动机。当一个地区向自己内部的买得少、卖给外部的多，顺差就出现了——同样是储蓄—投资缺口的镜像，而不是特别强的标志。
+          es: >
+            Porque la demanda interna es floja: los hogares ahorran y las empresas dudan al invertir, así que el crecimiento de la zona del euro viene de las exportaciones, con Alemania como motor. Cuando una región compra menos de lo que vende al exterior aparece el superávit: un reflejo de la misma brecha entre ahorro e inversión, no una señal de fuerza excepcional.
+          ja: >
+            国内需要が弱いからだ。家計は貯め、企業は投資を躊躇するので、ユーロ圏の成長は輸出で支えられ、ドイツがエンジンになっている。地域が内部から買う分が外へ売る分より少ないと黒字が現れる——これも貯蓄と投資の差の鏡像であって、巨大な強さの印ではない。
+          de: >
+            Weil die Binnennachfrage schwach ist: Haushalte sparen, Unternehmen zögern bei der Investition, so kommt das Wachstum der Eurozone aus dem Export, mit Deutschland als Motor. Kauft eine Region weniger von sich selbst, als sie nach draußen verkauft, erscheint der Überschuss — ein Spiegel derselben Spar-Investitions-Lücke, kein Zeichen außergewöhnlicher Stärke.
+        confidence: 9
+        reference:
+          - docs/3-macro-economics/06-growth-trade-balance/en.md
+          - docs/3-macro-economics/06-growth-trade-balance/cn.md
+
+      - id: why-is-chinas-surplus-narrowing
+        question:
+          en: Why is China's surplus narrowing even though it still grows fast?
+          cn: 中国增长还是很快，为什么顺差却在收窄？
+          es: ¿Por qué se estrecha el superávit de China si sigue creciendo rápido?
+          ja: 中国は高い成長にもかかわらず、なぜ黒字が縮小しているのか。
+          de: Warum wird Chinas Überschuss schmaler, obwohl es weiter schnell wächst?
+        answer:
+          en: >
+            Because China is rebalancing toward domestic demand: households and firms are being pushed to spend and invest at home rather than to export. The chart shows this clearly — the surplus peaked near 10% of GDP around 2007–08 and then fell steadily to roughly 1–2% by the mid-2020s, while growth stayed high.
+          cn: >
+            因为中国正在向内需再平衡：家庭和企业被推动着在国内消费和投资，而不是往外出口。图上看得很清楚——顺差在 2007–08 年前后达到接近 GDP 10% 的峰值，之后稳步降到 2020 年代中期的约 1–2%，而增长一直保持高位。
+          es: >
+            Porque China se reequilibra hacia la demanda interna: se empuja a hogares y empresas a gastar e invertir en el país en vez de exportar. El gráfico lo muestra bien: el superávit tocó cerca del 10% del PIB hacia 2007–08 y luego bajó de forma sostenida hasta alrededor del 1–2% a mediados de la década de 2020, mientras el crecimiento se mantenía alto.
+          ja: >
+            中国が国内需要へ舵を切っているため。家計と企業が輸出するのではなく国内で消費・投資するよう促されている。図にはその様子がはっきり出ている——黒字は 2007–08 年ごろに GDP 比 10% 近くまで達し、その後は 2020 年代半ばには約 1–2% まで緩やかに低下し、成長は高いまま保たれた。
+          de: >
+            Weil China auf die Binnennachfrage umstellt: Haushalte und Unternehmen werden dazu gedrängt, im Lande auszugeben und zu investieren statt zu exportieren. Der Graph zeigt das deutlich — der Überschuss erreichte 2007–08 fast 10% des BIP und fiel danach stetig auf rund 1–2% zur Mitte der 2020er-Jahre, während das Wachstum hoch blieb.
+        confidence: 9
+        reference:
+          - docs/3-macro-economics/06-growth-trade-balance/en.md
+          - docs/3-macro-economics/06-growth-trade-balance/cn.md
+
+      - id: what-do-the-paths-in-the-chart-mean
+        question:
+          en: How do I read the paths in this chart?
+          cn: 这张图上的路径该怎么看？
+          es: ¿Cómo se leen las trayectorias de este gráfico?
+          ja: このグラフの軌跡はどう読むのか。
+          de: Wie liest man die Pfade in diesem Diagramm?
+        answer:
+          en: >
+            Each line is one country's path from 2000 to 2025, plotted as real growth on the horizontal axis and the current account as a share of GDP on the vertical. The line wanders because both numbers change year by year; the loop shapes are the story, not single points. The US line sits far right and below zero (fast growth, deficit), China's far right and above (fast growth, surplus), the euro area's in the middle with a surplus.
+          cn: >
+            每条线是一个国家从 2000 年到 2025 年的路径，横轴是实际增长，纵轴是经常账户占 GDP 的比重。线会来回绕，是因为两个数每年都在变；真正讲故事的是那些环形的形状，而不是某一个点。美国的线在最右边、零线以下（高增长、逆差），中国的线在最右边、零线以上（高增长、顺差），欧元区的线在中间且有顺差。
+          es: >
+            Cada línea es la trayectoria de un país entre 2000 y 2025, con el crecimiento real en el eje horizontal y la cuenta corriente como porcentaje del PIB en el vertical. La línea da vueltas porque los dos números cambian cada año; las formas en bucle son la historia, no los puntos sueltos. La línea de EE. UU. está muy a la derecha y por debajo del cero (crecimiento rápido, déficit); la de China, muy a la derecha y por encima (crecimiento rápido, superávit); la de la zona del euro, en el medio y con superávit.
+          ja: >
+            各線は 2000 年から 2025 年までの 1 か国の軌跡で、横軸に実質成長、縦軸に経常収支の GDP 比を置いてある。線が大きく蛇行するのは、2 つの数字が毎年変わるから。物語を語るのはループの形であり、一点ではない。米国の線は右端かつゼロより下（高い成長、赤字）、中国の線は右端かつゼロより上（高い成長、黒字）、ユーロ圏の線は中央寄りで黒字。
+          de: >
+            Jede Linie ist der Weg eines Landes von 2000 bis 2025, mit dem realen Wachstum auf der Horizontal- und der Leistungsbilanz als BIP-Anteil auf der Vertikalachse. Die Linie mäandert, weil sich beide Zahlen jährlich ändern; die Schleifenformen erzählen die Geschichte, nicht einzelne Punkte. Die US-Linie liegt weit rechts und unter null (hohes Wachstum, Defizit), Chinas weit rechts und darüber (hohes Wachstum, Überschuss), die Eurozone in der Mitte mit Überschuss.
+        confidence: 8
+        reference:
+          - docs/3-macro-economics/06-growth-trade-balance/en.md
+          - docs/3-macro-economics/06-growth-trade-balance/cn.md

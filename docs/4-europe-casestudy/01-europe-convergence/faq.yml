@@ -1,0 +1,124 @@
+id: x-dbnomics-4-europe-casestudy-01-europe-convergence
+
+data:
+  - name:
+      en: European convergence
+      cn: 欧洲收敛
+      es: convergencia europea
+      ja: 欧州の収束
+      de: europäische Konvergenz
+    qa:
+      - id: what-is-convergence
+        question:
+          en: What does convergence mean here?
+          cn: 这里的"收敛"到底指什么？
+          es: ¿Qué significa convergencia aquí?
+          ja: ここでの「収束」とは？
+          de: Was bedeutet hier Konvergenz?
+        answer:
+          en: >
+            It means catch-up: the poorer a country starts, the faster it grows, so it slowly closes the income gap with the rich ones. On this chart that shows up as a downward slope — countries low on the left (starting point) sit high on the right (average growth). Convergence is about the pace of growth, not about the level of income today.
+          cn: >
+            指的是"追赶"：起点越穷的国家增长越快，于是慢慢缩小和富国的收入差距。在这张图上就表现为一条向右下倾斜的线——左边起点低的国家，右边的平均增长反而高。收敛讲的是增长速度的快慢，不是今天收入水平的高低。
+          es: >
+            Significa recuperación: cuanto más pobre parte un país, más rápido crece y va cerrando la brecha de ingresos con los ricos. En este gráfico aparece como una pendiente hacia abajo: los países de la izquierda (punto de partida bajo) están arriba a la derecha (crecimiento medio). La convergencia trata del ritmo del crecimiento, no del nivel de ingresos actual.
+          ja: >
+            追い越しのことである。出発点が貧しい国ほど成長が速く、富裕国との所得格差を少しずつ詰める。この図では右下がりの傾きとして現れる——左側（出発点が低い国）は右側（平均成長率）が高い位置にある。収束が語るのは成長速度の速さで、現在の所得水準の高低ではない。
+          de: >
+            Es meint Aufholen: Je ärmer ein Land startet, desto schneller wächst es und holt bei den Einkommen gegenüber den reichen Ländern auf. Im Diagramm zeigt sich das als fallende Linie: Länder links unten (niedriger Startpunkt) stehen rechts oben (höheres Durchschnittswachstum). Konvergenz betrifft das Tempo des Wachstums, nicht das heutige Einkommensniveau.
+        confidence: 10
+        reference:
+          - docs/4-europe-casestudy/01-europe-convergence/en.md
+          - docs/4-europe-casestudy/01-europe-convergence/cn.md
+
+      - id: which-countries-converged
+        question:
+          en: Which countries actually caught up?
+          cn: 到底是哪些国家追上来了？
+          es: ¿Qué países convergieron de verdad?
+          ja: 実際に追いついたのはどの国？
+          de: Welche Länder haben tatsächlich aufgeholt?
+        answer:
+          en: >
+            The eastern bloc. Romania started at $1,668 per person in 2000 and grew 10.9% a year; Slovakia grew 8.4%, Czechia 7.1%, Poland 7.2% and Hungary 7.1%. All of them started in the bottom-left corner and climbed steadily toward the middle of the chart. The gap to the rich north has narrowed, but it has not closed — the poor countries are still growing, they are just no longer growing off such a low base.
+          cn: >
+            是东欧那批国家。罗马尼亚 2000 年人均只有 1,668 美元，此后每年增长 10.9%；斯洛伐克 8.4%，捷克 7.1%，波兰 7.2%，匈牙利 7.1%。它们都从图的左下角起步，一路爬到图的中部。和北方富国的差距缩小了，但并没有闭合——穷国仍在增长，只是已经不再是低基数上的高增长了。
+          es: >
+            El bloque del este. Rumania partía de 1.668 dólares por persona en 2000 y crecía un 10,9% anual; Eslovaquia un 8,4%, Chequia un 7,1%, Polonia un 7,2% y Hungría un 7,1%. Todos empezaron abajo a la izquierda y subieron de forma constante hacia el centro del gráfico. La brecha con el norte rico se ha estrechado, pero no cerrado: los países pobres siguen creciendo, ya no solo por el efecto de una base tan baja.
+          ja: >
+            東欧のグループである。ルーマニアは 2000 年に一人あたり 1,668 ドルから始まり、毎年 10.9% 成長した。スロバキア 8.4%、チェコ 7.1%、ポーランド 7.2%、ハンガリー 7.1%。いずれも図の左下から出発し、図の中央へ這い上がっている。富裕な北との差は縮んだが埋まってはいない——貧しい国は今も伸びている。ただし低基数による高成長ではなくなった。
+          de: >
+            Der Osten. Rumänien startete 2000 mit 1.668 Dollar pro Kopf und wuchs mit 10,9% pro Jahr; die Slowakei mit 8,4%, Tschechien mit 7,1%, Polen mit 7,2% und Ungarn mit 7,1%. Alle begannen unten links und stiegen stetig zur Mitte des Diagramms. Die Lücke zum reichen Norden ist kleiner geworden, aber nicht geschlossen: Die armen Länder wachsen weiterhin, nur nicht mehr von einem so niedrigen Startpunkt aus.
+        confidence: 9
+        reference:
+          - docs/4-europe-casestudy/01-europe-convergence/en.md
+          - docs/4-europe-casestudy/01-europe-convergence/cn.md
+
+      - id: why-greece-and-italy-stalled
+        question:
+          en: Why do Greece and Italy look stuck if they were already rich?
+          cn: 希腊和意大利本来就不穷，为什么卡住了？
+          es: ¿Por qué Chipre e Italia parecen estancados si ya eran ricos?
+          ja: ギリシャとイタリアはもともと豊かだったのに、なぜ止まったように見える？
+          de: Warum scheinen Griechenland und Italien festzustecken, obwohl sie reich waren?
+        answer:
+          en: >
+            Because the convergence hypothesis only predicts catch-up from a low start — it says nothing about rich countries. Greece ($12,268 per person in 2000) and Italy ($20,206) were both rich, and they landed on the same low-growth band as the other rich countries: 2.9% and 2.9%. Their stagnation is a story about economic structure and debt, not about falling behind, which is why this page sends you to the French debt page rather than fitting them into the catch-up story.
+          cn: >
+            因为收敛假说只能预测"从低起点追赶"这一件事，它对本来就有钱的国家什么也没说。希腊（2000 年人均 12,268 美元）和意大利（20,206 美元）起点都算高，结果和其他富国落在同一个低增长区间：都是 2.9%。它们的停滞是经济结构和债务的故事，不是"掉队"的故事——所以这一页把它留给法国债务那页去讲，而不是硬塞进追赶的框架里。
+          es: >
+            Porque la hipótesis de convergencia solo predice la recuperación desde un punto de partida bajo: no dice nada de los países ya ricos. Chipre (12.268 dólares por persona en 2000) e Italia (20.206) partían de una base alta y cayeron en la misma banda de bajo crecimiento que el resto de los ricos: 2,9% cada uno. Su estancamiento es una historia de estructura económica y deuda, no de rezago; por eso esta página remite a la de deuda francesa en lugar de encajarlos en el relato de la recuperación.
+          ja: >
+            収束仮説が予測できるのは「低い出発点からの追い越し」だけで、もともと豊かな国については何も語っていない。ギリシャ（2000 年の一人あたり 12,268 ドル）とイタリア（20,206 ドル）はどちらも高い出発点を持ち、他の先進国と同じ低成長の帯に落ちた——両方とも年 2.9% である。彼らの停滞は経済構造と債務の話であって、落ち遅れの話ではない。だからこのページはそれを追い越し物語に押し込まず、フランス債務のページに送っている。
+          de: >
+            Weil die Konvergenzthese nur das Aufholen von einem niedrigen Startpunkt vorhersagt — über reiche Länder sagt sie nichts. Griechenland (12.268 Dollar pro Kopf in 2000) und Italien (20.206) waren beide reich und landeten auf derselben Bandbreite geringen Wachstums wie die übrigen Reichen: je 2,9%. Ihre Stagnation ist eine Geschichte über Wirtschaftsstruktur und Schulden, nicht über Zurückfallen — deshalb verweist diese Seite auf die französische Schulden-Seite, statt sie in die Aufhol-Erzählung zu pressen.
+        confidence: 9
+        reference:
+          - docs/4-europe-casestudy/01-europe-convergence/en.md
+          - docs/4-europe-casestudy/01-europe-convergence/cn.md
+
+      - id: why-only-18-countries
+        question:
+          en: Why are only 18 of the EU's 27 countries on the chart?
+          cn: 欧盟 27 国，为什么只画了 18 个？
+          es: ¿Por qué solo aparecen 18 de los 27 países de la UE?
+          ja: EU 27 か国のうち、なぜ 18 か国しかないのか？
+          de: Warum sind nur 18 der 27 EU-Länder im Diagramm?
+        answer:
+          en: >
+            The chart simply shows the EU countries the IMF World Economic Outlook publishes a GDP per capita series for, and that is 18 of the 27. The missing ones — mostly smaller newer members such as the Baltic states, Croatia and Cyprus — are omitted for data availability, not because they are uninteresting. The judgement in the text rests on the countries that are shown, so read it as "among the countries we can measure, convergence holds" rather than a census of all 27.
+          cn: >
+            图上只是画了 IMF《世界经济展望》有"人均 GDP"序列的那些欧盟国家，一共 27 国中的 18 国。缺的那些大多是比较小、较晚加入的成员，比如波罗的海国家、克罗地亚和塞浦路斯——漏掉它们是数据可得性的原因，不代表它们不重要。文中的判断是基于图上这些国家得出的，所以应当读作"在能测到的国家里，收敛成立"，而不是对 27 国的全面普查。
+          es: >
+            El gráfico muestra simplemente los países de la UE para los que el World Economic Outlook del FMI publica una serie de PIB per cápita, y son 18 de 27. Los que faltan —en su mayoría miembros más pequeños y recientes como los bálticos, Croacia y Chipre— se omiten por disponibilidad de datos, no porque sean poco interesantes. El juicio del texto se apoya en los países mostrados, así que conviene leerlo como «entre los que podemos medir, la convergencia se cumple» y no como un censo de los 27.
+          ja: >
+            図に載っているのは、IMF『世界経済見通し』が一人あたり GDP の系列を公開している EU 諸国だけで、27 か国のうち 18 か国である。抜けているのはバルト三国やクロアチア、キプロスなど比較的小さく新しい加盟国が中心で、データが入手できないためであって、面白くないからではない。本文の判断は図に載っている国々に基づくものだから、「測れる範囲では収束が成り立つ」と読むべきで、27 か国すべての普查ではない。
+          de: >
+            Das Diagramm zeigt schlicht die EU-Länder, für die das World Economic Outlook des IWF eine Reihe zum BIP pro Kopf veröffentlicht — 18 der 27. Die fehlenden (meist kleinere, neuere Mitglieder wie die baltischen Staaten, Kroatien und Zypern) fehlen aus Gründen der Datenverfügbarkeit, nicht mangels Interesse. Das Urteil im Text stützt sich auf die gezeigten Länder; man sollte es also als „unter den messbaren Ländern gilt die Konvergenz" lesen, nicht als eine Vollerhebung aller 27.
+        confidence: 7
+        reference:
+          - docs/4-europe-casestudy/01-europe-convergence/en.md
+          - docs/4-europe-casestudy/01-europe-convergence/cn.md
+
+      - id: does-convergence-mean-catch-up-to-richest
+        question:
+          en: If poorer countries grow faster, will the EU eventually become one rich block?
+          cn: 穷国增长更快，欧盟最后会变成一个"富俱乐部"吗？
+          es: Si los países pobres crecen más rápido, ¿terminará la UE siendo un bloque rico?
+          ja: 貧しい国ほど成長が早いなら、EU はいつか一つの豊かなブロックになるのか？
+          de: Wenn arme Länder schneller wachsen, wird die EU am Ende ein reicher Block?
+        answer:
+          en: >
+            Not on this evidence. Look at the rich end of the chart: Germany grew 3.5% a year, France 3.1%, the Netherlands 4.0%, Austria 3.7% — nobody in the rich club is running away from anybody. Convergence here means the gap between the poor and the rich stopped widening, not that it disappeared. And it is a statistical pattern in one historical window, not a law: it depends on the rich countries staying rich, which is exactly what the debt story on the next page is about.
+          cn: >
+            按这份证据，不会。看图上富的那一端：德国年均增长 3.5%，法国 3.1%，荷兰 4.0%，奥地利 3.7%——富人俱乐部里没有谁在把别人甩开。这里的收敛指的是穷国和富国之间的差距不再扩大，而不是差距消失。而且它只是某一个历史窗口里的统计规律，不是定律：它要求富国继续富下去，而这恰恰就是下一页债务故事要讲的事。
+          es: >
+            Con esta evidencia, no. Miremos el extremo rico del gráfico: Alemania creció un 3,5% anual, Francia un 3,1%, Países Bajos un 4,0%, Austria un 3,7% — nadie en el club rico está escapando de nadie. Aquí la convergencia significa que la brecha entre pobres y ricos dejó de ensancharse, no que desapareció. Y es un patrón estadístico de una ventana histórica, no una ley: depende de que los países ricos sigan siendo ricos, que es justo lo que cuenta la historia de deuda de la página siguiente.
+          ja: >
+            この証拠からはいえない。図の豊かな側を見れば——ドイツ年均 3.5%、フランス 3.1%、オランダ 4.0%、オーストリア 3.7%——富裕クラブの中に誰かが他の誰かを追い越すような動きはない。ここでいう収束とは、貧しい国と豊かな国の差が「広がらなくなった」ことであり、「消えた」ことではない。これはある一時期の統計的なパターンであって法則ではなく、豊かな国が富し続けることに依存する——そしてそれはまさに次のページの債務の話である。
+          de: >
+            Nach dieser Evidenz nicht. Sehen Sie auf das reiche Ende des Diagramms: Deutschland wuchs 3,5% pro Jahr, Frankreich 3,1%, die Niederlande 4,0%, Österreich 3,7% — im reichen Club holt niemand einen anderen ab. Konvergenz heißt hier, dass sich die Lücke zwischen arm und reich nicht mehr vergrößert, nicht dass sie verschwindet. Und sie ist ein statistisches Muster in einem historischen Zeitfenster, kein Gesetz: Sie setzt voraus, dass die reichen Länder reich bleiben — und genau darum geht es in der Schulden-Erzählung der nächsten Seite.
+        confidence: 8
+        reference:
+          - docs/4-europe-casestudy/01-europe-convergence/en.md
+          - docs/4-europe-casestudy/01-europe-convergence/cn.md

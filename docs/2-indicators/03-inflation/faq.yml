@@ -1,0 +1,124 @@
+id: x-dbnomics-2-indicators-03-inflation
+
+data:
+  - name:
+      en: inflation
+      cn: 通货膨胀
+      es: inflación
+      ja: インフレ
+      de: Inflation
+    qa:
+      - id: what-is-inflation
+        question:
+          en: What is inflation, and how is it measured?
+          cn: 通货膨胀是什么？怎么衡量？
+          es: ¿Qué es la inflación y cómo se mide?
+          ja: インフレとは？如何に測るか？
+          de: Was ist Inflation und wie misst man sie?
+        answer:
+          en: >
+            Inflation is the yearly percentage change in the consumer price index — the price of a typical basket of goods, measured against the same basket a year earlier. It is not a level but a rate: 2% inflation means prices are about 2% higher than a year ago, not that they are expensive in absolute terms. It decides what a wage buys.
+          cn: >
+            通货膨胀是消费者价格指数（CPI）的同比涨幅——把一篮子日常商品的价格和去年同一篮子比。它是一个"率"而不是"水平"：2% 的通胀是说比去年贵了 2%，不是说东西本身就贵。它决定一份工资能买到多少东西。
+          es: >
+            La inflación es la variación interanual del índice de precios al consumo —el precio de una cesta típica de bienes frente a la misma cesta un año antes—. No es un nivel sino una tasa: 2% de inflación significa que los precios están cerca de un 2% más altos que hace un año, no que sean caros en términos absolutos. Decide qué compra un salario.
+          ja: >
+            インフレとは、消費者物価指数（前年比）の上昇率のこと。一般的な財の束の値段を1年前の同じ束と比べて出す。水準ではなく率である。2% なら「1 年前より 2% 高い」という意味であり、そもそも高いという話ではない。
+          de: >
+            Inflation ist die jährliche Veränderung des Verbraucherpreisindex — des Preises eines typischen Warenkorbs im Vergleich zum gleichen Warenkorb ein Jahr zuvor. Es ist keine Stufe, sondern eine Rate: 2% Inflation bedeuten, dass die Preise rund 2% höher sind als vor einem Jahr, nicht dass sie absolut teuer sind. Sie entscheidet, was ein Lohn kauft.
+        confidence: 10
+        reference:
+          - docs/2-indicators/03-inflation/en.md
+          - docs/2-indicators/03-inflation/cn.md
+
+      - id: disinflation-vs-deflation
+        question:
+          en: What is the difference between disinflation and deflation?
+          cn: '"通胀放缓"和"通缩"有什么区别？'
+          es: ¿Cuál es la diferencia entre desinflación y deflación?
+          ja: インフレの減速（disinflation）とデフレーションはどう違う？
+          de: Was ist der Unterschied zwischen Disinflation und Deflation?
+        answer:
+          en: >
+            Disinflation is prices still rising, but more slowly than before — the inflation rate falls from 8% to 3%. Deflation is prices actually falling, so the rate goes negative. The US in 2024 at 2.99% is disinflation: prices are still higher than a year earlier, just not as fast. Japan in 2020, at −0.23%, was real deflation.
+          cn: >
+            「通胀放缓」是价格还在涨，只是涨得没那么快了——通胀率从 8% 降到 3%。「通缩」是价格真的在跌，率变成负数。美国 2024 年的 2.99% 属于前者：比一年前贵，只是不再涨那么快。日本 2020 年的 −0.23% 才是真正的通缩。
+          es: >
+            La desinflación son precios que siguen subiendo, pero más despacio: la tasa cae del 8% al 3%. La deflación son precios que de verdad caen, y la tasa se vuelve negativa. EE. UU. en 2024, con un 2,99%, está en desinflación: los precios siguen más altos que hace un año, pero no suben tan rápido. Japón en 2020, con un −0,23%, sí fue deflación real.
+          ja: >
+            ディスインフレーションは「まだ上がるが、上がり方が遅くなった」こと——インフレ率が 8% から 3% へ下がる。デフレーションは価格が実際に下がることで、率がマイナスになる。米国の 2024 年 2.99% は前者の水準で、1 年前より高くても上昇が鈍っただけ。日本 の 2020 年（−0.23%）は本物のデフレーションだった。
+          de: >
+            Disinflation heißt: Die Preise steigen weiter, nur langsamer — die Inflationsrate fällt von 8% auf 3%. Deflation heißt: Die Preise fallen tatsächlich, die Rate wird negativ. Die USA lagen 2024 bei 2,99% und damit bei Disinflation: teurer als im Vorjahr, nur nicht mehr so schnell. Japan lag 2020 mit −0,23% in echter Deflation.
+        confidence: 9
+        reference:
+          - docs/2-indicators/03-inflation/en.md
+          - docs/2-indicators/03-inflation/cn.md
+
+      - id: what-drove-the-2021-surge
+        question:
+          en: What caused the 2021–23 inflation surge?
+          cn: 2021–23 年这轮通胀高峰是怎么来的？
+          es: ¿Qué disparó la ola de inflación de 2021–23?
+          ja: 2021–23 年のインフレ急騰は何が原因だった？
+          de: Was trieb die Inflationswelle 2021–23 an?
+        answer:
+          en: >
+            Three things hit at once: broken supply chains (goods could not be shipped or produced), expensive energy, and policy that was too easy during the pandemic. The US peaked at 7.99% in 2022 and the euro area at 8.38%; Türkiye was the extreme case at 72.31%, dragged up by a collapsing currency.
+          cn: >
+            三件事同时发生：供应链断裂（货运不来、产不出来）、能源昂贵，以及疫情期间过于宽松的政策。美国 2022 年见顶 7.99%，欧元区 8.38%；土耳其是极端案例，高达 72.31%，主要被崩跌的货币拖了上去。
+          es: >
+            Tres cosas a la vez: cadenas de suministro rotas (los bienes no llegaban ni se producían), energía cara y una política demasiado laxa durante la pandemia. EE. UU. alcanzó un pico del 7,99% en 2022 y la zona del euro un 8,38%; Türkiye fue el caso extremo con un 72,31%, arrastrada por una moneda que se desplomaba.
+          ja: >
+            三つが同時に重なった——供应網の断裂（商品が届かず、作り方自体にも影響）、エネルギー価格の高騰、そしてパンデミ期的には緩すぎた政策。米国は 2022 年に 7.99%、ユーロ圏は 8.38% でピーク。トルコは通貨の急落に引っ張られて 72.31% という極端な値に。
+          de: >
+            Drei Dinge trafen zusammen: zerbrochene Lieferketten (Güter kamen nicht an und wurden gar nicht produziert), teure Energie und eine in der Pandemie zu lockere Politik. Die USA erreichten 2022 einen Höchststand von 7,99%, die Eurozone 8,38%; die Türkei war der Extremfall mit 72,31%, nach oben gezogen von einer zusammenbrechenden Währung.
+        confidence: 10
+        reference:
+          - docs/2-indicators/03-inflation/en.md
+          - docs/2-indicators/03-inflation/cn.md
+
+      - id: deflation-trap-japan
+        question:
+          en: What is the deflation trap, and did Japan fall into it?
+          cn: 什么是"通缩陷阱"？日本掉进去过吗？
+          es: ¿Qué es la trampa deflacionista y cayó Japón en ella?
+          ja: デフレショックとは？日本はその罠にはまったのか？
+          de: Was ist die Deflationsfalle, und ist Japan hineingefallen?
+        answer:
+          en: >
+            The deflation trap is a self-reinforcing loop: everyone expects prices to keep falling, so nobody buys today, so demand stays weak, so prices keep falling. Japan sat below target for years, with inflation of −0.12% in 2016, −0.03% in 2020 and −0.23% in 2021. It broke out of it around 2022, when inflation turned positive at 2.5%.
+          cn: >
+            通缩陷阱是一个自我强化的循环：所有人都预期价格会继续跌，于是今天不买，需求一直弱，价格就继续跌。日本有好几年低于目标，2016 年 −0.12%、2020 年 −0.03%、2021 年 −0.23%。大约从 2022 年开始它走出了这个陷阱，通胀转正到 2.5%。
+          es: >
+            La trampa deflacionista es un bucle que se autoalimenta: todos esperan que los precios sigan bajando, así que nadie compra hoy, la demanda sigue débil y los precios siguen bajando. Japón estuvo por debajo del objetivo durante años, con un −0,12% en 2016, un −0,03% en 2020 y un −0,23% en 2021. Salió de ella hacia 2022, cuando la inflación se volvió positiva, con un 2,5%.
+          ja: >
+            デフレショックは自己強化のループ——みんなこれから安くなる预期的。所以在今日は買わず、需求が弱いまま、価格がさらに下落する。日本は目標を下回る状態が数年続き、2016 年 −0.12%、2020 年 −0.03%、2021 年 −0.23% だった。2022 年ごろ、インフレが 2.5% とプラス転じ、この罠から抜け出した。
+          de: >
+            Die Deflationsfalle ist eine selbstverstärkende Schleife: Alle erwarten, dass die Preise weiter fallen, also kauft niemand heute, die Nachfrage bleibt schwach, also fallen die Preise weiter. Japan lag jahrelang unter dem Ziel, mit −0,12% im Jahr 2016, −0,03% 2020 und −0,23% 2021. Um 2022 herum kam es heraus: Die Inflation wurde mit 2,5% wieder positiv.
+        confidence: 9
+        reference:
+          - docs/2-indicators/03-inflation/en.md
+          - docs/2-indicators/03-inflation/cn.md
+
+      - id: is-chinas-low-inflation-good
+        question:
+          en: China's inflation is near zero — is that good news?
+          cn: 中国通胀接近零，这是好消息吗？
+          es: 'La inflación de China está cerca de cero: ¿son buenas noticias?'
+          ja: 中国のインフレはゼロ近辺——それは良い知らせか？
+          de: Chinas Inflation liegt nahe null — ist das gute Nachricht?
+        answer:
+          en: >
+            No, it is a symptom of weak demand, not of strength. Chinese inflation ran 0.92% in 2021, 1.98% in 2022, 0.23% in 2023 and 0.42% in 2024, with 1.66% forecast for 2025. Compare with the US at 1.85% in 2025 and Japan at 1.99%. Low inflation gives the central bank room to cut rates, but it also means households and firms are not buying much.
+          cn: >
+            不是，这是需求疲弱的症状，不是经济强劲的表现。中国 2021 年通胀 0.92%、2022 年 1.98%、2023 年 0.23%、2024 年 0.42%，2025 年预测 1.66%。相比之下美国 2025 年 1.85%、日本 1.99%。低通胀给央行留出降息空间，但同时也说明居民和企业不太买东西。
+          es: >
+            No, es síntoma de demanda floja, no de fortaleza. La inflación china fue 0,92% en 2021, 1,98% en 2022, 0,23% en 2023 y 0,42% en 2024, con un 1,66% previsto para 2025. Compárese con EE. UU. en 1,85% y Japón en 1,99% para 2025. La inflación baja da margen al banco central para bajar tipos, pero también significa que hogares y empresas compran poco.
+          ja: >
+            いい兆候ではない。弱い需要の症状であって、力強さの証拠ではない。中国のインフレは 2021 年 0.92%、2022 年 1.98%、2023 年 0.23%、2024 年 0.42%、2025 年は 1.66% の予測。2025 年の米国 1.85%、日本 1.99% と比べれば、この低さがどれほど際立つかわかる。インフレ偏低なら中央銀行に利下げの余力があるが、家庭や企業があまり買い物をしないという構図でもある。
+          de: >
+            Nein, das ist ein Symptom schwacher Nachfrage, kein Zeichen von Stärke. Die chinesische Inflation lag 2021 bei 0,92%, 2022 bei 1,98%, 2023 bei 0,23% und 2024 bei 0,42%, für 2025 sind 1,66% prognostiziert. Zum Vergleich: USA 1,85% und Japan 1,99% im Jahr 2025. Niedrige Inflation gibt der Notenbank Raum für Zinssenkungen, bedeutet aber auch, dass Haushalte und Unternehmen wenig kaufen.
+        confidence: 9
+        reference:
+          - docs/2-indicators/03-inflation/en.md
+          - docs/2-indicators/03-inflation/cn.md

@@ -1,0 +1,120 @@
+id: x-dbnomics-3-macro-economics-02-okuns-law
+
+data:
+  - name:
+      en: Okun's law
+      cn: 奥肯定律
+      es: ley de Okun
+      ja: オーカンの法則
+      de: Okuns Gesetz
+    qa:
+      - id: does-okuns-law-still-hold
+        question:
+          en: Does Okun's law still hold?
+          cn: 奥肯定律现在还成立吗？
+          es: ¿La ley de Okun sigue cumpliéndose?
+          ja: オーカンの法則は今も成り立つか？
+          de: Gilt Okuns Gesetz noch?
+        answer:
+          en: >
+            In the US, yes, for 25 years. The blue cloud hugs a clean downward slope: in the 2010s, growth of 2% or more chewed through unemployment year after year, and the unemployment rate fell every year the economy grew. The two points that break the pattern are 2020 and 2021, when the lockdown switch was flipped and the labour market stopped working normally.
+          cn: >
+            在美国，成立，而且维持了 25 年。蓝色的点云贴着一条干净的下降斜率：2010 年代，2% 以上的增长年复一年地把失業率啃下去，经济增长的每一年失業率都在降。只有 2020 和 2021 两点打破了这个格局——那是封城开关被拨下、劳动力市场停止正常运转的两年。
+          es: >
+            En EE. UU., sí, durante 25 años. La nube azul se ciñe a una pendiente descendente limpia: en la década de 2010, un crecimiento del 2% o más fue consumiendo el desempleo año tras año, y la tasa de desempleo bajó cada vez que la economía creció. Los dos puntos que rompen el patrón son 2020 y 2021, cuando se apagó el interruptor del cierre y el mercado de trabajo dejó de funcionar con normalidad.
+          ja: >
+            米国では 25 年間成り立っている。青い点塊はきれいな右下がりの傾きに沿っている。2010 年代は 2% 以上の成長が年々失業を食い、経済が成長した年には失業率が下がった。パターンを崩すのは 2020 年と 2021 年の 2 点だけで、ロックダウンというスイッチが切られ労働市場が正常に働かなくなった年だ。
+          de: >
+            In den USA ja, 25 Jahre lang. Die blaue Wolke schmiegt sich an eine saubere abwärts geneigte Gerade: In den 2010ern fraß Wachstum von 2% oder mehr die Arbeitslosigkeit Jahr für Jahr auf, und die Arbeitslosenquote sank in jedem Wachstumsjahr. Nur zwei Punkte durchbrechen das Muster — 2020 und 2021, als der Lockdown-Schalter umgelegt wurde und der Arbeitsmarkt nicht mehr normal funktionierte.
+        confidence: 9
+        reference:
+          - docs/3-macro-economics/02-okuns-law/en.md
+          - docs/3-macro-economics/02-okuns-law/cn.md
+      - id: what-does-half-as-much-mean
+        question:
+          en: What does "unemployment rises by roughly half as much" actually mean?
+          cn: “失業率上升大约只有一半”到底是什么意思？
+          es: ¿Qué significa exactamente que «el desempleo sube aproximadamente la mitad»?
+          ja: 「失業率は約半分の速さで上がる」とはどういう意味か？
+          de: Was bedeutet „die Arbeitslosigkeit steigt etwa halb so stark" genau?
+        answer:
+          en: >
+            It is a rule of thumb about the gap between actual growth and normal growth. If the economy grows 2% less than it normally would, unemployment tends to rise by roughly 1 percentage point instead of by 2%. It is a rough average relationship, not a formula that predicts every single year.
+          cn: >
+            这是一条关于“实际增长与正常增长的差距”的经验法则：如果经济比正常少增长 2%，失業率往往上升约 1 个百分点，而不是 2 个。它是个粗略的平均关系，不是能预测每一年的公式。
+          es: >
+            Es una regla práctica sobre la brecha entre el crecimiento real y el crecimiento normal. Si la economía crece un 2% menos de lo habitual, el desempleo tiende a subir alrededor de un punto porcentual en vez de dos. Es una relación media aproximada, no una fórmula que prediga cada año.
+          ja: >
+            実際の成長と通常の成長との差についての経験則である。平常より 2% 少ない成長だと、失業率は 2 ポイントではなく約 1 ポイント上昇しがちだ。的平均的な関係であって、毎年を当てる公式ではない。
+          de: >
+            Es eine Faustregel für die Lücke zwischen tatsächlichem und normalem Wachstum. Wächst die Wirtschaft um 2% weniger als üblich, steigt die Arbeitslosigkeit tendenziell um rund einen Prozentpunkt statt um zwei. Eine grobe Durchschnittsbeziehung, keine Formel, die jedes Jahr vorhersagt.
+        confidence: 8
+        reference:
+          - docs/3-macro-economics/02-okuns-law/en.md
+          - docs/3-macro-economics/02-okuns-law/cn.md
+      - id: why-does-china-break-the-law
+        question:
+          en: Why does China break the pattern?
+          cn: 为什么中国不遵守这个规律？
+          es: ¿Por qué China rompe el patrón?
+          ja: なぜ中国はパターンを崩すのか？
+          de: Warum bricht China das Muster?
+        answer:
+          en: >
+            Because growth stops turning into headcount. China's cloud sits up and to the right: in 2001, 6.75% growth still came with unemployment falling 0.07 points, but by 2004 the same economy needed 8.45% growth just to keep unemployment flat. A country in structural transition keeps hiring from a shrinking, ageing workforce, so each point of growth buys fewer jobs.
+          cn: >
+            因为增长不再转化为人头。中国的点云偏上偏右：2001 年 6.75% 的增长还伴随着失业率下降 0.07 个百分点，但到 2004 年，同样的经济体需要 8.45% 的增长才能让失业率持平。一个处在结构转型期的国家，是从一个不断缩小、老龄化的劳动力里招人，所以每一点增长能换来的工作更少。
+          es: >
+            Porque el crecimiento deja de convertirse en empleo. La nube china está más arriba y a la derecha: en 2001, un crecimiento del 6,75% aún bajaba el desempleo 0,07 puntos, pero en 2004 esa misma economía necesitaba un 8,45% de crecimiento solo para mantenerlo estable. Un país en transición estructural contrata de una mano de obra que envejece y se encoge, así que cada punto de crecimiento compra menos empleos.
+          ja: >
+            成長が人头に換算されなくなったためである。中国の点塊は右上にある。2001 年なら 6.75% の成長でも失業率は 0.07 ポイント下がっていたが、2004 年には同じ経済が失業率横ばいにするのに 8.45% の成長を必要とした。構造転換期の国は老齢化し減り続ける労働力から採用するため、成長 1 点当たり買う仕事は逆に減る。
+          de: >
+            Weil Wachstum nicht mehr in Arbeitsplätze übersetzt wird. Chinas Wolke liegt oben und rechts: 2001 senkte ein Wachstum von 6,75% die Arbeitslosigkeit noch um 0,07 Punkte, doch 2004 brauchte dieselbe Wirtschaft 8,45% Wachstum, nur um sie stabil zu halten. Ein Land im Strukturwandel rekrutiert aus einer schrumpfenden, alternden Erwerbsbevölkerung — deshalb kauft jeder Punkt Wachstum weniger Jobs.
+        confidence: 8
+        reference:
+          - docs/3-macro-economics/02-okuns-law/en.md
+          - docs/3-macro-economics/02-okuns-law/cn.md
+      - id: why-is-the-euro-area-line-flatter
+        question:
+          en: Why is the euro area's line flatter?
+          cn: 为什么欧元区的斜率更平？
+          es: ¿Por qué la línea de la zona euro es más plana?
+          ja: ユーロ圏のラインなぜ緩やかなのか？
+          de: Warum ist die Linie der Eurozone flacher?
+        answer:
+          en: >
+            Rigid labour markets cushion the link. In Europe it is harder to fire someone and easier to keep them on short-time work schemes, so firms absorb a slowdown by shortening hours rather than by cutting heads. That means unemployment moves less for a given change in growth, and the same growth shock leaves the unemployment rate where it started.
+          cn: >
+            僵硬的劳动力市场起了缓冲作用。在欧洲，辞退一个人更难、让他们做短工更容易，所以企业遇到放缓时先缩短工时而不是砍人头。这就意味着同样的增长变化，失業率的反应更小，增长受冲击后失業率大体留在原地。
+          es: >
+            Los mercados laborales rígidos amortiguan el vínculo. En Europa es más difícil despedir a alguien y más fácil mantenerlo en expedientes de reducción de jornada, así que las empresas absorben la desaceleración recortando horas en vez de puestos. Por eso el desempleo se mueve menos ante un cambio dado del crecimiento, y un choque deja la tasa donde estaba.
+          ja: >
+            硬直的な労働市場が緩衝材になる。欧米では首を切るのが難しく、短時間勤務で据え置くのが容易なので、企業は減速时労働時間の削減で吸収し、人員削減は控える。结果として同じ成長変化でも失業率の反応は小さく、ショックが過ぎても失業率はほぼ元の位置に戻る。
+          de: >
+            Starre Arbeitsmärkte puffern den Zusammenhang. In Europa ist es schwerer, jemanden zu entlassen, und leichter, ihn in Kurzarbeit zu halten — Firmen fangen eine Abschwächung also durch kürzere Arbeitszeiten statt durch Stellenabbau auf. Deshalb bewegt sich die Arbeitslosigkeit bei gleicher Wachstumsänderung weniger, und ein Schock lässt die Quote im Wesentlichen dort, wo sie war.
+        confidence: 8
+        reference:
+          - docs/3-macro-economics/02-okuns-law/en.md
+          - docs/3-macro-economics/02-okuns-law/cn.md
+      - id: how-do-i-read-this-chart
+        question:
+          en: How do I read this chart?
+          cn: 这张图该怎么读？
+          es: ¿Cómo se lee este gráfico?
+          ja: この図は要怎么読む？
+          de: Wie liest man dieses Diagramm?
+        answer:
+          en: >
+            Each point is one year: x is real GDP growth that year, y is how much the unemployment rate changed from the year before, in percentage points. So a point to the lower right means growth was high and joblessness shrank; a point to the upper left means growth was weak and joblessness grew. The cloud around that line is what tells you how tight the relationship is.
+          cn: >
+            每一个点是一年：x 是那一年的实际 GDP 增长，y 是失業率相比上一年变化了多少个百分点。点在右下方，表示增长高、失業减少；点在左上方，表示增长弱、失業上升。那条线周围的点云，告诉你这个关系有多紧。
+          es: >
+            Cada punto es un año: el eje x es el crecimiento real del PIB de ese año, el eje y cuánto cambió la tasa de desempleo respecto al año anterior, en puntos porcentuales. Un punto abajo a la derecha significa crecimiento alto y menos desempleo; uno arriba a la izquierda, crecimiento flojo y más desempleo. La nube alrededor de esa recta dice lo estrecho que es la relación.
+          ja: >
+            1 点が 1 年を表す。x はその年の実質 GDP 成長、y は前年に比べ失業率が何ポイント動いたか。右下なら成長が高く失業が減った点、左上なら成長が弱く失業が増えた点。その直線の周りの点塊が、関係の強さを示している。
+          de: >
+            Jeder Punkt ist ein Jahr: x ist das reale BIP-Wachstum, y die Veränderung der Arbeitslosenquote gegenüber dem Vorjahr in Prozentpunkten. Ein Punkt rechts unten bedeutet hohes Wachstum und weniger Arbeitslosigkeit; links oben schwaches Wachstum und mehr Arbeitslosigkeit. Die Wolke um die Linie zeigt, wie eng der Zusammenhang ist.
+        confidence: 9
+        reference:
+          - docs/3-macro-economics/02-okuns-law/en.md
+          - docs/3-macro-economics/02-okuns-law/cn.md

@@ -1,0 +1,147 @@
+id: x-dbnomics-2-indicators-08-demography-savings
+
+data:
+  - name:
+      en: demography and savings
+      cn: 人口与储蓄
+      es: demografía y ahorro
+      ja: 人口と貯蓄
+      de: Demografie und Sparen
+    qa:
+      - id: why-demography-matters
+        question:
+          en: Why does population matter for economics?
+          cn: 人口为什么对经济这么重要？
+          es: ¿Por qué la población es tan importante para la economía?
+          ja: なぜ人口は経済に如此に重要なのか？
+          de: Warum ist die Bevölkerung für die Wirtschaft so wichtig?
+        answer:
+          en: >
+            Every macro forecast divides by the same number: people. GDP per capita multiplied by population gives GDP, so who is born, who ages and who dies sets the long-run arithmetic of every forecast.
+          cn: >
+            每一份宏观预测都要除以同一个数：人。人均 GDP 乘以人口就是 GDP，所以谁出生、谁变老、谁去世，决定了每一份预测的长期算术。
+          es: >
+            Todo pronóstico macro divide por el mismo número: la gente. El PIB per cápita multiplicado por la población da el PIB, así que quién nace, quién envejece y quién muere fija la aritmética de largo plazo de cualquier pronóstico.
+          ja: >
+            すべてのマクロ経済予測は同じ数で割る。人々である。GDP 一人当たり × 人口 = GDP なので、誰が生まれ、誰が老い、誰が死ぬかがあらゆる予測の長期の算術を決める。
+          de: >
+            Jede Makroprognose teilt durch dieselbe Zahl: die Menschen. BIP pro Kopf mal Bevölkerung ergibt das BIP; also legen Geburten, Altern und Sterben die langfristige Arithmetik jeder Prognose fest.
+        confidence: 10
+        reference:
+          - docs/2-indicators/08-demography-savings/en.md
+          - docs/2-indicators/08-demography-savings/cn.md
+
+      - id: has-india-passed-china
+        question:
+          en: Has India passed China in population?
+          cn: 印度人口超过中国了吗？
+          es: ¿India ha superado a China en población?
+          ja: インドは人口で中国を上回ったか？
+          de: Hat Indien China bei der Bevölkerung überholt?
+        answer:
+          en: >
+            Yes. China peaked at about 1,412 million people in 2021 and has edged down to about 1,408 million by 2025, while India has climbed from 1,060 million in 2000 to about 1,455 million. The US sits far behind at 338 million.
+          cn: >
+            超了。中国 2021 年见顶，约 14.12 亿人，到 2025 年微降到约 14.08 亿；印度则从 2000 年的 10.60 亿涨到约 14.55 亿。美国远远落后，3.38 亿。
+          es: >
+            Sí. China alcanzó su máximo en unos 1.412 millones de personas en 2021 y ha descendido levemente a unos 1.408 millones en 2025, mientras India ha subido desde 1.060 millones en 2000 hasta unos 1.455 millones. EE. UU. queda muy atrás, con 338 millones.
+          ja: >
+            上回った。中国は 2021 年に約 14 億 1,200 万人でピークを迎え、2025 年には約 14 億 800 万人までわずかに減少している。インドは 2000 年の 10 億 600 万人から 2025 年の約 14 億 5,500 万人へ増加した。アメリカは 3 億 3,800 万人で大きく離れている。
+          de: >
+            Ja. China erreichte 2021 mit rund 1.412 Millionen Menschen seinen Höchststand und ist bis 2025 leicht auf rund 1.408 Millionen gefallen, während Indien von 1.060 Millionen im Jahr 2000 auf rund 1.455 Millionen gestiegen ist. Die USA liegen mit 338 Millionen weit dahinter.
+        confidence: 10
+        reference:
+          - docs/2-indicators/08-demography-savings/en.md
+          - docs/2-indicators/08-demography-savings/cn.md
+
+      - id: what-is-demographic-dividend
+        question:
+          en: What is a demographic dividend?
+          cn: 什么是人口红利？
+          es: ¿Qué es el dividendo demográfico?
+          ja: 人口配当とは？
+          de: Was ist die demografische Dividende?
+        answer:
+          en: >
+            The economic boost that comes from having a large share of the population in working age: more earners supporting relatively few dependents. It is one of the reasons behind China's very high saving rate — and part of why India's young age structure is described as its long-run bet.
+          cn: >
+            劳动年龄人口占比高带来的经济提振：干活的人多，负担的人相对少。这既是中国储蓄率极高的原因之一，也是为什么说印度的年轻年龄结构是它的长期赌注。
+          es: >
+            El impulso económico que trae tener una gran parte de la población en edad laboral: más perceptores sosteniendo a relativamente pocos dependientes. Es una de las razones de la altísima tasa de ahorro china — y parte de por qué la estructura de edad joven de India se describe como su apuesta de largo plazo.
+          ja: >
+            労働年齢人口の割合が大きいときに生じる経済的な押し上げ効果。働く人が多く、養われる人が比較的少ない状態|中国の高い貯蓄率の理由の一つであり、インドの若い年齢構成が長期の賭けと呼ばれる所以でもある。
+          de: >
+            Der wirtschaftliche Schub, der entsteht, wenn ein großer Teil der Bevölkerung im erwerbsfähigen Alter ist: mehr Erwerbstätige tragen relativ wenige Abhängige. Das ist einer der Gründe für Chinas sehr hohe Sparquote — und ein Teil davon, warum Indiens junge Altersstruktur als langfristige Wette gilt.
+        confidence: 9
+        reference:
+          - docs/2-indicators/08-demography-savings/en.md
+          - docs/2-indicators/08-demography-savings/cn.md
+
+      - id: how-saving-and-investment-make-the-current-account
+        question:
+          en: How do saving and investment make the current account?
+          cn: 储蓄和投资怎么变成经常账户？
+          es: ¿Cómo se forman el ahorro, la inversión y la cuenta corriente?
+          ja: 貯蓄と投資から経常収支はどう生まれるのか？
+          de: Wie entstehen aus Sparen und Investieren die Leistungsbilanz?
+        answer:
+          en: >
+            It is an identity: national saving minus domestic investment equals the current account. Whatever a country saves but does not spend on its own investment has to go abroad — as lending to other countries, which is exactly what a current-account surplus is.
+          cn: >
+            这是一个恒等式：国民储蓄减去国内投资，等于经常账户。一国存下来却没投在国内的钱，只能到国外去——变成对别国的放贷，这正是经常账户顺差的含义。
+          es: >
+            Es una identidad: ahorro nacional menos inversión doméstica igual a la cuenta corriente. Todo lo que un país ahorra y no gasta en su propia inversión tiene que ir al extranjero — como préstamo a otros países, que es exactamente lo que es un superávit de cuenta corriente.
+          ja: >
+            恒等式である。国民貯蓄から国内投資を引くと経常収支になる。一国が蓄えて自国の投資に使わなかった分は必ず海外へ出る——他国への貸出となり、それが経常収支黒字そのものである。
+          de: >
+            Es ist eine Identität: Nationale Sparen minus inländische Investitionen ergibt die Leistungsbilanz. Was ein Land spart, aber nicht in eigener Investition anlegt, muss ins Ausland gehen — als Lending an andere Länder, und genau das ist ein Überschuss in der Leistungsbilanz.
+        confidence: 10
+        reference:
+          - docs/2-indicators/08-demography-savings/en.md
+          - docs/2-indicators/08-demography-savings/cn.md
+
+      - id: why-china-saves-so-much
+        question:
+          en: Why does China save about 44% of GDP?
+          cn: 中国为什么储蓄率高达约 44% 的 GDP？
+          es: ¿Por qué China ahorra cerca del 44% del PIB?
+          ja: 中国はなぜ GDP の約 44% も貯蓄するのか？
+          de: Warum spart China rund 44% des BIP?
+        answer:
+          en: >
+            Two forces add up: precautionary saving — households keeping a buffer because the future is uncertain — and the demographic dividend, where a large working-age population has to set aside money for the future. A saving rate of that size is rare anywhere in the world.
+          cn: >
+            两股力量叠加：预防性储蓄——因为未来不确定，家庭要留个缓冲；以及人口红利——庞大的劳动年龄人口必须为将来存钱。这种量级的储蓄率在全世界都很罕见。
+          es: >
+            Dos fuerzas se suman: el ahorro preventivo —las familias mantienen un colchón porque el futuro es incierto— y el dividendo demográfico: una enorme población en edad laboral tiene que ahorrar para el futuro. Una tasa de ahorro así es rara en cualquier parte del mundo.
+          ja: >
+            二つの力が重なっている。予防性貯蓄——将来が不確かなため、家計が緩衝材を持っておく。そして人口配当——庞大的労働年齢人口が将来のために蓄えなければならない。そうした大きさの貯蓄率は世界でも異例である。
+          de: >
+            Zwei Kräfte summieren sich: vorsorgliches Sparen — Haushalte halten einen Puffer, weil die Zukunft ungewiss ist — und die demografische Dividende, bei der eine große Bevölkerung im erwerbsfähigen Alter für die Zukunft zurücklegen muss. Eine so hohe Sparquote ist weltweit selten.
+        confidence: 8
+        reference:
+          - docs/2-indicators/08-demography-savings/en.md
+          - docs/2-indicators/08-demography-savings/cn.md
+
+      - id: how-do-you-see-the-identity-in-the-chart
+        question:
+          en: How can I see the identity in the chart itself?
+          cn: 这个恒等式怎么直接从图上看出来？
+          es: ¿Cómo se ve la identidad en el propio gráfico?
+          ja: この恒等式は図のどこから読み取れるのか？
+          de: Wie lässt sich die Identität direkt im Diagramm ablesen?
+        answer:
+          en: >
+            Look at 2025: China's saving rate is 43.4% of GDP and its investment rate 41.8% — a gap of about 1.6 points, which is exactly China's current-account surplus. The US runs the other way: 18.2% saving against 22.0% investment, a gap of about ‑3.7 points, matching its ‑3.1% current-account deficit.
+          cn: >
+            看 2025 年：中国储蓄率 43.4% GDP，投资率 41.8%，差约 1.6 个百分点，正好就是中国的经常账户顺差。美国方向相反：储蓄 18.2%，投资 22.0%，差约 ‑3.7 个百分点，与 ‑3.1% 的经常账户逆差对得上。
+          es: >
+            Mira 2025: la tasa de ahorro china es del 43,4% del PIB y la de inversión del 41,8% — una brecha de unos 1,6 puntos, exactamente el superávit de cuenta corriente de China. EE. UU. va al revés: 18,2% de ahorro frente a 22,0% de inversión, una brecha de unos ‑3,7 puntos, que coincide con su déficit de ‑3,1%.
+          ja: >
+            2025 年を見ればよい。中国の貯蓄率は GDP の 43.4%、投資率は 41.8% で、その差は約 1.6 ポイント——これはちょうど中国の経常収支黒字である。アメリカは逆方向で、貯蓄 18.2% に対し投資 22.0%、差は約 ‑3.7 ポイントで、‑3.1% の経常収支赤字と一致する。
+          de: >
+            Sehen Sie sich 2025 an: Chinas Sparquote liegt bei 43,4% des BIP, die Investitionsquote bei 41,8% — eine Lücke von rund 1,6 Punkten, exakt Chinas Überschuss in der Leistungsbilanz. Die USA laufen umgekehrt: 18,2% Sparen gegen 22,0% Investition, eine Lücke von rund ‑3,7 Punkten, passend zum Defizit von ‑3,1%.
+        confidence: 10
+        reference:
+          - docs/2-indicators/08-demography-savings/en.md
+          - docs/2-indicators/08-demography-savings/cn.md

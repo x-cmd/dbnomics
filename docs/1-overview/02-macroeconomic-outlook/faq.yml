@@ -1,0 +1,126 @@
+id: x-dbnomics-1-overview-02-macroeconomic-outlook
+
+data:
+  - name:
+      en: the 2025 macro dashboard
+      cn: 2025 宏观仪表盘
+      es: el panel macroeconómico de 2025
+      ja: 2025 年マクロダッシュボード
+      de: das Makro-Dashboard 2025
+    qa:
+      - id: how-do-i-read-this-page
+        question:
+          en: How should I read this page?
+          cn: 这一页该怎么看？
+          es: ¿Cómo debería leer esta página?
+          ja: このページはどう読む?
+          de: Wie lese ich diese Seite?
+        answer:
+          en: >
+            In four steps, and the order matters: who is big enough to matter, then what prices are doing, then how the real economy (growth, jobs) is doing, and finally what constrains it (debt, the balance with the rest of the world). Every link in the table takes you to the page with the full story behind that question.
+          cn: >
+            分四步看，顺序很重要：先看谁大到足以影响别人，再看价格在做什么，然后看实体经济（增长、就业）做得如何，最后看它受什么约束（债务、与世界其他部分的收支）。表里每个链接都通向那一页的完整内容。
+          es: >
+            En cuatro pasos, y el orden importa: primero quién es lo bastante grande como para importar, luego qué están haciendo los precios, después cómo va la economía real (crecimiento, empleo) y por último qué la limita (deuda, el saldo con el resto del mundo). Cada enlace de la tabla lleva a la página con la historia completa.
+          ja: >
+            4 ステップで読む。順序が重要だ。まず十分に大きいのは誰か、次に価格はどうなっているか、次に実体経済(成長、雇用)はどうか、最後にそれを縛るものは何か(債務、対外収支)。表のリンクはそれぞれの詳細ページ通向う。
+          de: >
+            In vier Schritten, und die Reihenfolge zählt: zuerst, wer groß genug ist, um zu zählen; dann, was die Preise tun; dann, wie die reale Wirtschaft dasteht (Wachstum, Jobs); zuletzt, was sie bremst (Schulden, das Verhältnis zum Rest der Welt). Jeder Link in der Tabelle führt zur Seite mit der ganzen Geschichte.
+        confidence: 10
+        reference:
+          - docs/1-overview/02-macroeconomic-outlook/en.md
+          - docs/1-overview/02-macroeconomic-outlook/cn.md
+
+      - id: what-does-2025-in-one-line-mean
+        question:
+          en: What does "2025 in one line" mean?
+          cn: '"2025 一句话"是什么意思？'
+          es: ¿Qué significa "2025 en una línea"?
+          ja: 「2025 年の一行」とは?
+          de: Was bedeutet "2025 in einem Satz"?
+        answer:
+          en: >
+            It is the summary of the whole dashboard: the US landed softly but its debt clock runs; China rebalances; Europe converges and fractures under arithmetic; the world waits for a normal-rate world.
+          cn: >
+            它是整张仪表盘的总结：美国软着陆了，但债务时钟还在走；中国在再平衡；欧洲一边收敛一边被算术撕裂；全世界在等一个利率正常的世界。
+          es: >
+            Es el resumen de todo el panel: EE. UU. aterrizó sin golpes pero su reloj de deuda corre; China se reequilibra; Europa converge y se fractura bajo la aritmética; el mundo espera un mundo de tipos normales.
+          ja: >
+            ダッシュボード全体の要約だ。アメリカは軟着地した。ただし債務の時計は動き続ける。中国は再バランスしている。ヨーロッパは収束しながら算術によって亀裂が深まる。世界は「正常な金利の世界」を待っている。
+          de: >
+            Es ist die Zusammenfassung des gesamten Dashboards: Die USA landeten sanft, aber ihre Schuldenuhr läuft; China balanciert neu; Europa konvergiert und zerbricht an der Arithmetik; die Welt wartet auf eine Welt mit normalen Zinsen.
+        confidence: 10
+        reference:
+          - docs/1-overview/02-macroeconomic-outlook/en.md
+          - docs/1-overview/02-macroeconomic-outlook/cn.md
+
+      - id: what-are-the-five-rows-for
+        question:
+          en: What do the five rows of the table cover?
+          cn: 表格里的五行分别讲什么？
+          es: ¿Qué cubren las cinco filas de la tabla?
+          ja: 表の 5 つの行は何を扱って)?
+          de: Worum gehen die fünf Zeilen der Tabelle?
+        answer:
+          en: >
+            "Who matters?" is about size (GDP, the US, US states, China provinces); "Where are prices?" is about inflation, policy rates and the US yield curve; "How is the real economy?" is about growth, unemployment, the Phillips curve and Okun's law; "Where are the constraints?" is about government debt, French debt, the current account and the growth-trade balance; "The long run?" is about demography and savings, Wagner's law and EU convergence.
+          cn: >
+            "谁重要"讲体量（GDP、美国、美国各州、中国各省）；"价格怎么走"讲通胀、政策利率、美债收益率曲线；"实体怎么样"讲增长、失业、菲利普斯曲线、奥肯定律；"约束在哪"讲政府债务、法国债务、经常账户、增长与平衡；"长期看什么"讲人口与储蓄、瓦格纳法则、欧盟收敛。
+          es: >
+            «¿Quién importa?» es sobre el tamaño (PIB, EE. UU., estados de EE. UU., provincias chinas); «¿Dónde están los precios?» trata de inflación, tipos oficiales y la curva de rendimientos estadounidense; «¿Cómo va la economía real?» de crecimiento, desempleo, la curva de Phillips y la ley de Okun; «¿Dónde están las restricciones?» de deuda pública, deuda francesa, la cuenta corriente y el binomio crecimiento-cuenta corriente; «¿El largo plazo?» de demografía y ahorro, la ley de Wagner y la convergencia de la UE.
+          ja: >
+            「誰が重要?」は規模の話(GDP・アメリカ・米州・中国各省)、「価格はどうなっている?」はインフレ・政策金利・米債利回り曲線、「実体経済は?」は成長・失業・フィlipps 曲線・オーカンの法則、「制約は?」は政府債務・フランス債務・経常収支・成長と収支、「長期的には?」は人口と貯蓄・ワーグナーの法則・EU 収束。
+          de: >
+            „Wer zählt?" geht um die Größe (BIP, USA, US-Bundesstaaten, chinesische Provinzen); „Wo sind die Preise?" um Inflation, Leitzinsen und die US-Zinskurve; „Wie steht die reale Wirtschaft?" um Wachstum, Arbeitslosigkeit, Phillips-Kurve und Okuns Gesetz; „Wo sind die Grenzen?" um Staatsschulden, französische Schulden, die Leistungsbilanz und Wachstum plus Außenhandel; „Langfristig?" um Demografie und Sparen, Wagners Gesetz und die EU-Konvergenz.
+        confidence: 9
+        reference:
+          - docs/1-overview/02-macroeconomic-outlook/en.md
+          - docs/1-overview/02-macroeconomic-outlook/cn.md
+
+      - id: what-does-debt-clock-mean
+        question:
+          en: What does "its debt clock runs" mean?
+          cn: '"债务时钟还在走"是什么意思？'
+          es: ¿Qué significa "su reloj de deuda corre"?
+          ja: 「債務の時計は動き続ける」とは?
+          de: Was bedeutet "ihre Schuldenuhr läuft"?
+        answer:
+          en: >
+            It is the shorthand for the US fiscal arithmetic: the economy grew without a crisis, yet government debt kept climbing past 120% of GDP in peacetime, so the interest bill compounds faster than the economy does. The dashboard points at the debt page and the France case study for the numbers behind the phrase.
+          cn: >
+            这是对美国财政算术的简称：经济没有衰退，政府债务却在和平时期一路涨过 GDP 的 120%，于是利息滚得比经济还快。仪表盘把债务页和法国案例链接指出来，就是这个说法的数字出处。
+          es: >
+            Es la abreviatura de la aritmética fiscal estadounidense: la economía creció sin crisis, pero la deuda pública siguió subiendo por encima del 120% del PIB en tiempos de paz, de modo que la factura de intereses crece más rápido que la economía. El panel remite a la página de deuda y al caso francés para las cifras.
+          ja: >
+            米国の財政計算を短く言ったもの。危機なく経済は伸びたのに、政府債務は平時のまま GDP の 120% を超えて増え続け、利払い위가経済より速く膨らむ。ダッシュボードは債務のページとフランスのケースStudiesへ、この言葉の数字を示している。
+          de: >
+            Das ist die Kurzform der US-Finanzarithmetik: Die Wirtschaft wuchs ohne Krise, zugleich aber stieg die Staatsverschuldung in Friedenszeiten über 120% des BIP, sodass die Zinsrechnung schneller wächst als die Wirtschaft. Das Dashboard verweist für die Zahlen auf die Schuldenseite und die Frankreich-Fallstudie.
+        confidence: 8
+        reference:
+          - docs/1-overview/02-macroeconomic-outlook/en.md
+          - docs/2-indicators/05-government-debt/en.md
+          - docs/4-europe-casestudy/02-french-debt-sustainability/en.md
+
+      - id: what-does-normal-rate-world-mean
+        question:
+          en: What does "a normal-rate world" mean?
+          cn: '"利率正常的世界"是什么意思？'
+          es: ¿Qué significa "un mundo de tipos normales"?
+          ja: 「正常な金利の世界」とは?
+          de: Was bedeutet "eine Welt mit normalen Zinsen"?
+        answer:
+          en: >
+            It means the era of near-zero interest rates is over and policy rates have returned to something closer to their pre-2008 level. That matters because every other price leans on the policy rate: mortgages, savings, exchange rates, and what stocks and houses are worth. The policy-rates and US yield-curve pages show how far the shift has gone.
+          cn: >
+            它指的是近零利率的时代已经结束，政策利率回到了更接近 2008 年前的水平。这件事重要，是因为其他所有价格都靠在政策利率上：房贷、储蓄、汇率，以及股票和房子值多少。政策利率页和美债收益率曲线页展示了这一步走了多远。
+          es: >
+            Significa que la era de los tipos casi cero ha terminado y los tipos oficiales han vuelto a algo más parecido a su nivel previo a 2008. Importa porque todos los demás precios se apoyan en el tipo oficial: mortgages, savings, tipos de cambio y lo que valen las acciones y las viviendas. Las páginas de tipos oficiales y de la curva de rendimientos muestran hasta dónde ha llegado el giro.
+          ja: >
+            ゼロ近辺の金利時代が終わり、政策金利が 2008 年前にもう少し近い水準に戻ったことを指す。他のすべての価格(住宅ローン・預金・為替・株や家の値)は政策金利に寄りかざるを得ないので重要だ。政策金利のページと米債利回り曲線のページがそのShift の到達点を示す。
+          de: >
+            Es bedeutet, dass die Ära der nahezu null Prozent vorbei ist und die Leitzinsen wieder auf einem Niveau nahe vor 2008 liegen. Das zählt, weil sich alle anderen Preise am Leitzins aufhängen: Hypotheken, Sparen, Wechselkurse und die Bewertung von Aktien und Häusern. Die Seiten zu Leitzinsen und zur US-Zinskurve zeigen, wie weit die Wende gegangen ist.
+        confidence: 8
+        reference:
+          - docs/1-overview/02-macroeconomic-outlook/en.md
+          - docs/2-indicators/07-policy-rates/en.md
+          - docs/5-us-casestudy/02-us-yield-curve/en.md

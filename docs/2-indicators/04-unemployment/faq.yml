@@ -1,0 +1,124 @@
+id: x-dbnomics-2-indicators-04-unemployment
+
+data:
+  - name:
+      en: unemployment
+      cn: 失业
+      es: desempleo
+      ja: 失業
+      de: Arbeitslosigkeit
+    qa:
+      - id: what-is-unemployment-rate
+        question:
+          en: What is the unemployment rate?
+          cn: 失业率是什么？
+          es: ¿Qué es la tasa de desempleo?
+          ja: 失業率とは？
+          de: Was ist die Arbeitslosenquote?
+        answer:
+          en: >
+            People without a job who are actively looking for one, as a share of everyone in the labour force — that is, everyone who is working or looking. Someone who has stopped looking is not counted as unemployed, which is why the number understates slack in a weak economy. It is the number people feel first, because a job is where most income starts.
+          cn: >
+            没有工作、而且正在积极找工作的那部分人，占劳动人口（有工作或正在找工作的所有人）的比重。已经放弃找工作的不算失业，所以经济疲软时这个数字低估了闲置劳力。这是人们最先感觉到的数字，因为大部分收入都从一份工作开始。
+          es: >
+            Personas sin trabajo que lo buscan activamente, como parte de la población laboral —todos los que trabajan o buscan—. Quien ha dejado de buscar no se computa desempleado, y por eso la cifra subestima el margen de holgura en una economía débil. Es el número que la gente nota primero, porque el ingreso de la mayoría empieza con un empleo.
+          ja: >
+            仕事がなく、そして找工作をしている人が、労働人口——働いている人と找工作をしている人の合計——に占める割合。找工作をやめた人は失業に数えないため、経済が弱いときにはこの数字は労働力の余裕を過小評価する。
+          de: >
+            Menschen ohne Arbeit, die aktiv nach einer suchen, als Anteil aller Erwerbstätigen — also aller, die arbeiten oder suchen. Wer die Suche aufgegeben hat, zählt nicht als arbeitslos, weshalb die Zahl in einer schwachen Wirtschaft die vorhandene Reserve unterschätzt. Es ist die Zahl, die Menschen zuerst spüren, denn die meisten Einkommen beginnen mit einem Job.
+        confidence: 10
+        reference:
+          - docs/2-indicators/04-unemployment/en.md
+          - docs/2-indicators/04-unemployment/cn.md
+
+      - id: why-spain-vs-japan
+        question:
+          en: Why is Spain's unemployment around 11% while Japan's is around 2.5%?
+          cn: 为什么西班牙失业率约 11%，日本只有约 2.5%？
+          es: ¿Por qué el desempleo de España ronda el 11% y el de Japón el 2,5%?
+          ja: スペインの失業率は約 11%、日本は約 2.5% なのはなぜ？
+          de: Warum liegt Spaniens Arbeitslosigkeit bei rund 11% und Japans bei rund 2,5%?
+        answer:
+          en: >
+            That gap is about institutions, not the business cycle: how expensive it is to fire someone, how young people get a first job, how the safety net works. Spain has been on a much higher path all along — 17.86% in 2009 and a peak of 26.09% in 2013 — while Japan has been on a low, slow-declining one since 2005. In 2025 the numbers are 11.2% for Spain against 2.5% for Japan.
+          cn: >
+            这个差距是"制度"造成的，不是经济周期：解雇一个人有多贵、年轻人怎么找到第一份工作、社会保障网怎么运作。西班牙一直走在高得多的轨道上——2009 年 17.86%，2013 年一度冲到 26.09%；日本则从 2005 年起走在低位缓慢下行的轨道上。2025 年这两个数字是西班牙 11.2%、日本 2.5%。
+          es: >
+            Esa brecha tiene que ver con las instituciones, no con el ciclo: lo caro que es despedir a alguien, cómo consiguen su primer empleo los jóvenes, cómo funciona la red de protección. España ha seguido siempre una trayectoria mucho más alta —17,86% en 2009 y un pico del 26,09% en 2013—, mientras Japón lleva desde 2005 una trayectoria baja y a la baja. En 2025 las cifras son 11,2% para España frente al 2,5% de Japón.
+          ja: >
+            この差は「制度」の問題であって、景気循環ではない。解雇のコストが高いか若者が最初の仕事を得る仕組み、社会保障網の仕組みが違う。スペインは最初からずっと高い軌道を歩んできた——2009 年 17.86%、2013 年には 26.09% まで上昇——に対し、日本は 2005 年から低位で緩やかに下降する軌道にある。2025 年の数字はスペイン 11.2%、日本 2.5%。
+          de: >
+            Diese Lücke hat mit Institutionen zu tun, nicht mit dem Konjunkturzyklus: wie teuer es ist, jemanden zu entlassen, wie junge Menschen eine erste Stelle bekommen, wie das Sicherheitsnetz funktioniert. Spanien ist von Anfang an auf einem viel höheren Pfad gelaufen — 17,86% im Jahr 2009 und ein Höchststand von 26,09% 2013 —, während Japan seit 2005 einen niedrigen, langsam fallenden Pfad nimmt. 2025 stehen 11,2% für Spanien 2,5% für Japan gegenüber.
+        confidence: 9
+        reference:
+          - docs/2-indicators/04-unemployment/en.md
+          - docs/2-indicators/04-unemployment/cn.md
+
+      - id: okuns-law
+        question:
+          en: What is Okun's law, and what does it say?
+          cn: 奥肯定律是什么？说了什么？
+          es: ¿Qué es la ley de Okun y qué dice?
+          ja: オーカンの法則とは何を言っているのか？
+          de: Was ist das Okunsche Gesetz, und was sagt es?
+        answer:
+          en: >
+            A rule of thumb that puts a price on unemployment: for every point of unemployment above the natural rate — the rate you would expect in a healthy economy — you lose roughly 2 points of GDP. It is not a law of nature but it has held up remarkably well in the data, and it is the reason governments care so much about the unemployment number.
+          cn: >
+            一条给失业标价的经验规律：失业率每高出"自然失业率"（经济健康时应有的失业率）1 个百分点，GDP 大约损失 2 个百分点。它不是自然定律，但在数据里表现得相当稳，也正因为如此，政府才如此在意失业率这个数字。
+          es: >
+            Una regla práctica que le pone precio al desempleo: por cada punto de desempleo por encima de la tasa natural —la que se esperaría en una economía sana— se pierden unos 2 puntos de PIB. No es una ley de la naturaleza, pero se ha cumplido con notable solidez en los datos, y por eso a los gobiernos les importa tanto la cifra del desempleo.
+          ja: >
+            失業に価格をつける経験則。「自然失業率」（健全な経済で想定される水準）を1ポイント上回るごとに、GDP はおよそ 2 ポイント失われる。物理法則ではないがデータではかなり安定して成り立ち、各国政府がこの数字を気にするのはそのため。
+          de: >
+            Eine Faustregel, die der Arbeitslosigkeit einen Preis gibt: Für jeden Punkt Arbeitslosigkeit über der natürlichen Rate — der Rate, die in einer gesunden Wirtschaft zu erwarten wäre — gehen rund 2 BIP-Punkte verloren. Kein Naturgesetz, aber in den Daten überraschend stabil; deshalb kümmern sich die Regierungen so sehr um die Arbeitslosenzahl.
+        confidence: 9
+        reference:
+          - docs/2-indicators/04-unemployment/en.md
+          - docs/2-indicators/04-unemployment/cn.md
+
+      - id: covid-spike
+        question:
+          en: Why did unemployment spike in 2020, and why did it fall back so fast?
+          cn: 2020 年失业率为什么飙升，又为什么这么快回落？
+          es: ¿Por qué se disparó el desempleo en 2020 y por qué cayó tan rápido?
+          ja: 2020 年に失業率が急上昇したのはなぜ？ なぜ戻りも早かったのか？
+          de: Warum schoss die Arbeitslosigkeit 2020 hoch, und warum fiel sie so schnell zurück?
+        answer:
+          en: >
+            The 2020 spike was the lockdowns, not a normal recession: US unemployment went from 3.67% in 2019 to 8.09% in 2020, and Spain from 15.53% to 24.79%. It came back down fast because the lockdowns were temporary and, in many places, hiring subsidies kept firms attached to their workers. By the end of the cycle labour markets were unusually tight.
+          cn: >
+            2020 年的跳升是封控造成的，不是普通的衰退：美国失业率从 2019 年的 3.67% 升到 2020 年的 8.09%，西班牙从 15.53% 升到 24.79%。之所以回落很快，是因为封控是暂时的，而且在很多地方，补贴让企业没有立刻裁员。到这一轮周期结束时，劳动力市场反而异常紧张。
+          es: >
+            El pico de 2020 fueron los confinamientos, no una recesion normal: el desempleo de EE. UU. pasó del 3,67% en 2019 al 8,09% en 2020, y el de España del 15,53% al 24,79%. Bajó rápido porque los confinamientos fueron temporales y, en muchos sitios, las ayudas mantuvo a las empresas unidas a sus trabajadores. Al final del ciclo, los mercados laborales estaban inusualmente tensos.
+          ja: >
+            2020 年の一時的な急上昇はロックダウンによるもので、通常の不況ではない。米国の失業率は 2019 年の 3.67% から 2020 年の 8.09% へ、スペインは 15.53% から 24.79% へ上がった。戻りが速かったのは封鎖が一時的だったことと、各地で雇用維持補助金が出て企業が従業員を手放さなかったためである。このサイクルの終盤には、労働市場は異例に逼迫していた。
+          de: >
+            Der Ausschlag 2020 waren die Lockdowns, keine normale Rezession: Die Arbeitslosenquote in den USA stieg von 3,67% (2019) auf 8,09% (2020), in Spanien von 15,53% auf 24,79%. Sie fiel schnell zurück, weil die Lockdowns vorüber waren und in vielen Ländern Zuschüsse die Betriebe an ihre Beschäftigten banden. Am Ende des Zyklus waren die Arbeitsmärkte ungewöhnlich eng.
+        confidence: 9
+        reference:
+          - docs/2-indicators/04-unemployment/en.md
+          - docs/2-indicators/04-unemployment/cn.md
+
+      - id: where-is-india
+        question:
+          en: Why is there no line for India on the unemployment chart?
+          cn: 为什么失业率图上没有印度的曲线？
+          es: ¿Por qué no hay línea de India en el gráfico de desempleo?
+          ja: 失業率の図にインドの線がないのはなぜ？
+          de: Warum gibt es im Arbeitslosigkeitsdiagramm keine Linie für Indien?
+        answer:
+          en: >
+            Because the IMF data behind these charts has no comparable series for India — the line would be blank, and a blank line invites the reader to misread it as zero unemployment. The same gap applies to China before 2017, which is why the Chinese line only starts there. India is a large economy whose unemployment is measured on a different definition, so the honest thing is to leave it out rather than draw a misleading line.
+          cn: >
+            因为这张图背后的 IMF 数据没有可比的印度序列——画出来会是一条空白线，而空白线很容易被误读成"失业率为零"。中国在 2017 年之前也是同样情况，所以中国的曲线只从 2017 年开始。印度是大经济体，但它用的是另一套统计口径，诚实的做法是把它留白，而不是画一条会误导人的线。
+          es: >
+            Porque los datos del FMI que hay detrás de estos gráficos no tienen una serie comparable para India — la línea saldría en blanco, y una línea en blanco invita a leerla como un desempleo cero. La misma laguna aplica a China antes de 2017, por eso su línea solo empieza ahí. India es una economía grande con una definición distinta del desempleo, así que lo honesto es dejarla fuera y no dibujar una línea engañosa.
+          ja: >
+            図の背後にある IMF のデータに、比較可能なインドの系列がないため。描くと空欄の線になり、空欄の線は「失業率ゼロ」と誤読されやすい。中国も同じで 2017 年まで系列がないため、線は 2017 年からしか始まらない。インドは大きな経済だが失業の定義が異なり、誤解を招く線を描かないのが誠実な対応だ。
+          de: >
+            Weil den IMF-Daten hinter diesen Diagrammen für Indien keine vergleichbare Serie zugrunde liegt — die Linie bliebe leer, und eine leere Linie liest man leicht als Arbeitslosigkeit von null. Dieselbe Lücke gilt für China vor 2017, weshalb dessen Linie erst dort beginnt. Indien ist eine große Volkswirtschaft mit einer anderen Definition von Arbeitslosigkeit; ehrlicher ist es, sie wegzulassen, statt eine irreführende Linie zu zeichnen.
+        confidence: 8
+        reference:
+          - docs/2-indicators/04-unemployment/en.md
+          - docs/2-indicators/04-unemployment/cn.md
