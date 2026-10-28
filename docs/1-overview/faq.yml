@@ -1,0 +1,406 @@
+id: x-dbnomics-1-overview
+
+data:
+  - name:
+      en: the site
+      cn: 本站
+      es: el sitio
+      ja: 本サイト
+      de: die Seite
+    qa:
+      - id: what-is-dbnomics
+        question:
+          en: What is DBnomics?
+          cn: 什么是 DBnomics？
+          es: ¿Qué es DBnomics?
+          ja: DBnomics とは？
+          de: Was ist DBnomics?
+        answer:
+          en: >
+            A free library of economic statistics. It collects time series from official publishers — the IMF, the World Bank, OECD, Eurostat, central banks — and puts them all behind one API. This site uses that library to explain economics with charts.
+          cn: >
+            一个免费的经济统计资料库。它把各国官方机构的数据——IMF、世界银行、OECD、Eurostat、各央行——收进同一个 API。本站用这个资料库,把经济学讲成带图的科普。
+          es: >
+            Una biblioteca gratuita de estadísticas económicas. Recopila series de tiempo de organismos oficiales —el FMI, el Banco Mundial, la OCDE, Eurostat, bancos centrales— y las expone tras una única API. Este sitio usa esa biblioteca para explicar economía con gráficos.
+          ja: >
+            無料の経済統計ライブラリ。IMF・世界銀行・OECD・Eurostat・中央銀行といった公的機関の時系列を 1 つの API にまとめている。本サイトはこのデータで経済を図解する。
+          de: >
+            Eine kostenlose Bibliothek wirtschaftlicher Statistiken. Sie sammelt Zeitreihen von amtlichen Herausgebern — IWF, Weltbank, OECD, Eurostat, Notenbanken — und stellt alles hinter einer API bereit. Diese Seite erklärt damit Wirtschaft mit Diagrammen.
+        confidence: 9
+        reference:
+          - docs/1-overview/01-about/en.md
+          - docs/1-overview/01-about/cn.md
+
+      - id: why-every-chart-is-a-url
+        question:
+          en: Why is every chart on this site just a link?
+          cn: 为什么本站每张图都是一个链接？
+          es: ¿Por qué cada gráfico del sitio es solo un enlace?
+          ja: なぜこのサイトの図はすべてリンクなのか？
+          de: Warum ist jedes Diagramm auf dieser Seite nur ein Link?
+        answer:
+          en: >
+            Because the picture is rendered from the link itself: the URL carries the ECharts option, and that option holds the numbers. Open it and you get a static SVG; paste it into a document and it still works; an AI agent can read the data straight out of the link.
+          cn: >
+            因为图就是从链接本身渲染出来的:URL 里装着 ECharts 的 option,数字都在里面。点开是一张静态 SVG,贴进任何文档都能用,AI 也能直接从链接里读出数据。
+          es: >
+            Porque el gráfico se genera a partir del propio enlace: la URL lleva la opción de ECharts, y ahí están los números. Al abrirla obtienes un SVG estático; al pegarla en un documento sigue funcionando; un agente de IA puede leer los datos directamente del enlace.
+          ja: >
+            図がリンクそのものから描かれるため。URL に ECharts のオプションが含まれ、その中に数値が入っている。開けば静的 SVG になり、どの文書に貼ってもそのまま動き、AI もリンクから数値を直接読み取れる。
+          de: >
+            Weil das Diagramm aus dem Link selbst erzeugt wird: Die URL trägt die ECharts-Option, und therein stecken die Zahlen. Öffnen liefert ein statisches SVG, in ein Dokument eingefügt funktioniert es weiter, und ein KI-Agent liest die Daten direkt aus dem Link.
+        confidence: 9
+        reference:
+          - docs/1-overview/01-about/en.md
+          - docs/1-overview/01-about/cn.md
+
+      - id: how-to-fetch-data
+        question:
+          en: How do I fetch the data myself?
+          cn: 我怎么自己去取数？
+          es: ¿Cómo obtengo los datos yo mismo?
+          ja: 自分でデータを取るには？
+          de: Wie hole ich mir die Daten selbst?
+        answer:
+          en: >
+            With the x-cmd module: `x dbnomics data imf.us.gdp.growth` fetches one series, `x dbnomics align imf.us.gdp imf.cn.gdp` aligns several. A full ID reads `provider/dataset/series` — for example `OECD/DSD_REG_ECO@DF_ECO/A.TL2.US06._Z.GDP._T.V.USD_PS` is California's GDP per capita.
+          cn: >
+            用 x-cmd 模块:`x dbnomics data imf.us.gdp.growth` 取一条序列,`x dbnomics align imf.us.gdp imf.cn.gdp` 对齐多条。完整 ID 是 `provider/dataset/series`——比如 `OECD/DSD_REG_ECO@DF_ECO/A.TL2.US06._Z.GDP._T.V.USD_PS` 就是加州的人均 GDP。
+          es: >
+            Con el módulo de x-cmd: `x dbnomics data imf.us.gdp.growth` trae una serie, `x dbnomics align imf.us.gdp imf.cn.gdp` alinea varias. Un ID completo es `provider/dataset/series` — por ejemplo `OECD/DSD_REG_ECO@DF_ECO/A.TL2.US06._Z.GDP._T.V.USD_PS` es el PIB per cápita de California.
+          ja: >
+            x-cmd モジュールを使う。`x dbnomics data imf.us.gdp.growth` で 1 系列、`x dbnomics align imf.us.gdp imf.cn.gdp` で複数系列を揃える。完全な ID は `provider/dataset/series`——たとえば `OECD/DSD_REG_ECO@DF_ECO/A.TL2.US06._Z.GDP._T.V.USD_PS` はカリフォルニア州の一人当たり GDP。
+          de: >
+            Mit dem x-cmd-Modul: `x dbnomics data imf.us.gdp.growth` holt eine Serie, `x dbnomics align imf.us.gdp imf.cn.gdp` richtet mehrere aus. Eine vollständige ID lautet `provider/dataset/series` — `OECD/DSD_REG_ECO@DF_ECO/A.TL2.US06._Z.GDP._T.V.USD_PS` ist etwa das BIP pro Kopf von Kalifornien.
+        confidence: 10
+        reference:
+          - docs/1-overview/01-about/en.md
+          - docs/5-us-casestudy/03-us-states/en.md
+
+      - id: how-fresh-is-the-data
+        question:
+          en: Where does the data come from, and how fresh is it?
+          cn: 数据从哪来?有多新?
+          es: ¿De dónde vienen los datos y qué tan frescos están?
+          ja: データはどこから来て、最新度は?
+          de: Woher kommen die Daten, und wie aktuell sind sie?
+        answer:
+          en: >
+            IMF World Economic Outlook (2025 edition, forecasts included), BIS policy rates, and the OECD regional database for the state and province pages. Every chart uses 2025 as its latest year.
+          cn: >
+            IMF《世界经济展望》(2025 年版,含预测)、BIS 政策利率,州/省页面用 OECD 区域数据库。所有图以 2025 年为最新一年。
+          es: >
+            Del World Economic Outlook del FMI (edición 2025, con previsiones), de los tipos oficiales del BIS y de la base regional de la OCDE para las páginas de estados y provincias. Todos los gráficos usan 2025 como último año.
+          ja: >
+            IMF『世界経済展望』(2025 年版、予測込み)、BIS の政策金利、そして州・省ページ用の OECD 地域データベース。すべての図は 2025 年を最新年としている。
+          de: >
+            Aus dem World Economic Outlook des IWF (Ausgabe 2025, mit Prognosen), von den Leitzinsen des BIS und für die Bundesstaats- und Provinzseiten aus der Regionaldatenbank der OECD. Jedes Diagramm nutzt 2025 als letztes Jahr.
+        confidence: 9
+        reference:
+          - docs/1-overview/01-about/en.md
+          - docs/6-china-casestudy/01-china-provinces/en.md
+
+      - id: why-five-languages
+        question:
+          en: Why does every page exist in five languages?
+          cn: 为什么每页都有五种语言?
+          es: ¿Por qué cada página existe en cinco idiomas?
+          ja: なぜ各ページが 5 言語あるのか?
+          de: Warum gibt es jede Seite in fünf Sprachen?
+        answer:
+          en: >
+            Chinese, English, Spanish, Japanese and German. The prose is translated; the charts are shared, because the data and the chart titles are the same for every language.
+          cn: >
+            中文、English、Español、日本語、Deutsch。正文是翻译的,图表是共用的——数据和图题对所有语言都一样。
+          es: >
+            Chino, inglés, español, japonés y alemán. La prosa está traducida; los gráficos se comparten, porque los datos y los títulos son los mismos en todos los idiomas.
+          ja: >
+            中国語・英語・スペイン語・日本語・ドイツ語。本文は翻訳、グラフは共通。データも図のタイトルも全言語で同じだから。
+          de: >
+            Chinesisch, Englisch, Spanisch, Japanisch und Deutsch. Der Text ist übersetzt; die Diagramme sind geteilt, weil Daten und Diagrammtitel in jeder Sprache gleich sind.
+        confidence: 8
+        reference:
+          - docs/1-overview/01-about/en.md
+
+      - id: where-to-start
+        question:
+          en: Which pages should I read first?
+          cn: 我该从哪几页开始读?
+          es: ¿Por dónde empiezo a leer?
+          ja: どのページから読むべき?
+          de: Wo sollte ich anfangen?
+        answer:
+          en: >
+            "The 2025 macro dashboard" for a one-page map of the site. Then the indicator pages (GDP, growth, inflation, unemployment, debt, current account, policy rates, demography), then the laws (Phillips, Okun, Wagner, Beveridge, Laffer), and finally the case studies (Europe, the US, China).
+          cn: >
+            先看"2025 宏观仪表盘",一页看清全站。再看指标页(GDP、增长、通胀、失业、债务、经常账户、政策利率、人口),然后是定律页(菲利普斯、奥肯、瓦格纳、贝弗里奇、拉弗),最后是案例(欧洲、美国、中国)。
+          es: >
+            Empieza por "El panel macro 2025", un mapa del sitio en una página. Luego las páginas de indicadores (PIB, crecimiento, inflación, desempleo, deuda, cuenta corriente, tipos oficiales, demografía), después las leyes (Phillips, Okun, Wagner, Beveridge, Laffer) y por último los casos (Europa, EE. UU., China).
+          ja: >
+            まず「2025 年マクロダッシュボード」でサイト全体を一望。次に指標ページ(GDP 、成長、インフレ、失業、債務、経常収支、政策金利、人口)、次に法則のページ(フィlipps、オーカン、ワーグナー、ベバリッジ、ラファー)、最後にケーススタディ(欧州・米国・中国)。
+          de: >
+            Zuerst „Das Makro-Dashboard 2025" als Karte der Seite. Dann die Indikatorseiten (BIP, Wachstum, Inflation, Arbeitslosigkeit, Schulden, Leistungsbilanz, Leitzinsen, Demografie), dann die Gesetze (Phillips, Okun, Wagner, Beveridge, Laffer) und zuletzt die Fallstudien (Europa, USA, China).
+        confidence: 8
+        reference:
+          - docs/1-overview/02-macroeconomic-outlook/en.md
+          - docs/1-overview/02-macroeconomic-outlook/cn.md
+
+  - name:
+      en: the numbers
+      cn: 数据口径
+      es: las cifras
+      ja: 数字の作法
+      de: die Zahlen
+    qa:
+      - id: what-is-gdp
+        question:
+          en: What is GDP?
+          cn: GDP 是什么?
+          es: ¿Qué es el PIB?
+          ja: GDP とは?
+          de: Was ist BIP?
+        answer:
+          en: >
+            The value of everything a country makes in a year — cars, software, wheat, haircuts. GDP per capita divides that by the number of people, which is how the site compares living standards across countries.
+          cn: >
+            一个国家一年里创造出来的全部价值——汽车、软件、小麦、理发。人均 GDP 再除以人口,本站就是用它来比较各国的生活水平。
+          es: >
+            El valor de todo lo que un país produce en un año —coches, software, trigo, cortes de pelo—. El PIB per cápita lo divide por el número de personas, y así compara el nivel de vida entre países.
+          ja: >
+            その国が一年に作り出すすべてのものの価値——車、ソフト、小麦、理髪。GDP を人口で割ったものが一人当たり GDP で、本サイトは各国の生活水準の比較にこれを使う。
+          de: >
+            Der Wert alles, was ein Land in einem Jahr herstellt — Autos, Software, Weizen, Haarschnitte. Das BIP pro Kopf teilt das durch die Bevölkerung; so vergleicht die Seite den Lebensstandard zwischen Ländern.
+        confidence: 10
+        reference:
+          - docs/2-indicators/01-gdp/en.md
+          - docs/2-indicators/01-gdp/cn.md
+
+      - id: nominal-vs-real
+        question:
+          en: What is the difference between nominal and real?
+          cn: 名义值和实际值有什么区别?
+          es: ¿Cuál es la diferencia entre nominal y real?
+          ja: 名目と実質の違いは?
+          de: Was ist der Unterschied zwischen nominal und real?
+        answer:
+          en: >
+            Nominal means "at today's prices", real means "with inflation taken out". Real growth is what tells you how much more was actually produced; nominal growth also counts the price rises.
+          cn: >
+            名义是"按今天的价格算",实际是"把通胀扣掉"。实际增长才说明多生产了多少东西,名义增长里还混着涨价。
+          es: >
+            Nominal significa "a precios de hoy"; real significa "sin inflación". El crecimiento real dice cuánto se produjo de más; el nominal también cuenta la subida de precios.
+          ja: >
+            名目は「今日の価格」、実質は「物価上昇を差し引いたもの」。実質成長がどれだけ生産量が増えたかを示し、名目成長には物価上昇も混ざっている。
+          de: >
+            Nominal heißt „zu heutigen Preisen", real heißt „ohne Inflation". Das reale Wachstum sagt, wie viel mehr tatsächlich produziert wurde; beim nominalen steckt der Preisauftrieb mit drin.
+        confidence: 9
+        reference:
+          - docs/2-indicators/02-growth/en.md
+          - docs/2-indicators/03-inflation/en.md
+
+      - id: what-is-ppp
+        question:
+          en: What is PPP (purchasing power parity)?
+          cn: PPP(购买力平价)是什么?
+          es: ¿Qué es la PPA (paridad de poder adquisitivo)?
+          ja: PPP(購買力平価)とは?
+          de: Was ist die Kaufkraftparität (KKP)?
+        answer:
+          en: >
+            A way to compare economies that asks what the same basket of goods costs in each country, instead of converting at the market exchange rate. It changes the ranking: at market rates the US is #1 and China #2, at PPP China comes out ahead and India jumps from fifth to third.
+          cn: >
+            比较经济体的一种办法:按"同一篮子商品在各国值多少钱"来算,而不是按市场汇率换算。它会改变排名:按市场汇率美国第一、中国第二;按 PPP 中国反超,印度从第五升到第三。
+          es: >
+            Una forma de comparar economías que pregunta cuánto cuesta la misma cesta de bienes en cada país, en vez de convertir al tipo de cambio de mercado. Cambia el ranking: a tipos de mercado EE. UU. es #1 y China #2; con PPA China se adelanta e India sube del quinto al tercer puesto.
+          ja: >
+            経済比較の考え方の一つ。市场為替ではなく「同じ財の束が各国でいくらになるか」で比べる方法。順位が変わる:市場レートでは米国1位・中国2位、PPPでは中国が上回り、インドは5位から3位へ。
+          de: >
+            Ein Vergleichsmaß, das fragt, was derselbe Warenkorb in jedem Land kostet, statt zum Marktwechselkurs umzurechnen. Es ändert die Rangfolge: zu Marktwecheln ist die USA #1 und China #2, bei PPP liegt China vorn und Indien steigt vom fünften auf den dritten Platz.
+        confidence: 9
+        reference:
+          - docs/2-indicators/01-gdp/en.md
+          - docs/2-indicators/01-gdp/cn.md
+
+      - id: which-countries-g20
+        question:
+          en: Which countries are in the G20?
+          cn: G20 是哪 20 个国家?
+          es: ¿Qué países forman el G20?
+          ja: G20 はどの 20 か国?
+          de: Welche Staaten sind im G20?
+        answer:
+          en: >
+            Nineteen countries — the US, China, Germany, Japan, India, UK, France, Italy, Brazil, Russia, Korea, Canada, Australia, Mexico, Indonesia, Türkiye, Saudi Arabia, South Africa, Argentina — plus the EU and the African Union. It is a forum for cooperation and a place to hold the G20 summit; it has no common market, no common policy and no votes.
+          cn: >
+            19 个国家——美国、中国、德国、日本、印度、英国、法国、意大利、巴西、俄罗斯、韩国、加拿大、澳大利亚、墨西哥、印度尼西亚、土耳其、沙特阿拉伯、南非、阿根廷——再加上欧盟和非洲联盟。它是一个合作论坛和 G20 峰会举办地,没有共同市场、没有共同政策,也没有表决权。
+          es: >
+            Dieineteún países —EE. UU., China, Alemania, Japón, India, Reino Unido, Francia, Italia, Brasil, Rusia, Corea, Canadá, Australia, México, Indonesia, Türkiye, Arabia Saudí, Sudáfrica, Argentina— más la UE y la Unión Africana. Es un foro de cooperación y sede de la cumbre; no hay mercado común, ni política común, ni votos.
+          ja: >
+            19 か国——アメリカ、中国、ドイツ、日本、インド、英国、フランス、イタリア、ブラジル、ロシア、韓国、カナダ、オーストラリア、メキシコ、インドネシア、トルコ、サウジアラビア、南アフリカ、アルゼンチン——に加えて EU とアフリカ連合。協力のフォーラムと首脳会議の開催地であり、共同市場も共通政策も投票権もない。
+          de: >
+            Neunzehn Staaten — USA, China, Deutschland, Japan, Indien, Großbritannien, Frankreich, Italien, Brasilien, Russland, Korea, Kanada, Australien, Mexiko, Indonesien, Türkei, Saudi-Arabien, Südafrika, Argentinien — plus EU und Afrikanische Union. Ein Kooperationsforum und Gipfelort; kein Binnenmarkt, keine gemeinsame Politik, keine Stimmen.
+        confidence: 10
+        reference:
+          - docs/2-indicators/01-gdp/en.md
+          - docs/2-indicators/01-gdp/cn.md
+
+      - id: what-is-brics
+        question:
+          en: What is BRICS?
+          cn: BRICS 是什么?
+          es: ¿Qué son los BRICS?
+          ja: BRICS とは?
+          de: Was sind die BRICS?
+        answer:
+          en: >
+            Five countries: Brazil, Russia, India, China, South Africa. A looser club than the G20, without a shared agenda — on the site it serves as a "second pole" to compare the G7 against.
+          cn: >
+            五个国家:巴西、俄罗斯、印度、中国、南非。比 G20 更松散、没有共同议程;在本站里被当作与 G7 对照的"第二极"。
+          es: >
+            Cinco países: Brasil, Rusia, India, China y Sudáfrica. Un club más laxo que el G20, sin agenda común; en el sitio sirve como «segundo polo» frente al G7.
+          ja: >
+            5 か国——ブラジル、ロシア、インド、中国、南アフリカ。G20 より緩いグループで共通課題もなく、本サイト把它当作与 G7 对照的「第二极」。
+          de: >
+            Fünf Staaten: Brasilien, Russland, Indien, China, Südafrika. Ein lockererer Club als das G20 ohne gemeinsame Agenda; auf der Seite dient er als „zweiter Pol" gegenüber den G7.
+        confidence: 10
+        reference:
+          - docs/2-indicators/01-gdp/en.md
+          - docs/2-indicators/01-gdp/cn.md
+
+      - id: what-is-g7
+        question:
+          en: What is the G7?
+          cn: G7 是哪 7 个国家?
+          es: ¿Qué es el G7?
+          ja: G7 とは?
+          de: Was sind die G7?
+        answer:
+          en: >
+            Seven countries: the US, Japan, Germany, France, UK, Italy and Canada. The advanced-economy club — most of the world's market value, most of its debt, and the group that sets the rules of the financial system.
+          cn: >
+            七个国家:美国、日本、德国、法国、英国、意大利、加拿大。发达经济体俱乐部——全球大部分市值、大部分债务,以及金融体系规则的制定者。
+          es: >
+            Siete países: EE. UU., Japón, Alemania, Francia, Reino Unido, Italia y Canadá. El club de economías avanzadas: la mayor parte de la capitalización mundial, de la deuda, y quien fija las reglas del sistema financiero.
+          ja: >
+            7 か国——アメリカ、日本、ドイツ、フランス、英国、イタリア、カナダ。先進国クラブで、世界の市場価値と債務の大部分、金融システムのルールを決める国々。
+          de: >
+            Sieben Staaten: USA, Japan, Deutschland, Frankreich, Großbritannien, Italien und Kanada. Der Club der fortgeschrittenen Volkswirtschaften — der größte Teil der Weltbörsenwert, der Schulden und der Regeln des Finanzsystems.
+        confidence: 10
+        reference:
+          - docs/2-indicators/01-gdp/en.md
+          - docs/2-indicators/02-growth/en.md
+
+      - id: what-is-euro-area
+        question:
+          en: What is the euro area?
+          cn: 欧元区是什么?
+          es: ¿Qué es la zona euro?
+          ja: ユーロ圏とは?
+          de: Was ist die Eurozone?
+        answer:
+          en: >
+            The EU members that use the euro — 20 countries, with Greece the last of the original 15 to join in 2001. One currency, one central bank (the ECB), no separate national monetary policy. The "Euro Area" line on the charts is their average, weighted by size.
+          cn: >
+            使用欧元的欧盟成员国——20 国,2001 年希腊是最初 15 国中最后一个加入的。一种货币、一个央行(ECB)、没有各国自己的货币政策。图上的"欧元区"曲线是按经济体量加权的平均值。
+          es: >
+            Los miembros de la UE que usan el euro —20 países, con Grecia como la última de los 15 originales en entrar en 2001—. Una moneda, un banco central (el BCE), sin política monetaria nacional. La línea «Euro Area» es su media ponderada por tamaño.
+          ja: >
+            ユーロを使う EU 加盟国——20 か国。元の 15 か国ではギリシャが 2001 年に最後に入った。通貨は 1 つ、中央銀行(ECB)は 1 つで、各国独自の金融政策はない。図の「Euro Area」は規模で重みづけした平均。
+          de: >
+            Die EU-Mitglieder, die den Euro verwenden — 20 Staaten, wobei Griechenland 2001 als letzte der ursprünglichen 15 dazukam. Eine Währung, eine Notenbank (EZB), keine nationale Geldpolitik. Die Linie „Euro Area" ist der nach Größe gewichtete Durchschnitt.
+        confidence: 9
+        reference:
+          - docs/2-indicators/02-growth/en.md
+          - docs/2-indicators/03-inflation/en.md
+
+      - id: what-is-weo
+        question:
+          en: What is the IMF World Economic Outlook?
+          cn: IMF《世界经济展望》是什么?
+          es: ¿Qué es el World Economic Outlook del FMI?
+          ja: IMF『世界経済展望』とは?
+          de: Was ist der World Economic Outlook des IWF?
+        answer:
+          en: >
+            The IMF's flagship report, published twice a year: GDP, inflation, unemployment, the current account and government debt for around 190 countries, with forecasts five years out. The 2025 edition is the backbone of this site.
+          cn: >
+            IMF 的旗舰报告,一年两期:约 190 个国家的 GDP、通胀、失业、经常账户和政府债务,还带五年预测。本站的数据主干就是 2025 年版。
+          es: >
+            El informe estrella del FMI, dos veces al año: PIB, inflación, desempleo, cuenta corriente y deuda pública de unos 190 países, con previsiones a cinco años. La edición 2025 es la columna vertebral del sitio.
+          ja: >
+            IMF の主要レポートで年 2 回発行。約 190 か国の GDP、インフレ、失業、経常収支、政府債務を 5 年先まで載せる。本サイトのデータは 2025 年版が土台。
+          de: >
+            Der Flaggschiff-Report des IWF, zweimal jährlich: BIP, Inflation, Arbeitslosigkeit, Leistungsbilanz und Staatsverschuldung für rund 190 Länder, mit Prognosen bis fünf Jahre. Die Ausgabe 2025 ist das Rückgrat dieser Seite.
+        confidence: 9
+        reference:
+          - docs/2-indicators/01-gdp/en.md
+          - docs/2-indicators/07-policy-rates/en.md
+
+      - id: maastricht-60
+        question:
+          en: What is the Maastricht 60% rule?
+          cn: 马斯特里赫特 60% 规则是什么?
+          es: ¿Qué es la regla del 60% de Maastricht?
+          ja: マastricht 60% ルールとは?
+          de: Was ist die Maastricht-60%-Regel?
+        answer:
+          en: >
+            A reference value the EU set for euro-area members: government debt up to 60% of GDP, and annual deficits up to 3% of GDP. It was written to make the euro safe; it is a guideline, not a hard limit, and it is the red dashed line on the government-debt chart.
+          cn: >
+            欧盟给欧元区成员定的参考线:政府债务不超过 GDP 的 60%,年度赤字不超过 3%。当初是为了让欧元稳当;它是参考线不是硬上限,政府债务图上那条红色虚线就是它。
+          es: >
+            Un valor de referencia que fijó la UE para los miembros del euro: deuda pública hasta el 60% del PIB y déficit anual hasta el 3%. Se escribió para dar solidez al euro; es una guía, no un límite estricto, y es la línea roja de puntos del gráfico de deuda.
+          ja: >
+            EU がユーロ圏諸国に設定した参照基準——政府債務は GDP の 60% まで、経常赤字は年間 3% まで。ユーロを安定させるために書かれたものでハードキャップではなく、政府債務図の赤い破線がこれ。
+          de: >
+            Ein Referenzwert, den die EU für die Euro-Länder setzte: Staatsverschuldung bis 60% des BIP und Defizite bis 3% pro Jahr. Er sollte den Euro stabilisieren; ein Richtwert, keine harte Grenze — und die rote gestrichelte Linie im Schulden-Diagramm.
+        confidence: 8
+        reference:
+          - docs/2-indicators/05-government-debt/en.md
+          - docs/2-indicators/05-government-debt/cn.md
+
+      - id: what-is-current-account
+        question:
+          en: What is the current account?
+          cn: 经常账户是什么?
+          es: ¿Qué es la cuenta corriente?
+          ja: 経常収支とは?
+          de: Was ist die Leistungsbilanz?
+        answer:
+          en: >
+            What a country sells to the rest of the world minus what it buys, plus the income and transfers it earns abroad — as a share of GDP. A surplus means the country lends to the world; a deficit means it borrows. It mirrors the gap between national saving and domestic investment.
+          cn: >
+            一个国家卖给世界的东西减去买来的东西,再加上在国外挣到的收入和转移支付,占 GDP 的比重。顺差表示它在给世界放贷,逆差表示它在借钱。它是国民储蓄与国内投资之差的镜像。
+          es: >
+            Lo que un país vende al resto del mundo menos lo que compra, más los ingresos y transferencias ganados en el extranjero, como porcentaje del PIB. Superávit significa que el país presta al mundo; déficit, que pide prestado. Refleja la brecha entre ahorro nacional e inversión interior.
+          ja: >
+            一国が世界に売るもの − 買うもの + 海外で得る所得や移転、を GDP 比で表したもの。黒字なら世界へ貸す側、赤字なら借りる側。国民貯蓄と国内投資の差が映り込む。
+          de: >
+            Was ein Land der Welt verkauft minus dem, was es einkauft, plus die im Ausland erzielten Einkommen und Übertragungen — als Anteil des BIP. Ein Überschuss heißt: das Land leiht der Welt; ein Defizit heißt: es leiht sich. Das Bild spiegelt die Lücke zwischen nationaler Sparquote und heimischer Investition.
+        confidence: 9
+        reference:
+          - docs/2-indicators/06-external-balance/en.md
+          - docs/3-macro-economics/06-growth-trade-balance/en.md
+
+      - id: what-is-exorbitant-privilege
+        question:
+          en: 'What does "exorbitant privilege" mean?'
+          cn: '"过度特权"是什么意思?'
+          es: '¿Qué significa "privilegio excesivo"?'
+          ja: 「過剰特権」とは?
+          de: 'Was bedeutet "exorbitantes Privileg"?'
+        answer:
+          en: >
+            The US can run a permanent current-account deficit — about 3% of GDP — because it borrows in its own reserve currency and its debt is held in dollars. Other countries need foreign currency to do the same, so they run out of room.
+          cn: >
+            美国可以长期维持逆差——大约 GDP 的 3%——因为它用本国的储备货币借钱,债务也由美元持有。别的国家要这么干得先有外币,所以空间就没了。
+          es: >
+            EE. UU. puede mantener un déficit permanente en cuenta corriente —unos 3% del PIB— porque se financia en su propia moneda de reserva y su deuda está en dólares. Otros países necesitan divisas para hacerlo y se quedan sin margen.
+          ja: >
+            米国は恒常的な経常赤字(約 GDP 3%)を自国の準備通貨で借り、債務もドル建てで賄える。他国には外貨が要るので、その余地がない。
+          de: >
+            Die USA können dauerhaft ein Defizit in der Leistungsbilanz von rund 3% des BIP laufen lassen, weil sie in ihrer eigenen Reservewährung aufnehmen und ihre Schulden in Dollar lauten. Andere Länder bräuchten dafür Devisen — und haben den Spielraum nicht.
+        confidence: 8
+        reference:
+          - docs/5-us-casestudy/01-united-states/en.md
+          - docs/5-us-casestudy/01-united-states/cn.md

@@ -105,6 +105,7 @@ Six sections, one reading path: **what to look at** (indicators) → **what rule
 
 - [DBnomics and this site](docs/1-overview/01-about/en.md)
 - [Macroeconomic outlook dashboard](docs/1-overview/02-macroeconomic-outlook/en.md)
+- [FAQ: the 17 questions a beginner asks first](docs/1-overview/faq.yml)
 
 ### 2 · Indicators — the numbers to watch
 
@@ -149,6 +150,7 @@ Six sections, one reading path: **what to look at** (indicators) → **what rule
 
 - [DBnomics 与本站](docs/1-overview/01-about/cn.md)
 - [宏观展望仪表盘](docs/1-overview/02-macroeconomic-outlook/cn.md)
+- [FAQ:新手最先问的 17 个问题](docs/1-overview/faq.yml)
 
 ### 2 · 指标 — 该盯的数
 
