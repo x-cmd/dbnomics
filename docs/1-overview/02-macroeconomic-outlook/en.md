@@ -4,11 +4,11 @@ Everything on one page — the 2025 macro world at a glance. Reading order: scal
 
 | Question | Page |
 |---|---|
-| Who matters? | [02 GDP](02-gdp/en.md) · [03 US](03-united-states/en.md) |
-| Where are prices? | [05 Inflation](05-inflation/en.md) · [09 Rates](09-policy-rates/en.md) · [14 Yield curve](14-yield-curve/en.md) |
-| How is the real economy? | [04 Growth](04-growth/en.md) · [06 Unemployment](06-unemployment/en.md) · [11 Phillips](11-phillips-curve/en.md) · [12 Okun](12-okuns-law/en.md) |
-| Where are the constraints? | [07 Debt](07-government-debt/en.md) · [16 France](16-french-debt-sustainability/en.md) · [08 Current account](08-external-balance/en.md) · [17 Growth & balance](17-gdp-trade-balance/en.md) |
-| The long run? | [10 Demography](10-demography-savings/en.md) · [13 Wagner](13-wagners-law/en.md) · [15 Convergence](15-europe-convergence/en.md) |
+| Who matters? | [GDP](../../2-indicators/01-gdp/en.md) · [The United States](../../5-us-casestudy/01-united-states/en.md) · [US states](../../5-us-casestudy/03-us-states/en.md) · [China provinces](../../6-china-casestudy/01-china-provinces/en.md) |
+| Where are prices? | [Inflation](../../2-indicators/03-inflation/en.md) · [Policy rates](../../2-indicators/07-policy-rates/en.md) · [US yield curve](../../5-us-casestudy/02-us-yield-curve/en.md) |
+| How is the real economy? | [Growth](../../2-indicators/02-growth/en.md) · [Unemployment](../../2-indicators/04-unemployment/en.md) · [Phillips curve](../../3-macro-economics/01-phillips-curve/en.md) · [Okun's law](../../3-macro-economics/02-okuns-law/en.md) |
+| Where are the constraints? | [Government debt](../../2-indicators/05-government-debt/en.md) · [French debt](../../4-europe-casestudy/02-french-debt-sustainability/en.md) · [Current account](../../2-indicators/06-external-balance/en.md) · [Growth & balance](../../3-macro-economics/06-growth-trade-balance/en.md) |
+| The long run? | [Demography & savings](../../2-indicators/08-demography-savings/en.md) · [Wagner's law](../../3-macro-economics/03-wagners-law/en.md) · [EU convergence](../../4-europe-casestudy/01-europe-convergence/en.md) |
 
 **2025 in one line**: the US landed softly but its debt clock runs; China rebalances; Europe converges and fractures under arithmetic; the world waits for a normal-rate world.
 
