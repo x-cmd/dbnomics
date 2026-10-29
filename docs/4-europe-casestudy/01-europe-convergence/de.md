@@ -1,6 +1,6 @@
 # Europäische Konvergenz: Ist die Aufholung echt?
 
-Vor zweihundert Jahren verdiente ein Arbeiter in Lissabon einen Bruchteil dessen, was ein Arbeiter in München verdiente. Heute ist der Abstand viel kleiner, und die verbreitete Hoffnung lautet: Wer ärmer startet, wächst schneller und holt die Reichen irgendwann ein. Hier x = BIP pro Kopf im Jahr 2000, y = Durchschnittswachstum 2000–24; ein Punkt pro EU-Mitglied (18 der 27 EU-Länder sind gezeigt).
+Vor zweihundert Jahren verdiente ein Arbeiter in Lissabon einen Bruchteil dessen, was ein Arbeiter in München verdiente. Heute ist der Abstand viel kleiner, und die verbreitete Hoffnung lautet: Wer niedriger startet, wächst schneller und holt die Spitzenden irgendwann ein. Hier x = BIP pro Kopf im Jahr 2000, y = Durchschnittswachstum 2000–24; ein Punkt pro EU-Mitglied (18 der 27 EU-Länder sind gezeigt).
 
 **Urteil**: Insgesamt hält die Konvergenz — Osteuropa (Polen, Rumänien, die Slowakei) startete niedrig und wuchs um 4–5% pro Jahr und holte stetig auf. Aber der reiche Club links zerfällt: Griechenland und Italien liegen auf derselben niedrigen Wachstumszone, und Konvergenz erklärt das Erlahmen im Süden nicht. Das ist eine Geschichte über Struktur und Schulden, nicht über Aufholung.
 

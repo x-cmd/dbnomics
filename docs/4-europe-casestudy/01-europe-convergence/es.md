@@ -1,6 +1,6 @@
 # Convergencia europea: ¿es real el catching-up?
 
-Hace doscientos años, un trabajador en Lisboa ganaba una fracción de lo que ganaba uno en Múnich. Hoy la brecha es mucho menor, y la esperanza habitual es que los países pobres crezcan más rápido hasta alcanzar a los ricos. Aquí x = PIB per cápita en 2000, y = crecimiento promedio 2000–24; un punto por cada miembro de la UE (18 de los 27 países de la UE mostrados).
+Hace doscientos años, un trabajador en Lisboa ganaba una fracción de lo que ganaba uno en Múnich. Hoy la brecha es mucho menor, y la esperanza habitual es que las economías que parten de más abajo crezcan más rápido hasta alcanzar a las que van por delante. Aquí x = PIB per cápita en 2000, y = crecimiento promedio 2000–24; un punto por cada miembro de la UE (18 de los 27 países de la UE mostrados).
 
 **Juicio**: la convergencia se cumple en conjunto — Europa del Este (Polonia, Rumanía, Eslovaquia) empezó baja y creció un 4–5% anual, acercándose sin descanso. Pero el club de los ricos de la izquierda se parte: Grecia e Italia están en la misma franja de bajo crecimiento, y la convergencia no explica el estancamiento del sur. Ese es un asunto de estructura y deuda, no de catching-up.
 
