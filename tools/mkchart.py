@@ -181,7 +181,7 @@ def build(spec):
 
 def url_for(spec):
     opt = build(spec)
-    return 'https://po6.sh/draw/echarts?d=' + urllib.parse.quote(
+    return 'https://x-cmd.com/draw/echarts?d=' + urllib.parse.quote(
         json.dumps(opt, ensure_ascii=False, separators=(',', ':')), safe='')
 
 

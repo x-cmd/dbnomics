@@ -43,8 +43,9 @@ def render(page_json, lang, page_dir):
             u = c.get('url')
             if not u:
                 u = url_for(c['spec'])
+            explore = u.replace('/draw/echarts?', '/draw/explore/echarts?')
             parts.append(f"```text\n{u}\n```\n\n"
-                         f'<a href="{u}"><img src="{u}" width="{c.get("width", 680)}" alt="{c.get("alt", "chart")}"></a>')
+                         f'<a href="{explore}"><img src="{u}" width="{c.get("width", 680)}" alt="{c.get("alt", "chart")}"></a>')
         else:
             raise SystemExit(f'unknown block: {list(b)}')
     body = '\n\n'.join(parts)
