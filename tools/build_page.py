@@ -32,7 +32,8 @@ def render(page_json, lang, page_dir):
                 entry = i18n[i]
                 txt = entry['prose'] if isinstance(entry, dict) and 'prose' in entry else entry
             elif lang != 'en' and (not i18n or i >= len(i18n) or not i18n[i]):
-                raise SystemExit(f'{page_dir}: missing {lang} translation for block {i}')
+                if not page_json.get('pretranslated'):
+                    raise SystemExit(f'{page_dir}: missing {lang} translation for block {i}')
             parts.append(txt)
         elif 'table' in b:
             parts.append(b['table'])
