@@ -56,22 +56,22 @@ data:
 
       - id: what-does-negative-correlation-mean
         question:
-          en: What does the correlation of −0.65 actually mean?
-          cn: 相关系数 −0.65 到底说明什么？
-          es: ¿Qué significa realmente la correlación de −0,65?
-          ja: 相関係数 −0.65 とは具体的にどういうことか？
-          de: Was bedeutet die Korrelation von −0,65 genau?
+          en: What does the correlation of −0.67 actually mean?
+          cn: 相关系数 −0.67 到底说明什么？
+          es: ¿Qué significa realmente la correlación de −0,67?
+          ja: 相関係数 −0.67 とは具体的にどういうことか？
+          de: Was bedeutet die Korrelation von −0,67 genau?
         answer:
           en: >
-            It means the lower a province started, the faster it grew. A correlation of −0.65 is strong but not perfect: it says the relationship is clearly there across the 31 provinces, while leaving room for exceptions. The extremes are visible in the chart — Guizhou started at $335 per person and grew 10.2% a year, while Guangdong started at $1,785 and grew 5.9%. Convergence in growth is therefore a real pattern here, not a slogan.
+            It means the lower a province started, the faster it grew. A correlation of −0.67 is strong but not perfect: it says the relationship is clearly there across the 31 provinces, while leaving room for exceptions. The extremes are visible in the chart — Guizhou started at $335 per person and grew 10.4% a year, while Guangdong started at $1,785 and grew 5.7%. Convergence in growth is therefore a real pattern here, not a slogan.
           cn: >
-            意思是：一个省的起点越低，它增长得越快。−0.65 是一个强但并不完美的相关——说明这 31 个省的关系确实存在，同时留有例外的空间。极端值在图上看得一清二楚：贵州 2000 年人均 335 美元，年均增长 10.2%；广东起点 1,785 美元，年均增长 5.9%。所以这里的"增长收敛"是真实存在的模式，不是一句口号。
+            意思是：一个省的起点越低，它增长得越快。−0.67 是一个强但并不完美的相关——说明这 31 个省的关系确实存在，同时留有例外的空间。极端值在图上看得一清二楚：贵州 2000 年人均 335 美元，年均增长 10.4%；广东起点 1,785 美元，年均增长 5.7%。所以这里的"增长收敛"是真实存在的模式，不是一句口号。
           es: >
-            Significa que cuanto más bajo empezó una provincia, más rápido creció. Una correlación de −0,65 es fuerte pero no perfecta: la relación está claramente ahí entre las 31 provincias, dejando sitio para excepciones. Los extremos se ven en el gráfico: Guizhou partía de 335 dólares por persona y crecía un 10,2% anual, mientras Guangdong partía de 1.785 y crecía un 5,9%. La convergencia en el crecimiento es, por tanto, un patrón real, no un eslogan.
+            Significa que cuanto más bajo empezó una provincia, más rápido creció. Una correlación de −0,67 es fuerte pero no perfecta: la relación está claramente ahí entre las 31 provincias, dejando sitio para excepciones. Los extremos se ven en el gráfico: Guizhou partía de 335 dólares por persona y crecía un 10,4% anual, mientras Guangdong partía de 1.785 y crecía un 5,7%. La convergencia en el crecimiento es, por tanto, un patrón real, no un eslogan.
           ja: >
-            一つの省の出発点が低いほど、成長が速かったという意味である。相関係数 −0.65 は強いが完全な関係ではない——31 省全体にその関係がはっきり存在し、此同时で例外の余地も残ることを示す。両端はグラフに明確に出ている——貴州は 2000 年に一人あたり 335 ドルから始まり毎年 10.2% 成長し、広東は 1,785 ドルから始めて毎年 5.9% だった。したがってここでの「成長の収束」は実際のパターンであって、口號ではない。
+            一つの省の出発点が低いほど、成長が速かったという意味である。相関係数 −0.67 は強いが完全な関係ではない——31 省全体にその関係がはっきり存在し、此同时で例外の余地も残ることを示す。両端はグラフに明確に出ている——貴州は 2000 年に一人あたり 335 ドルから始まり毎年 10.4% 成長し、広東は 1,785 ドルから始めて毎年 5.7% だった。したがってここでの「成長の収束」は実際のパターンであって、口號ではない。
           de: >
-            Es bedeutet: Je niedriger eine Provinz startete, desto schneller wuchs sie. Eine Korrelation von −0,65 ist stark, aber nicht perfekt — die Beziehung besteht über alle 31 Provinzen hinweg klar und lässt zugleich Raum für Ausnahmen. Die Extreme sind im Diagramm sichtbar: Guizhou startete bei 335 Dollar pro Kopf und wuchs mit 10,2% pro Jahr, Guangdong startete bei 1.785 Dollar und wuchs mit 5,9%. Die Konvergenz im Wachstum ist hier also ein reales Muster, kein Schlagwort.
+            Es bedeutet: Je niedriger eine Provinz startete, desto schneller wuchs sie. Eine Korrelation von −0,67 ist stark, aber nicht perfekt — die Beziehung besteht über alle 31 Provinzen hinweg klar und lässt zugleich Raum für Ausnahmen. Die Extreme sind im Diagramm sichtbar: Guizhou startete bei 335 Dollar pro Kopf und wuchs mit 10,4% pro Jahr, Guangdong startete bei 1.785 Dollar und wuchs mit 5,7%. Die Konvergenz im Wachstum ist hier also ein reales Muster, kein Schlagwort.
         confidence: 9
         reference:
           - docs/6-china-casestudy/01-china-provinces/en.md
@@ -109,15 +109,61 @@ data:
           de: Der Artikel sagt, wirtschaftliche Konvergenz verläuft in die eine Richtung, demografische Divergenz in die andere. Was heißt das praktisch?
         answer:
           en: >
-            The growth story and the migration story point in opposite directions across the country. Guizhou and Shaanxi grew 10.2% and 9.7% a year in the interior west, while Guangdong and Shanghai grew 5.9% and 5.3% on the coast. Yet the coastal provinces are where people go: Guangdong is up 55 million people since 2000, Zhejiang up 21.9 million, while Heilongjiang is down 7.6 million and Jilin down 3.4 million. The interior is converging in output per head while losing its people to the coast, which is what pulls the map apart in two directions at once.
+            The growth story and the migration story point in opposite directions across the country. Guizhou and Shaanxi grew 10.4% and 9.7% a year in the interior west, while Guangdong and Shanghai grew 5.7% and 5.1% on the coast. Yet the coastal provinces are where people go: Guangdong is up 55 million people since 2000, Zhejiang up 21.9 million, while Heilongjiang is down 7.6 million and Jilin down 3.4 million. The interior is converging in output per head while losing its people to the coast, which is what pulls the map apart in two directions at once.
           cn: >
-            增长的故事和人口流动的故事在国土上指向相反的方向。西部内陆的贵州和陕西分别年均增长 10.2% 和 9.7%，而沿海的广东和上海只增长 5.9% 和 5.3%。可人口偏偏往沿海走：广东比 2000 年多了 5500 万人，浙江多了 2190 万，黑龙江少了 760 万，吉林少了 340 万。内陆在人均产出上收敛，同时把人口输送给沿海——这就是这张地图被朝两个方向拉扯的原因。
+            增长的故事和人口流动的故事在国土上指向相反的方向。西部内陆的贵州和陕西分别年均增长 10.4% 和 9.7%，而沿海的广东和上海只增长 5.7% 和 5.1%。可人口偏偏往沿海走：广东比 2000 年多了 5500 万人，浙江多了 2190 万，黑龙江少了 760 万，吉林少了 340 万。内陆在人均产出上收敛，同时把人口输送给沿海——这就是这张地图被朝两个方向拉扯的原因。
           es: >
-            La historia del crecimiento y la de la migración apuntan en direcciones opuestas dentro del país. Guizhou y Shaanxi crecieron un 10,2% y un 9,7% anual en el interior oeste, mientras Guangdong y Shanghái crecían un 5,9% y un 5,3% en la costa. Y sin embargo la costa es adonde va la gente: Guangdong ganó 55 millones de personas desde 2000 y Zhejiang 21,9 millones, mientras Heilongjiang perdió 7,6 millones y Jilin 3,4 millones. El interior converge en producción por cabeza mientras pierde población hacia la costa, y eso es lo que tensa el mapa en dos direcciones a la vez.
+            La historia del crecimiento y la de la migración apuntan en direcciones opuestas dentro del país. Guizhou y Shaanxi crecieron un 10,4% y un 9,7% anual en el interior oeste, mientras Guangdong y Shanghái crecían un 5,7% y un 5,1% en la costa. Y sin embargo la costa es adonde va la gente: Guangdong ganó 55 millones de personas desde 2000 y Zhejiang 21,9 millones, mientras Heilongjiang perdió 7,6 millones y Jilin 3,4 millones. El interior converge en producción por cabeza mientras pierde población hacia la costa, y eso es lo que tensa el mapa en dos direcciones a la vez.
           ja: >
-            成長の話と移動の話は、国の中での方向が反対になっている。西部内陸の貴州と陝西は毎年 10.2% と 9.7% 伸びたのに対し、沿海の広東と上海は 5.9% と 5.3% にとどまった。それでいて人が集まるのは沿岸側だ——広東は 2000 年から 5,500 万人増、浙江省は 2,190 万人増で、黒竜江は 760 万人減、吉林は 340 万人減った。内陸は一人あたり产出で収束しながら、人口を沿岸へ送り出している。だから地図は同時に二つの向きに引き裂かれている。
+            成長の話と移動の話は、国の中での方向が反対になっている。西部内陸の貴州と陝西は毎年 10.4% と 9.7% 伸びたのに対し、沿海の広東と上海は 5.7% と 5.1% にとどまった。それでいて人が集まるのは沿岸側だ——広東は 2000 年から 5,500 万人増、浙江省は 2,190 万人増で、黒竜江は 760 万人減、吉林は 340 万人減った。内陸は一人あたり产出で収束しながら、人口を沿岸へ送り出している。だから地図は同時に二つの向きに引き裂かれている。
           de: >
-            Die Wachstumsgeschichte und die Migrationsgeschichte zeigen in entgegengesetzte Richtungen. Guizhou und Shaanxi wuchsen im Westen des Landes mit 10,2% bzw. 9,7% pro Jahr, Guangdong und Shanghai an der Küste dagegen nur mit 5,9% und 5,3%. Und doch ist die Küste der Ort, an den die Menschen gehen: Guangdong hat seit 2000 55 Millionen Menschen mehr, Zhejiang 21,9 Millionen mehr, während Heilongjiang 7,6 Millionen und Jilin 3,4 Millionen verloren. Das Innere holt beim Output pro Kopf auf und verliert zugleich seine Bevölkerung an die Küste — daher wird die Karte in zwei Richtungen auseinandergezogen.
+            Die Wachstumsgeschichte und die Migrationsgeschichte zeigen in entgegengesetzte Richtungen. Guizhou und Shaanxi wuchsen im Westen des Landes mit 10,4% bzw. 9,7% pro Jahr, Guangdong und Shanghai an der Küste dagegen nur mit 5,7% und 5,1%. Und doch ist die Küste der Ort, an den die Menschen gehen: Guangdong hat seit 2000 55 Millionen Menschen mehr, Zhejiang 21,9 Millionen mehr, während Heilongjiang 7,6 Millionen und Jilin 3,4 Millionen verloren. Das Innere holt beim Output pro Kopf auf und verliert zugleich seine Bevölkerung an die Küste — daher wird die Karte in zwei Richtungen auseinandergezogen.
+        confidence: 9
+        reference:
+          - docs/6-china-casestudy/01-china-provinces/en.md
+          - docs/6-china-casestudy/01-china-provinces/cn.md
+
+      - id: what-does-the-treemap-add
+        question:
+          en: What does the area chart show that the bar chart cannot?
+          cn: 面积图比柱状图多看出了什么？
+          es: ¿Qué muestra el gráfico de área que el gráfico de barras no puede mostrar?
+          ja: 面積の図は棒のグラフではわからない何を教えてくれるのか？
+          de: Was zeigt die Flächengrafik, das das Balkendiagramm nicht zeigen kann?
+        answer:
+          en: >
+            The tile's area, not its height: every province gets a box whose size is proportional to its total GDP in 2024, not to GDP per person. So the treemap answers "how big is this economy", where the bar chart answers "how rich is it per head". Guangdong alone is $1.97 trillion, 10.6% of what the thirty-one provinces produce, and it holds 128 million people; Jiangsu is almost the same size at $1.90tn and Shandong comes in at $1.37tn, so three provinces are 28% of the national economy. At the other end Tibet is $38bn, which makes Guangdong fifty-two times Tibet. And the two rankings do not line up: Guangdong is first by size but only seventh by income per head; Beijing is first per head and twenty-sixth by population; Henan is third by population, sixth by size and twenty-fifth per head. Size and prosperity are different axes.
+          cn: >
+            看的是面积，不是高度：每个省分到的方块面积正比于它 2024 年的经济总量，而不是人均水平。所以树状图回答的是「这个经济体量有多大」，柱状图回答的才是「人均有多富」。仅广东一省就是 $1.97 万亿，占这三十一个省产出总和的 10.6%，人口 128 百万；江苏体量几乎相同，为 $1.90 万亿，山东是 $1.37 万亿，三个省占全国经济的 28%。另一头西藏是 $38 bn，广东是西藏的五十二倍。而两套排名并不对得上：广东按体量第一，按人均收入只排第七；北京按人均收入第一，按人口排第二十六；河南按人口第三，按体量第六，按人均收入第二十五。体量和富裕是两根不同的轴。
+          es: >
+            El área del mosaico, no su altura: cada provincia recibe una caja cuyo tamaño es proporcional a su PIB total en 2024, no al PIB per cápita. Así que el mapa de tamaño responde a "¿qué grande es esta economía?", mientras que el gráfico de barras responde a "¿qué rica es por habitante?". Guangdong sola son 1,97 billones de dólares, el 10,6 % de lo que producen las treinta y una provincias, y Alberga a 128 millones de habitantes; Jiangsu es casi del mismo tamaño, con 1,90 billones, y Shandong suma 1,37 billones, así que tres provincias son el 28 % de la economía nacional. En el otro extremo, Tibet son 38.000 millones, y eso hace que Guangdong sea cincuenta y dos veces Tibet. Y una vez más los dos rankings no coinciden: Guangdong va primera por tamaño y solo séptima por renta por habitante; Beijing va primera por habitante y vigésimosexta por población; Henan va tercera por población, sexta por tamaño y vigésimoquinta por habitante. Tamaño y prosperidad son ejes distintos.
+          ja: >
+            見ているのは高さではなく面積である。各省に配られる四角形の面積は、2024 年の総額 GDP に比例していて、人当たりではない。つまりツリーマップが答えるのは「この経済はどれだけ大きいのか」で、棒グラフが答えるのは「一人当たりどれだけ裕福か」だ。広東省だけで $1.97 兆ドル、31 省全体の生産の 10.6% を占め、人口は 128 百万人。江蘇省もほぼ同じ規模で $1.90 兆ドル、山東県は $1.37 兆ドル——この 3 省で国民経済の 28% になる。反対側では西蔵自治区が $38bn で、広東省はその 52 倍である。そして二つのランキングは一致しない。規模 1 位の広東県は人均所得では 7 位。人均所得 1 位の北京は人口では 26 位。人口 3 位の河南は規模 6 位、人均所得 25 位。大きさと豊かさは別の軸である。
+          de: >
+            Um die Fläche des Kachels, nicht um seine Höhe: Jede Provinz bekommt eine Kachel, deren Größe proportional zu ihrer gesamten Wirtschaftsleistung von 2024 ist, nicht zum BIP pro Kopf. Die Baumkarte beantwortet also die Frage „wie groß ist diese Wirtschaft?", während das Balkendiagramm die Frage „wie reich ist sie pro Kopf?" beantwortet. Guangdong allein ist 1,97 Billionen Dollar, 10,6 % von allem, was die einunddreißig Provinzen produzieren, und beherbergt 128 Millionen Menschen; Jiangsu ist mit 1,90 trn fast genauso groß, Shandong kommt auf 1,37 trn, damit sind drei Provinzen 28 % der Volkswirtschaft. Am anderen Ende stehen Tibet mit 38 Mrd. $ — Guangdong ist also zweiundfünfzigmal so groß wie Tibet. Und wieder widersprechen sich die beiden Ranglisten: Guangdong ist nach Größe Erste und nach Pro-Kopf-Einkommen nur Siebte; Beijing ist pro Kopf Erste und nach Bevölkerung Sechsundzwanzigste; Henan ist drittgrößte nach Bevölkerung, sechste nach Größe und fünfundzwanzigstes Pro-Kopf-Einkommen. Größe und Wohlstand sind verschiedene Achsen.
+        confidence: 9
+        reference:
+          - docs/6-china-casestudy/01-china-provinces/en.md
+          - docs/6-china-casestudy/01-china-provinces/cn.md
+
+      - id: how-do-i-read-the-heatmap
+        question:
+          en: How do I read the heatmap?
+          cn: 这张热力图怎么看？
+          es: ¿Cómo se lee el mapa de calor?
+          ja: ヒートマップはどう読むのか？
+          de: Wie liest man die Heatmap?
+        answer:
+          en: >
+            Rows are the 31 provinces, columns are five periods — 2000-05, 2005-10, 2010-15, 2015-20 and 2020-23 — and the colour is how fast real GDP per head grew in that period: red where it shrank, blue where it compounded. Here there is no red at all: every province grew in every period, from Shanghai's 4.4% a year in 2005-10 to Ningxia's 14.6%. And the winner changes every decade. In 2005-10 it was the west and the centre; in 2015-20 it was Tibet and Yunnan; in 2020-23 it was the coal belt, with Shanxi at 10.8% a year and Inner Mongolia at 10.3%. Three waves, three different sets of winners.
+          cn: >
+            行是三十一个省，列是五个时段——2000-05、2005-10、2010-15、2015-20 和 2020-23——颜色表示各时段实际人均 GDP 的增长速度：收缩的地方是红色，累积增长的地方是蓝色。这里一个红格都没有：每个省在每个时段都在增长，从 2005-10 年上海的年均 4.4% 到宁夏的 14.6%。而且每一轮赢家都不同。2005-10 年是西部和中部，2015-20 年是西藏和云南，2020-23 年是煤炭带——山西年均 10.8%，内蒙古 10.3%。三轮风潮，三套不同的赢家。
+          es: >
+            Las filas son las 31 provincias, las columnas son cinco periodos —2000-05, 2005-10, 2010-15, 2015-20 y 2020-23— y el color indica cómo creció el PIB real per cápita en cada periodo: rojo donde se encogió, azul donde se compuso. Aquí no hay ni una sola celda roja: todas las provincias crecieron en todos los periodos, desde el 4,4 % anual de Shanghai en 2005-10 hasta el 14,6 % de Ningxia. Y el ganador cambia cada década. En 2005-10 fueron el oeste y el centro; en 2015-20 fueron Tibet y Yunnan; en 2020-23 fue el cinturón del carbón, con Shanxi en 10,8 % anual e Inner Mongolia en 10,3 %. Tres olas, tres conjuntos distintos de ganadores.
+          ja: >
+            行が 31 の省、列が 5 つの時期——2000-05、2005-10、2010-15、2015-20、2020-23——で、色は各時期の実質一人当たり GDP がどれだけ成長したかを示す。縮小したところは赤、複利で積み上がったところは青だ。ここには赤いマスが一つもない。すべての省がすべての時期で成長しており、2005-10 年の上海の年均 4.4% から寧夏回族自治区の 14.6% まで。而且勝ち手は 10 年ごとに入れ替わる。2005-10 年は西部と中部、2015-20 年は西蔵自治区と雲南省、2020-23 年は石炭地帯——山西省年均 10.8%、内モンゴル自治区 10.3%。三つの波、三つの異なる勝者たちである。
+          de: >
+            Die Zeilen sind die 31 Provinzen, die Spalten fünf Perioden —2000-05, 2005-10, 2010-15, 2015-20 und 2020-23—, und die Farbe zeigt, wie schnell das reale BIP pro Kopf in der jeweiligen Periode wuchs: rot, wo es schrumpfte, blau, wo es sich aufsummierte. Hier gibt es überhaupt keine rote Zelle: Jede Provinz ist in jeder Periode gewachsen, von Shanghais 4,4 % pro Jahr in 2005-10 bis zu Ninghias 14,6 %. Und der Gewinner wechselt mit jedem Jahrzehnt. In 2005-10 waren es der Westen und die Mitte, in 2015-20 Tibet und Yunnan, in 2020-23 der Kohlegürtel, mit Shanxi bei 10,8 % pro Jahr und Inner Mongolia bei 10,3 %. Drei Wellen, drei verschiedene Gewinner.
         confidence: 9
         reference:
           - docs/6-china-casestudy/01-china-provinces/en.md

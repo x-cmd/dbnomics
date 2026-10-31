@@ -33,22 +33,22 @@ data:
 
       - id: why-is-dc-excluded
         question:
-          en: Why is Washington DC missing from the first chart?
-          cn: 为什么第一张图里没有华盛顿特区？
-          es: ¿Por qué falta Washington DC en el primer gráfico?
-          ja: 1 つ目のグラフにワシントン DC がないのはなぜ？
-          de: Warum fehlt Washington DC in der ersten Grafik?
+          en: Why is Washington DC missing?
+          cn: 为什么没有华盛顿特区？
+          es: ¿Por qué falta Washington DC?
+          ja: ワシントン DC がないのはなぜ？
+          de: Warum fehlt Washington DC?
         answer:
           en: >
-            Because its per-capita GDP would not mean what it means for a state. DC's number is federal payroll landing in a tiny territory — the paychecks of people who work for the US government and live in a very small area. That would push it to the top of the chart for a reason that says nothing about local production. The other two charts use the OECD's real GDP per capita and population series, where DC is not a problem, so the omission is confined to the first chart.
+            Because its per-capita GDP would not mean what it means for a state. DC's number is federal payroll landing in a tiny territory — the paychecks of people who work for the US government and live in a very small area. That would push it to the top of the chart for a reason that says nothing about local production. Washington DC is left out of every chart on this page for the same reason: its GDP is federal payroll landing in a tiny territory, so it would distort both the per-capita ranking and the treemap of state economies.
           cn: >
-            因为它的人均 GDP 含义和州不一样。DC 的数字是联邦工资单落在一小块地盘上——为美国政府工作、但住在一片很小区域里的人拿到的薪水。这会让它因为一个跟本地产出毫无关系的理由冲到榜首。后两张图用的是 OECD 的实际人均 GDP 和人口序列，DC 在那里不成问题，所以剔除只限于第一张图。
+            因为它的人均 GDP 含义和州不一样。DC 的数字是联邦工资单落在一小块地盘上——为美国政府工作、但住在一片很小区域里的人拿到的薪水。这会让它因为一个跟本地产出毫无关系的理由冲到榜首。华盛顿特区在这一页的每一张图里都被剔除，理由是同一个：它的 GDP 是联邦工资单落在一小块地盘上，既会扭曲人均排名，也会扭曲州经济的树状图。
           es: >
-            Porque su PIB per cápita no significaría lo mismo que el de un estado. La cifra de DC es una nómina federal que aterriza en un territorio diminuto —las nóminas de quien trabaja para el gobierno de EE. UU. y vive en una superficie muy pequeña—. Eso la colocaría en lo más alto del gráfico por un motivo que no dice nada de la producción local. Los otros dos gráficos usan las series de PIB real per cápita y población de la OCDE, donde DC no estorba, así que la omisión se limita al primer gráfico.
+            Porque su PIB per cápita no significaría lo mismo que el de un estado. La cifra de DC es una nómina federal que aterriza en un territorio diminuto —las nóminas de quien trabaja para el gobierno de EE. UU. y vive en una superficie muy pequeña—. Eso la colocaría en lo más alto del gráfico por un motivo que no dice nada de la producción local. Washington DC queda fuera de todos los gráficos de esta página por la misma razón: su PIB es una nómina federal que aterriza en un territorio diminuto, así que distorsionaría tanto el ranking per cápita como el mapa de tamaño de las economías estatales.
           ja: >
-            一人当たり GDP の意味が州の場合と違うからである。DC の数字は、連邦の給与がごく小さな領土に落ちたもの——米国政府に働き、小さな地域に住む人たちの給料だ。そのためDCは地元の産出とは無関係な理由でグラフの頂点飞来する。残る 2 つのグラフは OECD の実質一人当たり GDP と人口の系列を使っており、DC はそこで問題にならないので、除外は 1 つ目のグラフに限られる。
+            一人当たり GDP の意味が州の場合と違うからである。DC の数字は、連邦の給与がごく小さな領土に落ちたもの——米国政府に働き、小さな地域に住む人たちの給料だ。そのためDCは地元の産出とは無関係な理由でグラフの頂点飞来する。ワシントン DC がこのページのすべてのグラフから除外されているのも同じ理由だ。その GDP は連邦の給与がごく小さな領土に落ちたもので、人当たりランキングと州経済のツリーマップの双方を歪めてしまうからである。
           de: >
-            Weil sein BIP pro Kopf nicht dasselbe bedeuten würde wie bei einem Staat. Washingtons Zahl ist Bundesgehalt, der auf einem winzigen Gebiet landet — die Gehälter derer, die für die US-Regierung arbeiten und in einem sehr kleinen Gebiet wohnen. Das würde DC aus einem Grund ganz nach oben auf die Grafik setzen, der über die lokale Produktion nichts sagt. Die beiden anderen Grafiken verwenden die Reihen zu realem BIP pro Kopf und Bevölkerung der OECD, in denen DC kein Problem ist — die Auslassung gilt also nur für die erste Grafik.
+            Weil sein BIP pro Kopf nicht dasselbe bedeuten würde wie bei einem Staat. Washingtons Zahl ist Bundesgehalt, der auf einem winzigen Gebiet landet — die Gehälter derer, die für die US-Regierung arbeiten und in einem sehr kleinen Gebiet wohnen. Das würde DC aus einem Grund ganz nach oben auf die Grafik setzen, der über die lokale Produktion nichts sagt. Washington DC fehlt auf dieser Seite in jedem Diagramm aus demselben Grund: Sein BIP ist Bundesgehalt, der auf einem winzigen Gebiet landet, und würde damit sowohl die Pro-Kopf-Rangliste als auch die Baumkarte der Staatswirtschaften verzerren.
         confidence: 9
         reference:
           - docs/5-us-casestudy/03-us-states/en.md
@@ -57,19 +57,19 @@ data:
       - id: why-did-convergence-fail
         question:
           en: Richer states should grow slower and catch up — why did nothing change in 24 years?
-          cn: 穷州应该追上来，24 年为什么什么都没变？
-          es: 'Los estados pobres deberían alcanzar a los ricos: ¿por qué no cambió nada en 24 años?'
-          ja: 貧しい州は追いつくはずなのに、24 年間何も変わらなかったのはなぜ？
-          de: Ärmere Staaten sollten aufholen — warum hat sich in 24 Jahren nichts geändert?
+          cn: 起点低的州应该追上来，24 年为什么什么都没变？
+          es: 'Los estados que parten de más abajo deberían alcanzar a los ricos: ¿por qué no cambió nada en 24 años?'
+          ja: 出発点の低い州は追いつくはずなのに、24 年間何も変わらなかったのはなぜ？
+          de: Staaten mit niedrigerem Ausgangsniveau sollten aufholen — warum hat sich in 24 Jahren nichts geändert?
         answer:
           en: >
             Because in the US the fast growers were not the poor ones. In real terms Mississippi grew 1.2% a year over 2000–24 against New York's 1.8%, so the gap widened rather than narrowed. The leaders were North Dakota (3.1% a year, shale oil), Nebraska, Montana and Utah; the losers were Michigan (0.5%, cars), Delaware (0.4%, pharma) and Connecticut and New Jersey — mid-rich states that lost their industry. So the gap is not a floor effect that fades with time; it is a race that keeps being re-run, with the leaders changing.
           cn: >
-            因为美国增长快的不是穷州。按实际口径，2000–24 年密西西比每年增长 1.2%，纽约是 1.8%，差距反而拉大。领先的是北达科他州（实际每年 3.1%，页岩油）、内布拉斯加、蒙大拿和犹他；掉队的是密歇根（0.5%，汽车）、特拉华（0.4%，制药）以及康涅狄格和新泽西——那些失去支柱产业的中等富裕州。所以这个差距不是一个会随时间淡去的「地板效应」，而是一场不断重跑的赛跑，而且领跑者还会换人。
+            因为美国增长快的不是起点最低的州。按实际口径，2000–24 年密西西比每年增长 1.2%，纽约是 1.8%，差距反而拉大。领先的是北达科他州（实际每年 3.1%，页岩油）、内布拉斯加、蒙大拿和犹他；掉队的是密歇根（0.5%，汽车）、特拉华（0.4%，制药）以及康涅狄格和新泽西——那些失去支柱产业的中等富裕州。所以这个差距不是一个会随时间淡去的「地板效应」，而是一场不断重跑的赛跑，而且领跑者还会换人。
           es: >
-            Porque en EE. UU. los que crecían rápido no eran los pobres. En términos reales Misisipi creció un 1,2% al año entre 2000 y 2024 frente al 1,8% de Nueva York, así que la distancia se amplió en vez de reducirse. Los líderes fueron Dakota del Norte (3,1% al año, petróleo de esquisto), Nebraska, Montana y Utah; los perdedores, Míchigan (0,5%, coches), Delaware (0,4%, farmacéutica) y Connecticut y Nueva Jersey — estados de riqueza media que perdieron su industria. Así que la brecha no es un efecto suelo que se desvanece con el tiempo: es una carrera que se vuelve a correr, y en la que cambia el líder.
+            Porque en EE. UU. los que crecían rápido no eran los que partían de más abajo. En términos reales Misisipi creció un 1,2% al año entre 2000 y 2024 frente al 1,8% de Nueva York, así que la distancia se amplió en vez de reducirse. Los líderes fueron Dakota del Norte (3,1% al año, petróleo de esquisto), Nebraska, Montana y Utah; los perdedores, Míchigan (0,5%, coches), Delaware (0,4%, farmacéutica) y Connecticut y Nueva Jersey — estados de riqueza media que perdieron su industria. Así que la brecha no es un efecto suelo que se desvanece con el tiempo: es una carrera que se vuelve a correr, y en la que cambia el líder.
           ja: >
-            米国では成長が速かったのが貧しい州ではなかったからである。実質で 2000–24 年、ミシシッピは年 1.2%、ニューヨークは年 1.8% で、差は狭まらず広がった。先行したのは北ダコタ（実質年 3.1%、シェール原油）、ネブラスカ、モントナ、ユタで、負け組はミシガン（0.5%、自動車）、デラウェア（0.4%、製薬）、コネティカットとニュージャージー——産業を失った中堅の州である。つまりこの格差は時間とともに薄まる「下限効果」ではなく、勝ち手が入れ替わりながら毎回やり直されるレースである。
+            米国では成長が速かったのが、出発点の最も低かった州ではなかったからである。実質で 2000–24 年、ミシシッピは年 1.2%、ニューヨークは年 1.8% で、差は狭まらず広がった。先行したのは北ダコタ（実質年 3.1%、シェール原油）、ネブラスカ、モントナ、ユタで、負け組はミシガン（0.5%、自動車）、デラウェア（0.4%、製薬）、コネティカットとニュージャージー——産業を失った中堅の州である。つまりこの格差は時間とともに薄まる「下限効果」ではなく、勝ち手が入れ替わりながら毎回やり直されるレースである。
           de: >
             Weil in den USA die schnellen Wachsler nicht die Armen waren. Real wuchs Mississippi zwischen 2000 und 2024 um 1,2% pro Jahr gegenüber 1,8% für New York — die Lücke hat sich also verbreitert statt zu schrumpfen. Vorn lagen North Dakota (3,1% pro Jahr, Schieferöl), Nebraska, Montana und Utah; die Verlierer waren Michigan (0,5%, Autos), Delaware (0,4%, Pharma) sowie Connecticut und New Jersey — mittelreiche Staaten, die ihre Industrie verloren haben. Die Lücke ist also kein Bodeneffekt, der mit der Zeit verschwindet, sondern ein Rennen, das immer wieder neu ausgetragen wird und dessen Führende wechseln.
         confidence: 9
@@ -86,15 +86,15 @@ data:
           de: Welche Staaten gewinnen, und wohin sind die Menschen gegangen?
         answer:
           en: >
-            The third chart is the migration ledger, and it points at the same states. Since 2000 Nevada gained 62% of its 2000 population, Utah 56%, Idaho 54%, Texas 49% (+10.3m people) and Florida 46% (+7.3m). Only West Virginia actually shrank, by 2%. Note the mismatch worth knowing about: the population winners and the growth winners overlap only partly — Nevada gained people fast (62%) but its real GDP per capita grew only 0.93% a year, while Texas grew 1.56% and Utah 1.95%. Fast population growth is not the same thing as fast prosperity.
+            The last chart is the migration ledger, and it points at the same states. Since 2000 Nevada gained 62% of its 2000 population, Utah 56%, Idaho 54%, Texas 49% (+10.3m people) and Florida 46% (+7.3m). Only West Virginia actually shrank, by 2%. Note the mismatch worth knowing about: the population winners and the growth winners overlap only partly — Nevada gained people fast (62%) but its real GDP per capita grew only 0.93% a year, while Texas grew 1.56% and Utah 1.95%. Fast population growth is not the same thing as fast prosperity.
           cn: >
-            第三张图是人口流动账，指向的正是这些州。2000 年以来，内华达增加了相当于 2000 年人口 62% 的人，犹他 56%、爱达荷 54%、得州 49%（+1030 万人）、佛罗里达 46%（+730 万人）。只有西弗吉尼亚真的缩了，缩了 2%。有个值得注意的错位：人口赢家与增长赢家只部分重合——内华达人口涨得飞快（62%），但实际人均 GDP 每年只增长 0.93%；而得州是 1.56%、犹他是 1.95%。人口涨得快不等于日子过得好得快。
+            最后一张图是人口流动账，指向的正是这些州。2000 年以来，内华达增加了相当于 2000 年人口 62% 的人，犹他 56%、爱达荷 54%、得州 49%（+1030 万人）、佛罗里达 46%（+730 万人）。只有西弗吉尼亚真的缩了，缩了 2%。有个值得注意的错位：人口赢家与增长赢家只部分重合——内华达人口涨得飞快（62%），但实际人均 GDP 每年只增长 0.93%；而得州是 1.56%、犹他是 1.95%。人口涨得快不等于日子过得好得快。
           es: >
-            El tercer gráfico es el registro de las migraciones, y señala a esos mismos estados. Desde 2000 Nevada ganó un 62% de su población de 2000, Utah un 56%, Idaho un 54%, Texas un 49% (+10,3 millones de personas) y Florida un 46% (+7,3 millones). Solo Virgina Occidental decreció realmente, un 2%. Conviene notar un desajuste: los ganadores en población y los ganadores en crecimiento se solapan solo en parte — Nevada ganó gente muy rápido (62%) pero su PIB real per cápita solo creció un 0,93% al año, mientras Texas creció un 1,56% y Utah un 1,95%. Crecer en población no es lo mismo que crecer en prosperidad.
+            El último gráfico es el registro de las migraciones, y señala a esos mismos estados. Desde 2000 Nevada ganó un 62% de su población de 2000, Utah un 56%, Idaho un 54%, Texas un 49% (+10,3 millones de personas) y Florida un 46% (+7,3 millones). Solo Virgina Occidental decreció realmente, un 2%. Conviene notar un desajuste: los ganadores en población y los ganadores en crecimiento se solapan solo en parte — Nevada ganó gente muy rápido (62%) pero su PIB real per cápita solo creció un 0,93% al año, mientras Texas creció un 1,56% y Utah un 1,95%. Crecer en población no es lo mismo que crecer en prosperidad.
           ja: >
-            3 つ目のグラフは人口移動の帳簿であり、同じ州を指している。2000 年以来、ネバダは 2000 年人口の 62% 増、ユタ 56%、アイダホ 54%、テキサス 49%（+1,030 万人）、フロリダ 46%（+730 万人）。実際に減ったのはウェストヴァージニアだけで、−2% だった。留意すべきズレがある——人口の勝者と成長の勝者は一部しか重ならない。ネバダは人口が 62% と速やかに増えたが、実質一人当たり GDP の成長は年 0.93% にすぎず、テキサス 1.56%、ユタ 1.95% だった。人口が速く増えることと、豊かさが速く増えることは同じではない。
+            最後のグラフは人口移動の帳簿であり、同じ州を指している。2000 年以来、ネバダは 2000 年人口の 62% 増、ユタ 56%、アイダホ 54%、テキサス 49%（+1,030 万人）、フロリダ 46%（+730 万人）。実際に減ったのはウェストヴァージニアだけで、−2% だった。留意すべきズレがある——人口の勝者と成長の勝者は一部しか重ならない。ネバダは人口が 62% と速やかに増えたが、実質一人当たり GDP の成長は年 0.93% にすぎず、テキサス 1.56%、ユタ 1.95% だった。人口が速く増えることと、豊かさが速く増えることは同じではない。
           de: >
-            Die dritte Grafik ist das Wanderungsbilanz, und sie zeigt auf dieselben Staaten. Seit 2000 gewann Nevada 62% seiner Bevölkerung von 2000, Utah 56%, Idaho 54%, Texas 49% (+10,3 Mio. Menschen) und Florida 46% (+7,3 Mio.). Nur West Virginia schrumpfte tatsächlich, um 2%. Beachten Sie eine Fehlanpassung: Die Gewinner bei der Bevölkerung und die Gewinner beim Wachstum überschneiden sich nur teilweise — Nevada gewann sehr schnell Leute (62%), sein reales BIP pro Kopf wuchs aber nur um 0,93% pro Jahr, während Texas 1,56% und Utah 1,95% erreichten. Schnelles Bevölkerungswachstum ist nicht dasselbe wie schnell wachsender Wohlstand.
+            Die letzte Grafik ist das Wanderungsbilanz, und sie zeigt auf dieselben Staaten. Seit 2000 gewann Nevada 62% seiner Bevölkerung von 2000, Utah 56%, Idaho 54%, Texas 49% (+10,3 Mio. Menschen) und Florida 46% (+7,3 Mio.). Nur West Virginia schrumpfte tatsächlich, um 2%. Beachten Sie eine Fehlanpassung: Die Gewinner bei der Bevölkerung und die Gewinner beim Wachstum überschneiden sich nur teilweise — Nevada gewann sehr schnell Leute (62%), sein reales BIP pro Kopf wuchs aber nur um 0,93% pro Jahr, während Texas 1,56% und Utah 1,95% erreichten. Schnelles Bevölkerungswachstum ist nicht dasselbe wie schnell wachsender Wohlstand.
         confidence: 9
         reference:
           - docs/5-us-casestudy/03-us-states/en.md
@@ -102,11 +102,11 @@ data:
 
       - id: why-no-sovereign-crisis
         question:
-          en: Why doesn't a poor state ever suffer a debt crisis like Greece?
-          cn: 为什么穷州不会像希腊那样爆发债务危机？
-          es: ¿Por qué un estado pobre nunca sufre una crisis de deuda como Grecia?
-          ja: 貧しい州はギリシャのような債務危機を起こさないのはなぜか？
-          de: Warum erlebt ein armer Bundesstaat nie eine Schuldenkrise wie Griechenland?
+          en: Why doesn't a state with a weak economy ever suffer a debt crisis like Greece?
+          cn: 为什么经济较弱的州不会像希腊那样爆发债务危机？
+          es: ¿Por qué un estado con una economía débil nunca sufre una crisis de deuda como Grecia?
+          ja: 経済が弱い州がギリシャのような債務危機を起こさないのはなぜか？
+          de: Warum erlebt ein Bundesstaat mit schwacher Wirtschaft nie eine Schuldenkrise wie Griechenland?
         answer:
           en: >
             Three things tie the fifty state economies into one risk pool. Federal transfers: Washington funds the states and buffers a bad year. The Fed: one monetary policy and one currency for the whole country, so a state cannot outrun the cycle on its own. And Chapter 11: bankruptcy law applies inside the US, so a failing state or its companies restructure in court instead of defaulting on foreign debt. The level gaps stay — Mississippi is still last — but they never turn into the sovereign crises Europe gets.
@@ -118,6 +118,52 @@ data:
             50 州の経済をひとつのリスクプールに縛りつけるものが 3 つある。連邦の歳出——ワシントンが州に資金を配分し、悪い年を吸収する。Fed——全米共通の金融政策と共通の通貨なので、州が独自でサイクルから抜け出すことはできない。そして第 11 章——破産法は米国内で機能するから、破綻しそうな州やその中の企業は、対外債務の不払いではなく法廷で再編する。水準の格差は残る（ミシシッピはまだ最下位）が、ヨーロッパのような主権危機に化けることはない。
           de: >
             Drei Dinge binden die fünfzig Staatswirtschaften in einen gemeinsamen Risikopool. Bundestransfers: Washington finanziert die Staaten und fängt ein schlechtes Jahr ab. Die Fed: eine Geldpolitik und eine Währung für das ganze Land, sodass ein Staat dem Zyklus nicht eigenmächtig entkommen kann. Und Chapter 11: Das Insolvenzrecht gilt innerhalb der USA, sodass ein notleidender Staat oder seine Unternehmen sich vor Gericht neu aufstellen, statt an Auslandsschulden zu defaulten. Die Niveauunterschiede bleiben — Mississippi steht weiterhin hinten — aber sie werden nie zu den Staatskrisen, die Europa erlebt.
+        confidence: 9
+        reference:
+          - docs/5-us-casestudy/03-us-states/en.md
+          - docs/5-us-casestudy/03-us-states/cn.md
+
+      - id: what-does-the-treemap-add
+        question:
+          en: What does the area chart show that the bar chart cannot?
+          cn: 面积图比柱状图多看出了什么？
+          es: ¿Qué muestra el gráfico de área que el gráfico de barras no puede mostrar?
+          ja: 面積の図は棒のグラフではわからない何を教えてくれるのか？
+          de: Was zeigt die Flächengrafik, das das Balkendiagramm nicht zeigen kann?
+        answer:
+          en: >
+            The tile's area, not its height: every state gets a box whose size is proportional to its total GDP in 2024, not to GDP per person. So the treemap answers "how big is this economy", where the bar chart answers "how rich is it per head". California alone produces $4.05 trillion, 14% of everything the fifty states produce; add Texas ($2.77tn) and New York ($2.32tn) and three states are a third of the country. At the other end Vermont is $46bn and Wyoming $51bn, so California is eighty-eight times Vermont. And the two rankings do not line up: Texas is second by size but only thirteenth by income per head, while Mississippi is last by income per head but thirty-sixth by size. Size and prosperity are different axes. You need both pictures, and only one of them is a bar chart.
+          cn: >
+            看的是面积，不是高度：每个州分到的方块面积正比于它 2024 年的经济总量，而不是人均水平。所以树状图回答的是「这个经济体量有多大」，柱状图回答的才是「人均有多富」。仅加利福尼亚一州就产出 $4.05 trillion，占五十个州总产出的 14%；再加上得克萨斯（$2.77tn）和纽约（$2.32tn），三个州就是全国的三分之一。另一头，佛蒙特是 $46bn，怀俄明是 $51bn——加利福尼亚是佛蒙特的八十八倍。而两份排名并不对得上：得州按体量排第二，按人均收入只排第十三；密西西比按人均收入垫底，按体量却排第三十六。体量和富裕是两根不同的轴。你需要两张图，而其中只有一张是柱状图。
+          es: >
+            El área del mosaico, no su altura: cada estado recibe una caja cuyo tamaño es proporcional a su PIB total en 2024, no al PIB per cápita. Así que el mapa de tamaño responde a "¿qué grande es esta economía?", mientras que el gráfico de barras responde a "¿qué rico es por habitante?". California sola produce 4,05 billones de dólares, el 14 % de todo lo que producen los cincuenta estados; suma Texas (2,77 billones) y Nueva York (2,32 billones) y tres estados son un tercio del país. En el otro extremo, Vermont son 46.000 millones y Wyoming 51.000 millones: California es ochenta y ocho veces Vermont. Y las dos clasificaciones no coinciden: Texas es segundo por tamaño y solo decimotercero por renta por habitante, mientras Misisipi es último por renta por habitante pero trigésimo sexto por tamaño. Tamaño y prosperidad son ejes distintos. Necesitas las dos imágenes, y solo una de ellas es un gráfico de barras.
+          ja: >
+            見ているのは高さではなく面積である。各州に配られる四角形の面積は、2024 年の総額 GDP に比例していて、人当たりではない。つまりツリーマップが答えるのは「この経済はどれだけ大きいのか」で、棒グラフが答えるのは「一人当たりどれだけ裕福か」だ。カリフォルニアだけで$4.05 trillion、50 州全体の産出の 14%。テキサス（$2.77tn）とニューヨーク（$2.32tn）を足せば、3 州で国の 3 分の 1 になる。反対の端では、バーモントが$46bn、ワイオミングが$51bn。カリフォルニアはバーモントの 88 倍である。そして、この 2 つのランキングは一致しません。テキサスは大きさでは 2 番目ですが、1 人当たり収入では 13 番目にすぎません。ミシシッピは 1 人当たり収入では最下位ですが、大きさでは 36 位。大きさと豊かさは別の軸です。両方の図が必要ですが、そのうち棒グラフは 1 つしかありません。
+          de: >
+            Um die Fläche des Kachels, nicht um seine Höhe: Jeder Bundesstaat bekommt eine Kachel, deren Größe proportional zu seiner gesamten Wirtschaftsleistung von 2024 ist, nicht zum BIP pro Kopf. Die Baumkarte beantwortet also die Frage „wie groß ist diese Wirtschaft?", während das Balkendiagramm die Frage „wie reich ist sie pro Kopf?" beantwortet. Kalifornien allein produziert 4,05 Billionen $, 14 % von allem, was die fünfzig Staaten produzieren; Texas (2,77 Bio. $) und New York (2,32 Bio. $) kommen hinzu, und drei Staaten sind ein Drittel des Landes. Am anderen Ende stehen Vermont mit 46 Mrd. $ und Wyoming mit 51 Mrd. $ — Kalifornien ist achtundachtzigmal so groß wie Vermont. Und die beiden Ranglisten decken sich nicht: Texas ist nach Größe zweitgrößer und nach Pro-Kopf-Einkommen nur dreizehnter, während Mississippi beim Einkommen letzter, nach Größe aber sechsunddreißigste ist. Größe und Wohlstand sind verschiedene Achsen. Man braucht beide Bilder, und nur eines davon ist ein Balkendiagramm.
+        confidence: 9
+        reference:
+          - docs/5-us-casestudy/03-us-states/en.md
+          - docs/5-us-casestudy/03-us-states/cn.md
+
+      - id: how-do-i-read-the-heatmap
+        question:
+          en: How do I read the heatmap?
+          cn: 这张热力图怎么看？
+          es: ¿Cómo se lee el mapa de calor?
+          ja: ヒートマップはどう読むのか？
+          de: Wie liest man die Heatmap?
+        answer:
+          en: >
+            Rows are the fifty states, columns are five periods — 2000-05, 2005-10, 2010-15, 2015-20 and 2020-24 — and the colour is how fast real GDP per head grew in that period: red where it shrank, blue where it compounded. The red band in 2005-10 is the financial crisis, and it bites Nevada hardest at −2.6% a year, then Georgia at −2.1% and Michigan at −2.0%. The oil states have a different story: North Dakota ran at +3.8%, +4.8% and +5.7% a year up to 2015 and then went backwards, −2.5% a year in 2015-20, when the shale price collapsed and the drill crews left. The last column is the strongest where the jobs were: Texas +4.7% a year, Nevada +5.2%, New Mexico +5.0%. And at the bottom of the table Delaware managed −0.2%, −0.9%, +1.8%, −1.2% and +3.1% — three bad periods out of five.
+          cn: >
+            行是五十个州，列是五个时段——2000-05、2005-10、2010-15、2015-20 和 2020-24——颜色表示各时段实际人均 GDP 的增长速度：收缩的地方是红色，累积增长的地方是蓝色。2005-10 年那一整条红带就是金融危机，内华达州受创最重，年均 −2.6%，接着是佐治亚州 −2.1%、密歇根州 −2.0%。石油州则是另一套故事：北达科他州到 2015 年为止分别以 +3.8%、+4.8%、+5.7% 的年增速运行，随后掉头向下，在 2015-20 年年均 −2.5%，当时页岩油气价格崩了，钻井队撤走了。最后一列在有工作的地方最强：得克萨斯州年均 +4.7%，内华达州 +5.2%，新墨西哥州 +5.0%。而表格底部，特拉华州的数据是 −0.2%、−0.9%、+1.8%、−1.2% 和 +3.1%：五个时段里有三个是坏年份。
+          es: >
+            Las filas son los cincuenta estados, las columnas cinco periodos —2000-05, 2005-10, 2010-15, 2015-20 y 2020-24— y el color indica cómo creció el PIB real per cápita en cada periodo: rojo donde se encogió, azul donde se compuso. La franja roja de 2005-10 es la crisis financiera, y golpea con más fuerza a Nevada, con −2,6 % anual, luego Georgia con −2,1 % y Míchigan con −2,0 %. Los estados petroleros tienen otra historia: North Dakota corrió a +3,8 %, +4,8 % y +5,7 % anual hasta 2015 y luego marcha atrás, −2,5 % anual en 2015-20, cuando se hundió el precio del gas de pizarra y los equipos de perforación se fueron. La última columna es la más fuerte donde estaban los empleos: Texas +4,7 % anual, Nevada +5,2 %, New Mexico +5,0 %. Y al pie de la tabla, Delaware logró −0,2 %, −0,9 %, +1,8 %, −1,2 % y +3,1 %: tres malos periodos de cada cinco.
+          ja: >
+            行が 50 州、列が 5 つの時期——2000-05、2005-10、2010-15、2015-20、2020-24——で、色は各時期の実質一人当たり GDP がどれだけ成長したかを示す。縮小したところは赤、複利で積み上がったところは青だ。2005-10 年の赤い帯は金融危機で、ネバダ州が最も打撃を受け年率 −2.6%、続いてジョージア州 −2.1%、ミシガン州 −2.0%。石油州には別の物語がある。ノースダコタ州は 2015 年まで年率 +3.8%、+4.8%、+5.7% で走ったが、その後逆行し、シェール油気の価格が崩れて掘削チームが去った 2015-20 年には年率 −2.5% となった。最終列は雇用のあった場所で最も強い。テキサス州年率 +4.7%、ネバダ州 +5.2%、ニューメキシコ州 +5.0%。そして表の下端、デラウェア州は −0.2%、−0.9%、+1.8%、−1.2%、+3.1% と並ぶ。5 つの時期のうち 3 つは悪い年月だ。
+          de: >
+            Die Zeilen sind die fünfzig Staaten, die Spalten fünf Perioden —2000-05, 2005-10, 2010-15, 2015-20 und 2020-24—, und die Farbe zeigt, wie schnell das reale BIP pro Kopf in der jeweiligen Periode wuchs: rot, wo es schrumpfte, blau, wo es sich aufsummierte. Der rote Streifen von 2005-10 ist die Finanzkrisis, und sie beißt Nevada am härtesten mit −2,6 % pro Jahr, dann Georgia mit −2,1 % und Michigan mit −2,0 %. Die Ölstaaten haben eine andere Geschichte: North Dakota lief bis 2015 mit +3,8 %, +4,8 % und +5,7 % pro Jahr und ging dann rückwärts, −2,5 % pro Jahr in 2015-20, als der Schieferölpreis einbrach und die Bohrcrews abrückten. Die letzte Spalte ist dort am stärksten, wo die Arbeitsplätze waren: Texas +4,7 % pro Jahr, Nevada +5,2 %, New Mexico +5,0 %. Unten in der Tabelle kam Delaware auf −0,2 %, −0,9 %, +1,8 %, −1,2 % und +3,1 %: drei schlechte Perioden von fünf.
         confidence: 9
         reference:
           - docs/5-us-casestudy/03-us-states/en.md

@@ -15,7 +15,7 @@ The i18n list is positional: same length as blocks, null where the block is a ch
 """
 import json, os, sys
 
-sys.path.insert(0, '/tmp')
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from mkchart import url_for
 
 ROOT = '/Users/l/.x-repo/github.com/x-cmd/dbnomics'
