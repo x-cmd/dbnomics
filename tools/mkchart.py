@@ -507,11 +507,13 @@ def build(spec):
         inds = [{'name': i['name'], 'max': i.get('max', 100)} for i in spec['indicators']]
         out_series = []
         for s in sers:
+            # a radar series carries one data item: the values of that series
             out_series.append({'name': s['name'], 'type': 'radar',
-                               'data': [round(v, 2) for v in s['values']],
+                               'data': [{'value': [round(v, 2) for v in s['values']],
+                                         'name': s['name']}],
                                'itemStyle': {'color': s['color']},
                                'lineStyle': {'color': s['color']},
-                               'areaStyle': {'opacity': 0.12}})
+                               'areaStyle': {'opacity': 0.14}})
         opt = {'title': title, 'color': colors,
                'legend': {} if spec.get('legend', True) else {'show': False},
                'radar': {'indicator': inds, 'radius': spec.get('radius', '62%'),

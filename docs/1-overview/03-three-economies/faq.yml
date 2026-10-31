@@ -145,3 +145,26 @@ data:
         reference:
           - docs/1-overview/03-three-economies/en.md
           - docs/1-overview/02-macroeconomic-outlook/en.md
+
+      - id: how-is-the-radar-scored
+        question:
+          en: How is the radar chart scored, and why does it look relative?
+          cn: 这张雷达图怎么打分?为什么看着是相对的?
+          es: ¿Cómo se puntúa el gráfico de radar y por qué parece relativo?
+          ja: レーダーチャートはどう採点されているのか。なぜ相対的に見えるのか。
+          de: Wie wird das Radar-Diagramm bewertet, und warum wirkt es relativ?
+        answer:
+          en: >
+            The radar puts the United States, the euro area and China on four axes: jobs (unemployment, 2025: 4.4% / 6.4% / 5.1%), prices (inflation 2025: 1.9% / 2.0% / 1.7%, scored by distance from the 2% target), growth (real GDP, 2023-25 average: 2.6% / 0.8% / 4.9%) and fiscal space (government debt as a share of GDP, 2025: 124% / 88% / 94%). Each axis is rescaled between the best and the worst of the three: 100 is the leader on that dial, 0 the laggard, and every axis runs so that more is better (less unemployment, closer to 2%, faster growth, less debt). So the shapes show relative standing, not absolute levels: America tops the jobs axis and bottoms the debt axis; the euro area tops prices and debt and is last on jobs and growth; China tops growth and is last on prices. The area of a shape is not a score - read the shapes, not the areas. That is the point of the chart: each of the three wins one argument and loses another, which is why no single scoreboard can settle the debate.
+          cn: >
+            雷达图把美国、欧元区和中国放在四条轴上:就业(失业率,2025 年:4.4% / 6.4% / 5.1%)、物价(通胀 2025 年:1.9% / 2.0% / 1.7%,按离 2% 目标的距离打分)、增长(实际 GDP,2023–25 年平均:2.6% / 0.8% / 4.9%)和财政空间(政府债务占 GDP,2025 年:124% / 88% / 94%)。每条轴都按三者中最好和最差之间重新标定:100 是这条轴上的领先者,0 是落后者,而且每条轴的方向都是「越多越好」(失业更低、更靠近 2%、增长更快、债务更少)。所以图形显示的是相对位置,不是绝对水平:美国在就业这条轴上顶格、在债务这条轴上触底;欧元区在物价和债务上领先,在就业和增长上垫底;中国在增长上领先,在物价上垫底。形状的面积不是分数——读形状,不要读面积。这就是这张图的意思:三家各赢一个论据、各输一个,所以单靠一张记分牌没法收场。
+          es: >
+            El radar sitúa a Estados Unidos, la zona euro y China en cuatro ejes: empleo (desempleo, 2025: 4,4 % / 6,4 % / 5,1 %), precios (inflación 2025: 1,9 % / 2,0 % / 1,7 %, puntuada por la distancia al objetivo del 2 %), crecimiento (PIB real, media 2023-25: 2,6 % / 0,8 % / 4,9 %) y margen fiscal (deuda pública sobre el PIB, 2025: 124 % / 88 % / 94 %). Cada eje se reescala entre el mejor y el peor de los tres: 100 es el líder en esa esfera y 0 el rezagado, y todos los ejes avanzan en la dirección en la que más es mejor (menos desempleo, más cerca del 2 %, más crecimiento, menos deuda). Así que las formas muestran posiciones relativas, no niveles absolutos: Estados Unidos encabeza el eje del empleo y queda el último en el de la deuda; la zona euro encabeza precios y deuda y va la última en empleo y crecimiento; China encabeza el crecimiento y va la última en precios. El área de una forma no es una puntuación: lea las formas, no las áreas. Ese es el sentido del gráfico: cada uno de los tres gana un argumento y pierde otro, y por eso ninguna tabla puede zanjar la discusión.
+          ja: >
+            レーダーチャートは米国、ユーロ圏、中国を四本の軸に置く:雇用(失業率、2025 年:4.4% / 6.4% / 5.1%)、物価(インフレ率 2025 年:1.9% / 2.0% / 1.7%、2% 目標からの距離で採点)、成長(実質 GDP、2023–25 年の平均:2.6% / 0.8% / 4.9%)、財政の余力(政府債務の GDP 比、2025 年:124% / 88% / 94%)。各軸は三者の最良と最悪の間で目盛りを取る:100 はそのメーターのリーダー、0 は後れ取りで、どの軸も「大きいほど良い」方向(失業は少ない、2% に近い、成長は速い、債務は少ない)に合わせてある。つまり図形が示すのは相対的な位置であって水準そのものではない。米国は雇用でトップ、債務で最下位、ユーロ圏は物価と債務でトップ、雇用と成長で最下位、中国は成長でトップ、物価で最下位。図形の面積はスコアではない——面積ではなく形を読む。これがこの図の意図で、三者はそれぞれ一つの論争に勝ち一つの論争に負ける。だから一枚のランキングでは議論は決着しない。
+          de: >
+            Das Radar-Diagramm setzt die USA, die Eurozone und China auf vier Achsen: Beschäftigung (Arbeitslosenquote 2025: 4,4 % / 6,4 % / 5,1 %), Preise (Inflation 2025: 1,9 % / 2,0 % / 1,7 %, bewertet nach dem Abstand zum 2-%-Ziel), Wachstum (realtes BIP, Mittel 2023-25: 2,6 % / 0,8 % / 4,9 %) und finanzieller Spielraum (Staatsverschuldung als Anteil des BIP, 2025: 124 % / 88 % / 94 %). Jede Achse wird zwischen dem Besten und dem Schlechtesten der drei neu skaliert: 100 ist der Führende auf dieser Skala, 0 der Zurückliegende, und jede Achse läuft in der Richtung, in der mehr besser ist (weniger Arbeitslosigkeit, näher an 2 %, mehr Wachstum, weniger Schulden). Die Formen zeigen also relative Positionen, keine absoluten Niveaus: Die USA führen bei der Beschäftigung und liegen bei den Schulden hinten; die Eurozone führt bei Preisen und Schulden und liegt bei Beschäftigung und Wachstum hinten; China führt beim Wachstum und liegt bei den Preisen hinten. Die Fläche einer Form ist keine Punktzahl - lesen Sie die Formen, nicht die Flächen. Genau darum geht es auf der Grafik: Jede der drei gewinnt ein Argument und verliert ein anderes, und deshalb kann keine Tabelle die Debatte entscheiden.
+        confidence: 9
+        reference:
+          - docs/1-overview/03-three-economies/en.md
+          - docs/1-overview/03-three-economies/cn.md
