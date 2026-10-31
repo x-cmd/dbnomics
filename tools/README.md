@@ -9,6 +9,25 @@ they are authoring tools for the markdown.
 | `build_page.py` | Assemble a page from a page JSON (prose blocks + chart specs + per-language text). Chart URLs, tables and the trailing `**Data**:` line are copied verbatim; only prose is replaced. |
 | `apply_i18n.py` | Merge a translation (one string per prose block, `null` at chart positions) into a page JSON. |
 | `refit.py` | Re-fit the charts already on a page: decode each option, run the label fitter at a new canvas size, write the URLs back into the markdown. Use it after changing the column width or when a chart's labels start colliding. |
+| `localize.py` | Give every language its own chart: take the English charts, swap the labels for the translated ones (`labels/<lang>.json`), re-fit them and write the URLs back into that language's markdown. |
+| `labels/*.json` | The chart label vocabulary per language (titles, axis names, series names, country / state / province names). |
+
+## Chart labels follow the article
+
+A Chinese article carries Chinese charts: the title, the axis names, the
+series names, the country and province names are translated, the numbers are
+not. `tools/localize.py` does that mechanically:
+
+```sh
+python3 tools/localize.py                                  # every page
+python3 tools/localize.py docs/5-us-casestudy/03-us-states  # one page
+```
+
+The English page keeps the English charts (it is the source), every other
+language gets its own URL - so a chart is no longer shared between languages.
+Localized labels are wider, so the fitter runs again on them: a chart that was
+clean in English can still collide in Chinese, and the repair is applied to
+the localized chart.
 
 ## Label anti-collision
 

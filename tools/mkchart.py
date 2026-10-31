@@ -296,6 +296,26 @@ def _axis_names_mid(opt):
     return o if touched else None
 
 
+def _legend_candidates(opt):
+    """Legend repairs: long series names print on top of each other."""
+    out = []
+    leg = opt.get('legend')
+    if not isinstance(leg, dict) or leg.get('show') is False:
+        return out
+    named = [s for s in opt.get('series') or [] if isinstance(s, dict) and s.get('name')]
+    if len(named) < 2:
+        return out
+    o = copy.deepcopy(opt)
+    o['legend'] = {**leg, 'itemGap': 12,
+                   'textStyle': {**(leg.get('textStyle') or {}), 'fontSize': 9}}
+    out.append((o, 'smaller legend'))
+    o2 = copy.deepcopy(opt)
+    o2['legend'] = {**leg, 'orient': 'vertical', 'right': 4, 'top': 'middle',
+                    'textStyle': {**(leg.get('textStyle') or {}), 'fontSize': 9}}
+    out.append((o2, 'vertical legend'))
+    return out
+
+
 def _candidates(opt, spec):
     """Options to try, best first, when the category labels collide."""
     ax = _cat_axis(opt)
@@ -316,13 +336,19 @@ def _candidates(opt, spec):
             moved = _axis_names_mid(o2)
             if moved:
                 out.append((moved, 'hide overlapping labels + axis names in the middle'))
+            out += _legend_candidates(opt)
             return out
         moved = _axis_names_mid(opt)
-        return [(opt, 'as given'), (moved, 'axis names in the middle')] if moved else [(opt, 'as given')]
+        out = [(opt, 'as given')]
+        if moved:
+            out.append((moved, 'axis names in the middle'))
+        out += _legend_candidates(opt)
+        return out
     n = len(ax.get('data') or [])
     if n < 2:
         return [(opt, 'as given')]
     out = [(opt, 'as given')]
+    out += _legend_candidates(opt)
     base_rotate = (ax.get('axisLabel') or {}).get('rotate', 0)
     base_font = (ax.get('axisLabel') or {}).get('fontSize', 9)
     base_interval = (ax.get('axisLabel') or {}).get('interval')
@@ -583,6 +609,61 @@ def _canvas(spec, opt):
     if c:
         return c.get('w'), c.get('h') or spec.get('h')
     return spec.get('w'), spec.get('h')
+
+
+def apply_labels(opt, m):
+    """Localise a chart: `m` maps an English label to its translation.
+
+    Applied to the title, the axis names, the series names, the category
+    labels and the data point names (treemap tiles, scatter points). A label
+    that is not in the map stays English.
+    """
+    if not m:
+        return opt
+    o = copy.deepcopy(opt)
+
+    def t(s):
+        return m.get(s, s) if isinstance(s, str) else s
+
+    title = o.get('title')
+    if isinstance(title, dict) and isinstance(title.get('text'), str):
+        title['text'] = t(title['text'])
+    for key in ('xAxis', 'yAxis'):
+        ax = o.get(key)
+        for a in (ax if isinstance(ax, list) else [ax]):
+            if not isinstance(a, dict):
+                continue
+            if isinstance(a.get('name'), str):
+                a['name'] = t(a['name'])
+            if isinstance(a.get('data'), list):
+                a['data'] = [t(d) if isinstance(d, str) else d for d in a['data']]
+    for s in o.get('series') or []:
+        if not isinstance(s, dict):
+            continue
+        if isinstance(s.get('name'), str):
+            s['name'] = t(s['name'])
+        for d in s.get('data') or []:
+            if not isinstance(d, dict):
+                continue
+            if isinstance(d.get('name'), str):
+                d['name'] = t(d['name'])
+            lab = (d.get('label') or {}).get('formatter')
+            if isinstance(lab, str):
+                # a treemap tile label looks like "California\n$4,048bn":
+                # swap the English name for the translated one, keep the rest
+                for en, loc in m.items():
+                    if lab == en:
+                        d['label']['formatter'] = loc
+                        break
+                    if lab.startswith(en + '\n'):
+                        d['label']['formatter'] = loc + lab[len(en):]
+                        break
+                if 'bn' in m or 'tn' in m:
+                    d['label']['formatter'] = re.sub(
+                        r'\$([\d.,]+)\s*(bn|tn)',
+                        lambda mm: f'{mm.group(1)} {m.get(mm.group(2), mm.group(2))}',
+                        d['label']['formatter'])
+    return o
 
 
 def _trim(opt):
