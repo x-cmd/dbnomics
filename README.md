@@ -3,7 +3,7 @@
 **Economics, as plain URLs.** Macro knowledge pages built on [DBnomics](https://db.nomics.world) data — every chart below is a [x-cmd draw](https://github.com/x-cmd/draw) URL: the data lives in the link, server-rendered as SVG. Open any chart and you see its full parameters; paste it anywhere markdown images work.
 
 > CLI module help: [x-cmd.com/mod/dbnomics](https://x-cmd.com/mod/dbnomics) — `x dbnomics data <series>`, `x dbnomics align <a> <b> <c>`.
-> Languages: 中文 · English · Español · 日本語 · Deutsch（每页五语）
+> Languages: 中文 · English · Português (BR) · 日本語 · Deutsch（每页五语；葡语 pt-br 与 pt-pt 分列，pt-pt 待补）
 
 ## Sneak peek
 
