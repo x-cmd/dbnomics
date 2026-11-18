@@ -1,0 +1,26 @@
+# Website sidebar group config for this directory. Nested groups use their own _sidebar.yml.
+# @property {string} <icon> - Required. UnoCSS icon class, e.g. i-lucide:store.
+#   - Lucide icon names: curl -fsSL https://cdn.jsdelivr.net/npm/lucide-static@latest/icon-nodes.json | jq -r 'keys[]'
+# @property {Record<string, string>} <text> - Required. Localized group names (plain text).
+
+<icon>: i-lucide:map
+<text>:
+  en: China case study
+  zh: 中国案例
+  cs: Případová studie Číny
+  de: China-Fallstudie
+  es: Estudio de caso de China
+  fr: Étude de cas : Chine
+  id: Studi kasus Tiongkok
+  it: Caso di studio: Cina
+  ja: 中国の事例
+  ko: 중국 사례
+  pl: Studium przypadku: Chiny
+  ro: Studiu de caz: China
+  ru: Кейс: Китай
+  th: กรณีศึกษาจีน
+  tr: Çin vaka çalışması
+  uk: Кейс: Китай
+  vi: Nghiên cứu tình huống Trung Quốc
+  pt-br: Estudo de caso: China
+  pt-pt: Estudo de caso: China
