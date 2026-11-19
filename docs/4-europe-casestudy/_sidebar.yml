@@ -1,0 +1,26 @@
+# Website sidebar group config for this directory. Nested groups use their own _sidebar.yml.
+# @property {string} <icon> - Required. UnoCSS icon class, e.g. i-lucide:store.
+#   - Lucide icon names: curl -fsSL https://cdn.jsdelivr.net/npm/lucide-static@latest/icon-nodes.json | jq -r 'keys[]'
+# @property {Record<string, string>} <text> - Required. Localized group names (plain text).
+
+<icon>: i-lucide:landmark
+<text>:
+  en: Europe case study
+  zh: 欧洲案例
+  cs: Případová studie Evropy
+  de: Europa-Fallstudie
+  es: Estudio de caso de Europa
+  fr: "Étude de cas : Europe"
+  id: Studi kasus Eropa
+  it: "Caso di studio: Europa"
+  ja: 欧州の事例
+  ko: 유럽 사례
+  pl: "Studium przypadku: Europa"
+  ro: "Studiu de caz: Europa"
+  ru: "Кейс: Европа"
+  th: กรณีศึกษายุโรป
+  tr: Avrupa vaka çalışması
+  uk: "Кейс: Європа"
+  vi: Nghiên cứu tình huống châu Âu
+  pt-br: "Estudo de caso: Europa"
+  pt-pt: "Estudo de caso: Europa"

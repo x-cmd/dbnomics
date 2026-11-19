@@ -1,0 +1,26 @@
+# Website sidebar group config for this directory. Nested groups use their own _sidebar.yml.
+# @property {string} <icon> - Required. UnoCSS icon class, e.g. i-lucide:store.
+#   - Lucide icon names: curl -fsSL https://cdn.jsdelivr.net/npm/lucide-static@latest/icon-nodes.json | jq -r 'keys[]'
+# @property {Record<string, string>} <text> - Required. Localized group names (plain text).
+
+<icon>: i-lucide:flag
+<text>:
+  en: US case study
+  zh: 美国案例
+  cs: Případová studie USA
+  de: USA-Fallstudie
+  es: Estudio de caso de EE. UU.
+  fr: "Étude de cas : États-Unis"
+  id: Studi kasus AS
+  it: "Caso di studio: Stati Uniti"
+  ja: 米国の事例
+  ko: 미국 사례
+  pl: "Studium przypadku: USA"
+  ro: "Studiu de caz: SUA"
+  ru: "Кейс: США"
+  th: กรณีศึกษาสหรัฐฯ
+  tr: ABD vaka çalışması
+  uk: "Кейс: США"
+  vi: Nghiên cứu tình huống Hoa Kỳ
+  pt-br: "Estudo de caso: EUA"
+  pt-pt: "Estudo de caso: EUA"

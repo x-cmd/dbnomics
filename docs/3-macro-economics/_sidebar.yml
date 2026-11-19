@@ -1,0 +1,26 @@
+# Website sidebar group config for this directory. Nested groups use their own _sidebar.yml.
+# @property {string} <icon> - Required. UnoCSS icon class, e.g. i-lucide:store.
+#   - Lucide icon names: curl -fsSL https://cdn.jsdelivr.net/npm/lucide-static@latest/icon-nodes.json | jq -r 'keys[]'
+# @property {Record<string, string>} <text> - Required. Localized group names (plain text).
+
+<icon>: i-lucide:scale
+<text>:
+  en: Macro economics
+  zh: 宏观经济学
+  cs: Makroekonomie
+  de: Makroökonomie
+  es: Macroeconomía
+  fr: Macroéconomie
+  id: Makroekonomi
+  it: Macroeconomia
+  ja: マクロ経済学
+  ko: 거시경제학
+  pl: Makroekonomia
+  ro: Macroeconomie
+  ru: Макроэкономика
+  th: เศรษฐศาสตร์มหภาค
+  tr: Makroekonomi
+  uk: Макроекономіка
+  vi: Kinh tế vĩ mô
+  pt-br: Macroeconomia
+  pt-pt: Macroeconomia

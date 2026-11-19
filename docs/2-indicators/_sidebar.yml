@@ -1,0 +1,26 @@
+# Website sidebar group config for this directory. Nested groups use their own _sidebar.yml.
+# @property {string} <icon> - Required. UnoCSS icon class, e.g. i-lucide:store.
+#   - Lucide icon names: curl -fsSL https://cdn.jsdelivr.net/npm/lucide-static@latest/icon-nodes.json | jq -r 'keys[]'
+# @property {Record<string, string>} <text> - Required. Localized group names (plain text).
+
+<icon>: i-lucide:chart-column
+<text>:
+  en: Indicators
+  zh: 指标
+  cs: Ukazatele
+  de: Indikatoren
+  es: Indicadores
+  fr: Indicateurs
+  id: Indikator
+  it: Indicatori
+  ja: 指標
+  ko: 지표
+  pl: Wskaźniki
+  ro: Indicatori
+  ru: Индикаторы
+  th: ตัวชี้วัด
+  tr: Göstergeler
+  uk: Індикатори
+  vi: Chỉ số
+  pt-br: Indicadores
+  pt-pt: Indicadores
